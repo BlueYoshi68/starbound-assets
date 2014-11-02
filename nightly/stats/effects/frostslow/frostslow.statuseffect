@@ -1,0 +1,14 @@
+{
+  "name" : "frostslow",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "frostslow.lua"
+  ],
+
+  "animationConfig" : "frostslow.animation",
+
+  "label" : "frosted",
+  "icon" : "/interface/statuses/cold.png"
+}

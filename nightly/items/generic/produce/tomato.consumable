@@ -1,0 +1,10 @@
+{
+  "itemName" : "tomato",
+  "rarity" : "Common",
+  "inventoryIcon" : "tomatoicon.png",
+  "description" : "A ripe, juicy tomato!",
+  "shortdescription" : "Tomato",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

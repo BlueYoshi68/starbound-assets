@@ -1,0 +1,29 @@
+{
+  "kind" : "frozenfiretrail",
+  "definition" : {
+    "duration" : 0.035,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "frozenfiretrail" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

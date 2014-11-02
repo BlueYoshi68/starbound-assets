@@ -1,0 +1,10 @@
+{
+  "itemName" : "sweetcorn",
+  "rarity" : "Common",
+  "inventoryIcon" : "sweetcorn.png",
+  "description" : "Sweet corn! I could eat it raw, but it's probably even better if I cook it.",
+  "shortdescription" : "Sweet Corn",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

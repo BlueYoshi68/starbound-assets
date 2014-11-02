@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "firebow", "count" : 1 },
+    { "item" : "frozenbow", "count" : 1 }
+  ],
+  "output" : { "item" : "frozenfirebow", "count" : 1 },
+  "groups" : [ "ironcraftingtable", "weapons", "all" ]
+}

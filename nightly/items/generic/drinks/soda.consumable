@@ -1,0 +1,12 @@
+{
+  "itemName" : "soda",
+  "rarity" : "Common",
+  "inventoryIcon" : "soda.png",
+  "description" : "A refreshing can of Glorp soda.",
+  "shortdescription" : "Soda",
+  "effects" : [ [
+    "wellfed"
+  ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

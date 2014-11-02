@@ -1,0 +1,12 @@
+{
+  "itemName" : "wineglass",
+  "rarity" : "Common",
+  "inventoryIcon" : "wineglass.png",
+  "description" : "A glass of smooth red wine.",
+  "shortdescription" : "Wine",
+  "effects" : [ [
+    "wellfed"
+  ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

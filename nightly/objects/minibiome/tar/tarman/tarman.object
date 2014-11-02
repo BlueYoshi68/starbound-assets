@@ -1,0 +1,32 @@
+{
+  "objectName" : "tarman",
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "-todo-",
+  "shortdescription" : "Tarman",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 500,
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "Table good enough for Floran to ssslice meatsss.",
+  "glitchDescription" : "Approving. A well-made iron table.",
+  "humanDescription" : "A nice iron table.",
+  "hylotlDescription" : "As far as basic iron tables go, this one's not bad.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "tarman.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

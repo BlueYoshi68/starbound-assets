@@ -1,0 +1,13 @@
+{
+  "itemName" : "whiskeybottle",
+  "rarity" : "Common",
+  "inventoryIcon" : "whiskeybottle.png",
+  "description" : "A bottle of whiskey.",
+  "shortdescription" : "Whiskey Bottle",
+  "handPosition" : [0, -2],
+  "effects" : [ [
+    "wellfed"
+  ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

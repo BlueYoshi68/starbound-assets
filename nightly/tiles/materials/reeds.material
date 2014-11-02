@@ -1,0 +1,23 @@
+{
+  "materialId" : 114,
+  "materialName" : "reedsmaterial",
+  "particleColor" : [225, 191, 150, 255],
+  "itemDrop" : "reeds",
+  "description" : "Reeds block",
+  "shortdescription" : "Reeds.",
+  "glitchDescription" : "Reeds block.",
+  "floranDescription" : "reedsssss",
+  "footstepSound" : "/sfx/blocks/footstep_tallgrass.wav",
+  "health" : 2,
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "reeds.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 50
+  }
+}

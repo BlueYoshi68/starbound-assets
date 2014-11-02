@@ -1,0 +1,11 @@
+{
+  "itemName" : "automatostew",
+  "rarity" : "Common",
+  "inventoryIcon" : "automatostew.png",
+  "description" : "A surprisingly tasty stew, if you watch out for the bits of metal.",
+  "shortdescription" : "Automato Stew",
+  "handPosition" : [0, 12],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

@@ -1,0 +1,38 @@
+{
+  "objectName" : "rainbowoodsafe",
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 300,
+  "description" : "A chest made of rainbow wood.",
+  "shortdescription" : "Rainbow Wood Chest",
+  "race" : "generic",
+
+  "apexDescription" : "todo",
+  "avianDescription" : "todo",
+  "floranDescription" : "todo",
+  "glitchDescription" : "todo",
+  "humanDescription" : "todo",
+  "hylotlDescription" : "todo",
+
+  "inventoryIcon" : "rainbowoodsafeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rainbowoodsafe.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.wav" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest%slots%.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

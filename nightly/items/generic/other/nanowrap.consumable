@@ -1,0 +1,12 @@
+{
+  "itemName" : "nanowrap",
+  "rarity" : "Common",
+  "inventoryIcon" : "nanowrap.png",
+  "description" : "A nanowrap bandage knits wounds together fast.",
+  "shortdescription" : "Nanowrap Bandage",
+  "effects" : [ [
+      "bandage2"
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ]
+}

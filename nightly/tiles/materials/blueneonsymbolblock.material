@@ -1,0 +1,22 @@
+{
+  "materialId" : 112,
+  "materialName" : "blueneonsymbolblock",
+  "particleColor" : [71, 66, 57, 255],
+  "itemDrop" : "blueneonsymbolblock",
+  "description" : "Blue neon symbol.",
+  "shortdescription" : "Blue neon symbol.",
+  "glitchDescription" : "Statement. An blue neon symbol block.",
+  "floranDescription" : "Block.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "health" : 32,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "blueneonsymbolblock.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

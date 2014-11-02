@@ -1,0 +1,10 @@
+{
+  "itemName" : "cheese",
+  "rarity" : "Common",
+  "inventoryIcon" : "cheese.png",
+  "description" : "A wedge of cheese.",
+  "shortdescription" : "Cheese",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

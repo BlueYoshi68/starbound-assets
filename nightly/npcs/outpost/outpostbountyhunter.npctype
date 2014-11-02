@@ -1,0 +1,117 @@
+{
+  "type" : "outpostbountyhunter",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                      "Need a bounty hunter? I could use the pixels."
+                ],
+            
+                "human" : {
+                    "default" : [
+                      "Need a bounty hunter? I could use the pixels."
+                    ],
+
+                    "avian" : [
+                      "Need a bounty hunter? I could use the pixels."
+                    ],
+
+                    "apex" : [
+                      "Need a bounty hunter? I could use the pixels."
+                    ],
+
+                    "floran" : [
+                      "Need a bounty hunter? I could use the pixels."
+                    ],
+
+                    "glitch" : [
+                      "Need a bounty hunter? I could use the pixels."
+                    ],
+
+                    "human" : [
+                      "Need a bounty hunter? I could use the pixels."
+                    ],
+
+                    "hylotl" : [
+                      "Need a bounty hunter? I could use the pixels."
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "head" : [ { "name" : "neohead", "parameters" : { "colorIndex" : 8 } } ],
+                    "chest" : [ { "name" : "neochest", "parameters" : { "colorIndex" : 4 } } ],
+                    "legs" : [ { "name" : "neolegs", "parameters" : { "colorIndex" : 4 } } ],
+                    "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 4 } } ]
+                }
+            ] ]
+        ]
+    },
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "targetMaterialKind" : "organic"
+    },
+
+    "persistentEffectCategories" : [
+      "innate",
+      "armor",
+      "tools",
+      "lounging"
+    ],
+
+    "primaryScriptSources" : [
+      "/stats/npc_primary.lua"
+    ],
+    "primaryScriptDelta" : 5,
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 40.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 40.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 0.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      },
+      "energyRegen" : {
+        "baseValue" : 100.0
+      },
+      "shieldSuppressed" : {
+        "baseValue" : 0.0
+      },
+      "invulnerable" : {
+        "baseValue" : 0.0
+      }
+    },
+
+    "resources" : {
+      "health" : {
+        "maxStat" : "maxHealth",
+        "deltaStat" : "healthRegen",
+        "defaultPercentage" : 100
+      },
+      "energy" : {
+        "maxStat" : "maxEnergy",
+        "deltaStat" : "energyRegen",
+        "defaultPercentage" : 100
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "cyanider",
+  "rarity" : "Common",
+  "inventoryIcon" : "cyanider.png",
+  "description" : "A strong cider made of oculemon and pussplum.",
+  "shortdescription" : "Cyanider",
+  "effects" : [ [
+    "wellfed"
+  ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

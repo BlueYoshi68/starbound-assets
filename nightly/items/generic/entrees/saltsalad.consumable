@@ -1,0 +1,11 @@
+{
+  "itemName" : "saltsalad",
+  "rarity" : "Common",
+  "inventoryIcon" : "saltsalad.png",
+  "description" : "Coralcreep, reefpod and pearlpea make for a salty, crunchy salad.",
+  "shortdescription" : "Saltsalad",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

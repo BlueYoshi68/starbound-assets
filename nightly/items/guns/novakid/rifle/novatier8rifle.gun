@@ -1,0 +1,29 @@
+{
+  "itemName" : "novatier8rifle",
+  "inventoryIcon" : "novatier8rifle.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "-todo-",
+  "shortdescription" : "Steadfast Nova",
+  "image" : "novatier8rifle.png",
+  "handPosition" : [-7, -2],
+  "firePosition" : [20, 0.65],
+  "recoilTime" : 0.1,
+  "level" : 6,
+  "tooltipKind" : "gun",
+  "fireTime" : 2.0,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "plasma4green",
+  "projectile" : {
+    "speed" : 75,
+    "life" : 3,
+    "power" : 12
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_sniper4.wav" } ],
+    "animation" : "/animations/muzzleflash/plasmamuzzle3green/plasmamuzzle3green.animation"
+  }
+}

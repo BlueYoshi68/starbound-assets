@@ -1,0 +1,132 @@
+{
+  "type" : "castleroyalguard",
+  "baseType" : "castleguard",
+
+  "disableWornArmor" : true,
+  "innateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "levelVariance" : [0.5, 0.5],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/guard/guardState.lua",
+    "/npcs/guard/returnToPostState.lua"
+  ],
+
+  "scriptConfig" : {
+    "noticePlayersRadius" : 30,
+
+    "guard" : {
+      "patrolDistance" : 0,
+      "noticeDistance" : 30,
+      "hailDistance" : -1,
+      "stopDistance" : -1,
+      "attackDistance" : 30,
+      "attackSayingPercent" : -1
+    },
+
+    "meleeAttack" : {
+      "sayAttackStartDistance" : -1
+    }
+  },
+
+  "items" : {
+    "glitch" : [
+      [0, [
+          {
+            "head" : [ { "name" : "glitchtier4head", "parameters" : { "colorIndex" : 2 } } ],
+            "chest" : [ { "name" : "glitchtier4chest", "parameters" : { "colorIndex" : 2 } } ],
+            "legs" : [ { "name" : "glitchtier4pants", "parameters" : { "colorIndex" : 2 } } ],
+            "primary" : [
+              { "name" : "generatedsword", "parameters" : { "definition" : "glitchlargemace" } },
+              { "name" : "generatedsword", "parameters" : { "definition" : "glitchsmallmace" } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "generatedgun", "parameters" : { "definition" : "crossbowwood" } }
+            ],
+            "alt" : [
+              { "name" : "generatedshield", "parameters" : { "definition" : "glitchstrongshield" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "movementControllerSettings" : {
+    "runSpeed" : 15
+  },
+
+  "dropPools" : [ "castleguardtreasure" ],
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "targetMaterialKind" : "organic"
+    },
+
+    "persistentEffectCategories" : [
+      "innate",
+      "armor",
+      "tools",
+      "lounging"
+    ],
+
+    "primaryScriptSources" : [
+      "/stats/npc_primary.lua"
+    ],
+    "primaryScriptDelta" : 5,
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 50.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 40.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 0.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      },
+      "energyRegen" : {
+        "baseValue" : 10.0
+      },
+      "shieldSuppressed" : {
+        "baseValue" : 0.0
+      },
+      "invulnerable" : {
+        "baseValue" : 0.0
+      }
+    },
+
+    "resources" : {
+      "health" : {
+        "maxStat" : "maxHealth",
+        "deltaStat" : "healthRegen",
+        "defaultPercentage" : 100
+      },
+      "energy" : {
+        "maxStat" : "maxEnergy",
+        "deltaStat" : "energyRegen",
+        "defaultPercentage" : 100
+      }
+    }
+  }
+}

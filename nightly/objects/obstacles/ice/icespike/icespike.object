@@ -1,0 +1,154 @@
+{
+  "objectName" : "icespike",
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 300,
+
+  "description" : "Don't wanna fall on one of these...",
+  "shortdescription" : "Ice Spike.",
+  "race" : "generic",
+
+  "apexDescription" : "A sharp spike, made of ice.",
+  "avianDescription" : "The ice looks razor sharp.",
+  "floranDescription" : "Sssharp and pointy.",
+  "glitchDescription" : "Cautious. Sharp ice could penetrate Glitch shell.",
+  "humanDescription" : "I'd better not touch these.",
+  "hylotlDescription" : "I will gracefully avoid these.",
+
+  "particleEmitter" : {
+    "emissionRate" : 0.1,
+    "emissionVariance" : 0.05,
+    "pixelOrigin" : [0, 0],
+
+    "particle" : {
+      "type" : "textured",
+      "image" : "/particles/hazard/hazardstat.png",
+      "size" : 1.0,
+      "color" : [73, 179, 253, 255],
+      "fade" : 0,
+      "destructionAction" : "shrink",
+      "destructionTime" : 7,
+      "initialVelocity" : [3, 4],
+      "finalVelocity" : [-3, 2],
+      "approach" : [4, 1],
+      "timeToLive" : 1,
+      "layer" : "middle"
+    }
+
+  },
+
+  "inventoryIcon" : "icespikeicon.png",
+  "orientations" : [
+    
+    {
+      "image" : "icespiketop.png:<color>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [0, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+
+          "touchDamage" : {
+            "poly" : [ [0.5, -1.0], [0.8, 1.0], [0.2, 1.0] ],
+            "damage" : 20,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "spear"
+          }
+    },
+    {
+      "image" : "icespiketop.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [0, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+
+          "touchDamage" : {
+            "poly" : [ [0.5, -1.0], [0.8, 1.0], [0.2, 1.0] ],
+            "damage" : 20,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "spear"
+          }
+    },
+    {
+      "image" : "icespikebottom.png:<color>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+
+          "touchDamage" : {
+            "poly" : [ [0.2, 0.0], [0.5, 2.0], [0.8, 0.0] ],
+            "damage" : 20,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "spear"
+          }
+    },
+    {
+      "image" : "icespikebottom.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+
+          "touchDamage" : {
+            "poly" : [ [0.2, 0.0], [0.5, 2.0], [0.8, 0.0] ],
+            "damage" : 20,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "spear"
+          }
+    },
+    {
+      "image" : "icespikeleft.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+
+          "touchDamage" : {
+            "poly" : [ [0.0, 0.2], [2.0, 0.5], [0.0, 0.8] ],
+            "damage" : 20,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "spear"
+          }
+    },
+    {
+      "image" : "icespikeright.png:<color>",
+      "direction" : "right",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+
+          "touchDamage" : {
+            "poly" : [ [1.0, 0.2], [-1.0, 0.5], [1.0, 0.8] ],
+            "damage" : 20,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "spear"
+          }
+    }
+  ]
+}

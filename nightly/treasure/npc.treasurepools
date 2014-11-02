@@ -1,0 +1,304 @@
+{
+  "villagertreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.7, "pool" : "money"},
+        {"weight" : 0.2, "pool" : "seed"},
+        {"weight" : 0.1, "pool" : "healingItem"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "wizardtreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.8, "pool" : "money"},
+        {"weight" : 0.2, "item" : "spawnerwizard"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "shroomguardtreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.8, "pool" : "money"},
+        {"weight" : 0.1, "item" : "shroomhead"},
+        {"weight" : 0.1, "item" : "shroomhead2"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "eyeguardtreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.97, "pool" : "money"},
+        {"weight" : 0.03, "item" : [ "batwingsback" ]}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "guardtreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.6, "pool" : "money"},
+        {"weight" : 0.2, "pool" : "weapon"},
+        {"weight" : 0.1, "pool" : "shield"},
+        {"weight" : 0.1, "pool" : "healingItem"}
+      ],
+      "poolRounds" : [
+        [0.75, 1],
+        [0.2, 2],
+        [0.05, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "airshipguardtreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.94, "pool" : "guardtreasure"},
+        {"weight" : 0.01, "item" : [ "buccaneerlegs", 1]},
+        {"weight" : 0.01, "item" : [ "buccaneerchest", 1]},
+        {"weight" : 0.01, "item" : [ "buccaneerhead", 1]},
+        {"weight" : 0.01, "item" : [ "pirateback", 1]},
+        {"weight" : 0.01, "item" : [ "piratelegs", 1]},
+        {"weight" : 0.01, "item" : [ "piratechest", 1]}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "airshipcaptaintreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "pool" : "money"},
+        {"weight" : 0.3, "pool" : "uncommonMelee"},
+        {"weight" : 0.1, "item" : [ "pirateback", 1]},
+        {"weight" : 0.1, "item" : [ "piratelegs", 1]},
+        {"weight" : 0.1, "item" : [ "piratelegs", 1]},
+        {"weight" : 0.1, "item" : [ "piratechest", 1]},
+        {"weight" : 0.1, "item" : [ "spawnerpirate", 1]}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }],
+    [4, {
+      "pool" : [
+        {"weight" : 0.1, "pool" : "money"},
+        {"weight" : 0.2, "pool" : "uncommonGun"},
+        {"weight" : 0.1, "pool" : "rareGun"},
+        {"weight" : 0.1, "pool" : "legendaryGun"},
+        {"weight" : 0.1, "item" : [ "pirateback", 1]},
+        {"weight" : 0.1, "item" : [ "piratelegs", 1]},
+        {"weight" : 0.1, "item" : [ "piratelegs", 1]},
+        {"weight" : 0.1, "item" : [ "piratechest", 1]},
+        {"weight" : 0.1, "item" : [ "spawnerpirate", 1]}
+      ],
+      "poolRounds" : [
+        [0.60, 1],
+        [0.40, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "prisonbruisertreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.65, "pool" : "money"},
+        {"weight" : 0.32, "pool" : "healingItem"},
+        {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "steelchair" } ]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+        [0.2, 2]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+
+  "prisonberserkertreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.65, "pool" : "money"},
+        {"weight" : 0.32, "pool" : "healingItem"},
+        {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "shiv" } ]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+        [0.2, 2]
+      ]
+    }]
+  ],
+
+  "prisongunmantreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.65, "pool" : "money"},
+        {"weight" : 0.32, "pool" : "healingItem"},
+        {"weight" : 0.03, "item" : [ "generatedgun", 1, { "definition" : "uzi" } ]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+        [0.2, 2]
+      ]
+    }]
+  ],
+
+  "floranwildhuntertreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.65, "pool" : "money"},
+        {"weight" : 0.32, "pool" : "healingItem"},
+        {"weight" : 0.03, "item" : [ "generatedgun", 1, { "definition" : "floranneedler" } ]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+        [0.2, 2]
+      ]
+    }]
+  ],
+
+  "floranwildhunterveterantreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.6, "pool" : "money"},
+        {"weight" : 0.25, "pool" : "healingItem"},
+        {"weight" : 0.05, "item" : [ "hivebomb", 2 ]},
+        {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "floranneedler" } ]},
+        {"weight" : 0.05, "item" : [ "generatedsword", 1, { "definition" : "floranmace" } ]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+        [0.2, 2]
+      ]
+    }]
+  ],
+
+  "castleguardtreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.90, "pool" : "guardtreasure"},
+        {"weight" : 0.03, "item" : [ "generatedshield", 1, { "definition" : "glitchstrongshield" } ]},
+        {"weight" : 0.02, "item" : [ "generatedsword", 1, { "definition" : "glitchsmallmace" } ]},
+        {"weight" : 0.02, "item" : [ "generatedsword", 1, { "definition" : "glitchlargemace" } ]},
+        {"weight" : 0.02, "item" : [ "generatedgun", 1, { "definition" : "crossbow" } ]},
+        {"weight" : 0.01, "item" : [ "generatedgun", 1, { "definition" : "crossbowspecial" } ]}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.3, 2],
+        [0.2, 3]
+      ]
+    }]
+  ],
+
+  "castlelordtreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.4, "item" : [ "money", 125]},
+        {"weight" : 0.2, "item" : [ "generatedsword", 1, { "definition" : "uncommonbroadsword" } ]},
+        {"weight" : 0.2, "item" : [ "glitchroyalhead", 1]},
+        {"weight" : 0.2, "item" : [ "generatedshield", 1, { "definition" : "glitchlordshield" } ]}
+      ],
+      "poolRounds" : [
+        [0.25, 1],
+        [0.65, 2],
+        [0.1, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "bunkerguardtreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.6, "pool" : "money"},
+        {"weight" : 0.25, "pool" : "healingItem"},
+        {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "pulserifle" } ]},
+        {"weight" : 0.05, "item" : [ "generatedsword", 1, { "definition" : "nightstick" } ]},
+        {"weight" : 0.05, "item" : [ "generatedshield", 1, { "definition" : "riotshield" } ]}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.3, 2],
+        [0.2, 3]
+      ]
+    }]
+  ],
+
+  "hellguardtreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.6, "pool" : "money"},
+        {"weight" : 0.25, "pool" : "healingItem"},
+        {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "commonplasmasniperrifle" } ]},
+        {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "commonplasmaassaultrifle" } ]},
+        {"weight" : 0.05, "item" : [ "generatedsword", 1, { "definition" : "floranprod" } ]}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.3, 2],
+        [0.2, 3]
+      ]
+    }]
+  ],
+
+  "templeguardtreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.65, "pool" : "money"},
+        {"weight" : 0.25, "pool" : "healingItem"},
+        {"weight" : 0.05, "item" : [ "generatedgun", 1, { "definition" : "aviangun" } ]},
+        {"weight" : 0.05, "item" : [ "generatedsword", 1, { "definition" : "aviansword" } ]}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.3, 2],
+        [0.2, 3]
+      ]
+    }]
+  ],
+
+  "banditTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.45, "pool" : "money"},
+        {"weight" : 0.08, "item" : "bandithat1"},
+        {"weight" : 0.08, "item" : "bandithat2"},
+        {"weight" : 0.012, "item" : "whiskeyflask"},
+        {"weight" : 0.04, "item" : [ "bomb", 3]}
+      ],
+      "poolRounds" : 2,
+      "allowDuplication" : false
+    }]
+  ]
+}

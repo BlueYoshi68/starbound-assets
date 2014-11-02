@@ -1,0 +1,10 @@
+{
+  "itemName" : "meatballs",
+  "rarity" : "Common",
+  "inventoryIcon" : "meatballs.png",
+  "description" : "Meatballs in a can. Not quite homemade, but then again, we're in space.",
+  "shortdescription" : "Meatballs",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

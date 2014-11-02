@@ -1,0 +1,25 @@
+{
+  "itemName" : "thorngrenade",
+  "rarity" : "Common",
+  "inventoryIcon" : "thorngrenade.png",
+  "image" : "thorngrenade.png",
+  "shortdescription" : "Thorn Grenade",
+  "description" : "A makeshift nail bomb. Scary what one can achieve with a fruit and small explosive.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "thorngrenade",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 3
+  },
+
+  "learnBlueprintsOnPickup" : [
+    "thorngrenade"
+  ]
+}
+

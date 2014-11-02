@@ -1,0 +1,10 @@
+{
+  "itemName" : "toast",
+  "rarity" : "Common",
+  "inventoryIcon" : "toast.png",
+  "description" : "A slice of warm, toasted bread.",
+  "shortdescription" : "Toast",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

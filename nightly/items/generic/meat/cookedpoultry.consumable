@@ -1,0 +1,10 @@
+{
+  "itemName" : "cookedpoultry",
+  "rarity" : "Common",
+  "inventoryIcon" : "cookedpoultry.png",
+  "description" : "A nice, roasted bird.",
+  "shortdescription" : "Cooked Poultry",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

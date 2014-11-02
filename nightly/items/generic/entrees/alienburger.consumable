@@ -1,0 +1,10 @@
+{
+  "itemName" : "alienburger",
+  "rarity" : "Common",
+  "inventoryIcon" : "alienburger.png",
+  "description" : "A burger made of green alien meat. Mm!",
+  "shortdescription" : "Alien Burger",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

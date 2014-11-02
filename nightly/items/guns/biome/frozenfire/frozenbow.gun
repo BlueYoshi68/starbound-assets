@@ -1,0 +1,38 @@
+{
+  "itemName" : "frozenbow",
+  "inventoryIcon" : "frozenbowicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Every arrow loosed from this bow at full power is imbued with a crippling frost.",
+  "shortdescription" : "Frozen Bow",
+  "image" : "frozenbowfull.png:<frame>",
+  "imageFrameSelector" : "bowImageSelector",
+  "handPosition" : [-2, 0],
+  "firePosition" : [20, 1.5],
+  "level" : 3,
+  "fireTime" : 0.65,
+  "twoHanded" : true,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : true,
+
+  "projectileType" : "icearrow",
+  "powerProjectileType" : "chargedicearrow",
+  "powerProjectileTime" : [0.9, 60],
+  "projectile" : {
+    "speed" : 60,
+    "speedCurve" : "drawTimeMultiplier",
+    "power" : 7,
+    "powerCurve" : "drawTimeMultiplier",
+    "color" : [10, 255, 10]
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/bow_loose.wav" } ]
+  },
+  
+  "learnBlueprintsOnPickup" : [
+    "frozenfirebow"
+  ]
+}

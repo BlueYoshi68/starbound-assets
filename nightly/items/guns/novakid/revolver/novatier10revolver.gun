@@ -1,0 +1,30 @@
+{
+  "itemName" : "novatier10revolver",
+  "inventoryIcon" : "novatier10revolver.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "-todo-",
+  "shortdescription" : "The Bad",
+  "image" : "novatier10revolver.png",
+  "handPosition" : [-5, -3],
+  "firePosition" : [12, 1],
+  "recoilTime" : 0.1,
+  "level" : 6,
+  "tooltipKind" : "gun",
+  "fireTime" : 1.25,
+  "twoHanded" : false,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "plasma4",
+  "projectile" : {
+    "speed" : 75,
+    "life" : 3,
+    "power" : 7.5,
+    "color" : [255, 10, 10]
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_pistol4.wav" } ],
+    "animation" : "/animations/muzzleflash/plasmamuzzle3blue/plasmamuzzle3blue.animation"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind" : "frozenflames",
+  "definition" : {
+    "duration" : 0.1,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "frozenburningdust", "frozenflames", "frozenflames", "dust2" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "burningdust2", "burningdust2", "burningdust2", "burningdust2" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

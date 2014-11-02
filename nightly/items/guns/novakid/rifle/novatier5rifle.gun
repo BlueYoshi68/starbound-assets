@@ -1,0 +1,29 @@
+{
+  "itemName" : "novatier5rifle",
+  "inventoryIcon" : "novatier5rifle.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "-todo-",
+  "shortdescription" : "Red Giant",
+  "image" : "novatier5rifle.png",
+  "handPosition" : [-4, -1],
+  "firePosition" : [24, 2],
+  "recoilTime" : 0.1,
+  "level" : 5,
+  "tooltipKind" : "gun",
+  "fireTime" : 2.0,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "plasmabullet",
+  "projectile" : {
+    "speed" : 75,
+    "life" : 3,
+    "power" : 12
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_sniper1.wav" } ],
+    "animation" : "/animations/muzzleflash/plasmamuzzle4/plasmamuzzle4.animation"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "projectileName" : "chargedicearrow",
+  "physics" : "arrow",
+  "frames" : "chargedicearrow.png",
+  "animationCycle" : 0.25,
+  "lightColor" : [96, 171, 191],
+  "frameNumber" : 1,
+  "emitters" : [ "icetrailfast" ],
+  "damageKindImage" : "/interface/statuses/cold.png",
+  "damageKind" : "bow",
+  "power" : 20,
+  "timeToLive" : 30,
+  "pointLight" : true,
+  "statusEffects" : [
+    "frostslow"
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ]
+}

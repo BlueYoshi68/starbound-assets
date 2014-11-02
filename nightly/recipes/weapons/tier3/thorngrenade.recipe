@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "bomb", "count" : 1 },
+    { "item" : "thornfruit", "count" : 1 }
+  ],
+  "output" : { "item" : "thorngrenade", "count" : 1 },
+  "groups" : [ "metalworkstation", "weapons", "all" ]
+}

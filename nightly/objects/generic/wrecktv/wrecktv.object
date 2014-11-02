@@ -1,0 +1,62 @@
+{
+  "objectName" : "wrecktv",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 500,
+  "lightColor" : [100, 100, 100],
+  
+  "flickerPeriod" : 0.2,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.0,
+  "flickerIntensityVariance" : 0.05,
+  
+  "description" : "The screen sends out an ominous flickering light.",
+  "shortdescription" : "Wrecked Screen",
+  "race" : "generic",
+
+  "apexDescription" : "I guess it doesn't have a signal.",
+  "avianDescription" : "A strange monitor. What do the lines mean?",
+  "floranDescription" : "Pretty dancing pattern machine!",
+  "glitchDescription" : "Scanning. This monitor is receiving no signal.",
+  "humanDescription" : "Static. No signal I suppose.",
+  "hylotlDescription" : "The monitor lacks an input.",
+
+  "inventoryIcon" : "wrecktvicon.png",
+  "orientations" : [
+    {
+      "image" : "wrecktv.png:<color>.off",
+      "flipImages" : true,
+      "imagePosition" : [-24, -16],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "left",
+      "animationParts" : {
+          "bg" : "wrecktv.png",
+          "fg" : "wrecktvlit.png"
+      },
+      "animationPosition" : [-24, -16]
+    },
+    {
+      "image" : "wrecktv.png:<color>.off",
+      "imagePosition" : [-24, -16],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "right",
+      "animationParts" : {
+          "bg" : "wrecktv.png",
+          "fg" : "wrecktvlit.png"
+      },
+      "animationPosition" : [-24, -16]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/tv_static.wav",
+
+  "animation" : "wrecktv.animation",
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
+}

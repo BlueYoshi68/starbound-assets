@@ -1,0 +1,10 @@
+{
+  "itemName" : "corntent",
+  "rarity" : "Common",
+  "inventoryIcon" : "corntent.png",
+  "description" : "The famous Glitch chef responsible for Smash and Bolt-O's also invented Corntent, and nobody is quite sure why.",
+  "shortdescription" : "Corntent",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

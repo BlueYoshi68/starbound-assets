@@ -1,0 +1,60 @@
+{
+  "objectName" : "tarlight",
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 300,
+
+  "hydrophobic" : true,
+
+  "description" : "-todo-",
+  "shortdescription" : "Tar Lantern",
+  "race" : "generic",
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "This basic lantern will light up even the darkest room.",
+  "floranDescription" : "Lantern sssafe for Floran.",
+  "glitchDescription" : "Statement. A robust lantern.",
+  "humanDescription" : "A neat, sturdy lantern.",
+  "hylotlDescription" : "A useful light source.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [166, 137, 116],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.1,
+  "flickerTiming" : 2,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+
+    {
+      "image" : "tarlight.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    },
+
+    {
+      "image" : "tarlight.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, 2] ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/oillantern.wav",
+
+  "animation" : "/objects/wired/light/light4.animation",
+  "animationParts" : {
+    "light" : "tarlight.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
+}

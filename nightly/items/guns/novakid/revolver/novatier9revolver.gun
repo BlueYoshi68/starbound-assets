@@ -1,0 +1,30 @@
+{
+  "itemName" : "novatier9revolver",
+  "inventoryIcon" : "novatier9revolver.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "-todo-",
+  "shortdescription" : "Sundancer",
+  "image" : "novatier9revolver.png",
+  "handPosition" : [-2, -2],
+  "firePosition" : [12, 0.75],
+  "recoilTime" : 0.1,
+  "level" : 5,
+  "tooltipKind" : "gun",
+  "fireTime" : 1.25,
+  "twoHanded" : false,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "yellowplasmabullet",
+  "projectile" : {
+    "speed" : 75,
+    "life" : 3,
+    "power" : 7.5,
+    "color" : [255, 10, 10]
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_pistol1.wav" } ],
+    "animation" : "/animations/muzzleflash/plasmamuzzle4yellow/plasmamuzzle4yellow.animation"
+  }
+}

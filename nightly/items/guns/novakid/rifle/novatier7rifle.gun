@@ -1,0 +1,29 @@
+{
+  "itemName" : "novatier7rifle",
+  "inventoryIcon" : "novatier7rifle.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "-todo-",
+  "shortdescription" : "Lawmaker",
+  "image" : "novatier7rifle.png",
+  "handPosition" : [-5, -3],
+  "firePosition" : [24, 0.75],
+  "recoilTime" : 0.1,
+  "level" : 5,
+  "tooltipKind" : "gun",
+  "fireTime" : 2.0,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "greenplasmabullet",
+  "projectile" : {
+    "speed" : 75,
+    "life" : 3,
+    "power" : 12
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_sniper1.wav" } ],
+    "animation" : "/animations/muzzleflash/plasmamuzzle4green/plasmamuzzle4green.animation"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "carrotcake",
+  "rarity" : "Common",
+  "inventoryIcon" : "carrotcake.png",
+  "description" : "It's a delicious carrot cake! Tastes better than it sounds.",
+  "shortdescription" : "Carrot Cake",
+  "handPosition" : [0, -12],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

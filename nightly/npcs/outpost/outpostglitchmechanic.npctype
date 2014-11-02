@@ -1,0 +1,116 @@
+{
+  "type" : "outpostglitchmechanic",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                    "Boastful. We Glitch are used to fixing machinery far more complex than the stuff you see here."
+                ],
+            
+                "glitch" : {
+                    "default" : [
+                      "Boastful. We Glitch are used to fixing machinery far more complex than the stuff you see here."
+                    ],
+
+                    "avian" : [
+                      "Boastful. We Glitch are used to fixing machinery far more complex than the stuff you see here."
+                    ],
+
+                    "apex" : [
+                      "Boastful. We Glitch are used to fixing machinery far more complex than the stuff you see here."
+                    ],
+
+                    "floran" : [
+                      "Boastful. We Glitch are used to fixing machinery far more complex than the stuff you see here."
+                    ],
+
+                    "glitch" : [
+                      "Friendly. You should come grab some oil with me later."
+                    ],
+
+                    "human" : [
+                      "Boastful. We Glitch are used to fixing machinery far more complex than the stuff you see here."
+                    ],
+
+                    "hylotl" : [
+                      "Boastful. We Glitch are used to fixing machinery far more complex than the stuff you see here."
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "head" : [ { "name" : "humantier5head", "parameters" : { "colorIndex" : 1 } } ],
+                    "chest" : [ { "name" : "peasantchest", "parameters" : { "colorIndex" : 7 } } ],
+                    "legs" : [ { "name" : "apextier5pants", "parameters" : { "colorIndex" : 1 } } ]
+                }
+            ] ]
+        ]
+    },
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "targetMaterialKind" : "organic"
+    },
+
+    "persistentEffectCategories" : [
+      "innate",
+      "armor",
+      "tools",
+      "lounging"
+    ],
+
+    "primaryScriptSources" : [
+      "/stats/npc_primary.lua"
+    ],
+    "primaryScriptDelta" : 5,
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 40.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 40.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 0.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      },
+      "energyRegen" : {
+        "baseValue" : 100.0
+      },
+      "shieldSuppressed" : {
+        "baseValue" : 0.0
+      },
+      "invulnerable" : {
+        "baseValue" : 0.0
+      }
+    },
+
+    "resources" : {
+      "health" : {
+        "maxStat" : "maxHealth",
+        "deltaStat" : "healthRegen",
+        "defaultPercentage" : 100
+      },
+      "energy" : {
+        "maxStat" : "maxEnergy",
+        "deltaStat" : "energyRegen",
+        "defaultPercentage" : 100
+      }
+    }
+  }
+}

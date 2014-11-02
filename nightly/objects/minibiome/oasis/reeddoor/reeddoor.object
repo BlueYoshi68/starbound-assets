@@ -1,0 +1,43 @@
+{
+  "objectName" : "reeddoor",
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 1500,
+  "description" : "A door made of wood and reed.",
+  "shortdescription" : "Reed door",
+  "race" : "none",
+
+  "apexDescription" : "A door made of wood and reed.",
+  "avianDescription" : "A door made of wood and reed.",
+  "floranDescription" : "Just a common plant door.",
+  "glitchDescription" : "A door made of wood and reed..",
+  "humanDescription" : "A door made of wood and reed.",
+  "hylotlDescription" : "A door made of wood and reed.",
+
+  "inventoryIcon" : "reeddooricon.png",
+  "orientations" : [
+    {
+      "image" : "reeddoor.png:default",
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationParts" : {
+    "door" : "reeddoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inboundNodes" : [ [0, 4] ],
+  "outboundNodes" : [ [0, 0] ],
+
+  "openSounds" : [ "/sfx/objects/birddoor_open.wav" ],
+  "closeSounds" : [ "/sfx/objects/birddoor_close.wav" ]
+}

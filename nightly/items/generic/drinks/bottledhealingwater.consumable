@@ -1,0 +1,15 @@
+{
+  "itemName" : "bottledhealingwater",
+  "rarity" : "Common",
+  "inventoryIcon" : "bottledhealingwater.png",
+  "description" : "The restorative power of this water is incredible.",
+  "shortdescription" : "Bottled Healing Water",
+  "effects" : [ [
+      {
+        "effect" : "regeneration1",
+        "duration" : 30
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "drinkinghealing" ]
+}

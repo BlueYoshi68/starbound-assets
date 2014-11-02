@@ -1,0 +1,88 @@
+{
+  "apexstimtreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "pool" : "money"},
+        {"weight" : 0.64, "pool" : "stim"},
+        {"weight" : 0.04, "item" : [ "scientistchest", 1]},
+        {"weight" : 0.04, "item" : [ "scientistlegs", 1]},
+        {"weight" : 0.04, "item" : [ "scientisthead", 1]},
+        {"weight" : 0.04, "item" : [ "plasmagrenade", 2]}
+      ],
+      "poolRounds" : [
+        [0.25, 0],
+        [0.25, 3],
+        [0.25, 4],
+        [0.25, 5]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "apexlockertreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.3, "pool" : "money"},
+        {"weight" : 0.5, "pool" : "stim"},
+        {"weight" : 0.02, "item" : [ "scientistchest", 1]},
+        {"weight" : 0.02, "item" : [ "scientistlegs", 1]},
+        {"weight" : 0.02, "item" : [ "scientisthead", 1]},
+        {"weight" : 0.14, "item" : [ "banana", 2]}
+      ],
+      "poolRounds" : [
+        [0.50, 0],
+        [0.25, 1],
+        [0.25, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "labguardtreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.475, "pool" : "money"},
+        {"weight" : 0.5, "pool" : "stim"},
+        {"weight" : 0.025, "item" : [ "generatedgun", 1, { "definition" : "lightningcoil" } ]}
+      ],
+      "poolRounds" : [
+        [0.8, 1],
+        [0.2, 2]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+
+  "labscientisttreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.4, "pool" : "money"},
+        {"weight" : 0.5, "pool" : "stim"},
+        {"weight" : 0.02, "item" : [ "scientisthead", 1]},
+        {"weight" : 0.03, "item" : [ "spawnerstim", 1]},
+        {"weight" : 0.025, "item" : [ "generatedgun", 1, { "definition" : "commonplasmapistol" } ]},
+        {"weight" : 0.025, "item" : [ "generatedsword", 1, { "definition" : "bonesaw" } ]}
+      ],
+      "poolRounds" : [
+        [0.80, 1],
+        [0.20, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "apexmutanttreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.36, "pool" : "money"},
+        {"weight" : 0.5, "pool" : "stim"},
+        {"weight" : 0.14, "item" : [ "banana", 2]}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+}

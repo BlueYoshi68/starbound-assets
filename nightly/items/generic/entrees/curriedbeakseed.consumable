@@ -1,0 +1,10 @@
+{
+  "itemName" : "curriedbeakseed",
+  "rarity" : "Common",
+  "inventoryIcon" : "curriedbeakseed.png",
+  "description" : "Curried, crunchy beakseeds with hot chili peppers. Mmm.",
+  "shortdescription" : "Curried Beakseed",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

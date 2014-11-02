@@ -1,0 +1,581 @@
+{
+  // main biomes
+
+  "forestChestTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "pool" : "basicTreasure"},
+        {"weight" : 0.5, "pool" : "forestTreasure"}
+      ],
+      "poolRounds" : [
+        [0.1, 1],
+        [0.7, 2],
+        [0.2, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "forestTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : ["flare", 5]},
+        {"weight" : 1.0, "item" : ["throwingdagger", 5]},
+        {"weight" : 0.8, "item" : ["climbingrope", 3]},
+        {"weight" : 0.3, "item" : "hikerchest"},
+        {"weight" : 0.3, "item" : "hikerback"},
+        {"weight" : 0.3, "item" : "hikerlegs"},
+        {"weight" : 0.2, "item" : "safetyhelmethead"}
+      ]
+    }]
+  ],
+
+  "desertChestTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "pool" : "basicTreasure"},
+        {"weight" : 0.5, "pool" : "desertTreasure"}
+      ],
+      "poolRounds" : [
+        [0.1, 1],
+        [0.7, 2],
+        [0.2, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "desertTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : ["molotov", 3]},
+        {"weight" : 1.0, "item" : ["throwingspear", 5]},
+        {"weight" : 1.0, "item" : ["throwingaxe", 5]},
+        {"weight" : 0.3, "item" : "bedouinchest"},
+        {"weight" : 0.3, "item" : "bedouinhead"},
+        {"weight" : 0.3, "item" : "bedouinlegs"}
+      ]
+    }]
+  ],
+
+  "savannahChestTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "pool" : "basicTreasure"},
+        {"weight" : 0.5, "pool" : "savannahTreasure"}
+      ],
+      "poolRounds" : [
+        [0.1, 1],
+        [0.7, 2],
+        [0.2, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "savannahTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : ["thornfruit", 5]},
+        {"weight" : 0.5, "item" : ["thorngrenade", 3]},
+        {"weight" : 0.3, "item" : "thornyneedler"},
+        {"weight" : 0.3, "item" : "terminite"},
+        {"weight" : 0.3, "item" : "coolfez"},
+        {"weight" : 0.3, "item" : "hunterchest"},
+        {"weight" : 0.2, "item" : "hunterback"},
+        {"weight" : 0.3, "item" : "hunterlegs"}
+      ]
+    }]
+  ],
+
+  // detached biomes
+
+  "mushroomChestTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "pool" : "basicTreasure"},
+        {"weight" : 0.8, "pool" : "mushroomTreasure"}
+      ],
+      "poolRounds" : [
+        [0.1, 1],
+        [0.7, 2],
+        [0.2, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "mushroomTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : ["shroom", 10]},
+        {"weight" : 0.3, "item" : "shroomblock-recipe"},
+        {"weight" : 0.3, "item" : "shroombed-recipe"},
+        {"weight" : 0.3, "item" : "shroomchair-recipe"},
+        {"weight" : 0.3, "item" : "shroomchest-recipe"},
+        {"weight" : 0.3, "item" : "shroomdoor-recipe"},
+        {"weight" : 0.3, "item" : "shroomlamp-recipe"},
+        {"weight" : 0.3, "item" : "shroomtable-recipe"},
+        {"weight" : 0.3, "item" : "wildfungushead"},
+        {"weight" : 0.3, "item" : "wildfunguschest"},
+        {"weight" : 0.3, "item" : "wildfunguspants"},
+        {"weight" : 0.3, "item" : [ "generatedsword", 1, { "definition" : "mushroomsword" } ]},
+        {"weight" : 0.3, "item" : [ "generatedshield", 1, { "definition" : "mushroomshield" } ]}
+      ]
+    }]
+  ],
+
+  "springChestTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "pool" : "basicTreasure"},
+        {"weight" : 0.8, "pool" : "springTreasure"}
+      ],
+      "poolRounds" : [
+        [0.1, 1],
+        [0.7, 2],
+        [0.2, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "springTreasure" : [
+    [1, {
+      "pool" : [
+        //TODO
+      ]
+    }]
+  ],
+
+  "oasisChestTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "pool" : "basicTreasure"},
+        {"weight" : 0.8, "pool" : "oasisTreasure"}
+      ],
+      "poolRounds" : [
+        [0.1, 1],
+        [0.7, 2],
+        [0.2, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "oasisTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : ["reed", 10]},
+        {"weight" : 0.3, "item" : "blowgun"},
+        {"weight" : 0.3, "item" : "reedchair-recipe"},
+        {"weight" : 0.3, "item" : "reedbed-recipe"},
+        {"weight" : 0.3, "item" : "reedclock-recipe"},
+        {"weight" : 0.3, "item" : "reedlamp-recipe"},
+        {"weight" : 0.3, "item" : "reeddesk-recipe"},
+        {"weight" : 0.3, "item" : "reeddoor-recipe"},
+        {"weight" : 0.3, "item" : "reedhead"}
+      ]
+    }]
+  ],
+
+  "tarChestTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "pool" : "basicTreasure"},
+        {"weight" : 0.8, "pool" : "tarTreasure"}
+      ],
+      "poolRounds" : [
+        [0.1, 1],
+        [0.7, 2],
+        [0.2, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "tarTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : ["tar", 25]},
+        {"weight" : 1.0, "item" : ["tarball", 5]},
+        {"weight" : 0.3, "item" : "asphalt-recipe"},
+        {"weight" : 0.3, "item" : "sabertoothspear"},
+        {"weight" : 0.3, "item" : "tarhammer"},
+        {"weight" : 0.3, "item" : "tarchest"},
+        {"weight" : 0.3, "item" : "tarhead"},
+        {"weight" : 0.3, "item" : "tarlegs"},
+        {"weight" : 0.3, "item" : "tarchair-recipe"},
+        {"weight" : 0.3, "item" : "tarbed-recipe"},
+        {"weight" : 0.3, "item" : "tarconsole-recipe"},
+        {"weight" : 0.3, "item" : "tarlight-recipe"},
+        {"weight" : 0.3, "item" : "tarman-recipe"},
+        {"weight" : 0.3, "item" : "tardoor-recipe"}
+      ]
+    }]
+  ],
+
+  "rainbowChestTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "pool" : "basicTreasure"},
+        {"weight" : 0.8, "pool" : "rainbowTreasure"}
+      ],
+      "poolRounds" : [
+        [0.1, 1],
+        [0.7, 2],
+        [0.2, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "rainbowTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : ["rainbowwood", 10]},
+        {"weight" : 0.5, "item" : "rainbowbed-recipe"},
+        {"weight" : 0.5, "item" : "rainbowchair-recipe"},
+        {"weight" : 0.5, "item" : "rainbowchest-recipe"},
+        {"weight" : 0.5, "item" : "rainbowdoor-recipe"},
+        {"weight" : 0.5, "item" : "rainbowpainting-recipe"},
+        {"weight" : 0.5, "item" : "rainbowtable-recipe"},
+        {"weight" : 0.5, "item" : "rainbowunicornstatue-recipe"},
+        {"weight" : 0.5, "item" : "rainbowcapeback"},
+        {"weight" : 0.5, "item" : "rainbowhoodhead"},
+        {"weight" : 0.5, "item" : "rainbowsword"},
+        {"weight" : 0.2, "item" : "paintgunred-recipe"},
+        {"weight" : 0.2, "item" : "paintgunblue-recipe"},
+        {"weight" : 0.2, "item" : "paintgunyellow-recipe"},
+        {"weight" : 0.2, "item" : "paintgunpurple-recipe"},
+        {"weight" : 0.2, "item" : "paintgungreen-recipe"},
+        {"weight" : 0.2, "item" : "paintgunorange-recipe"}
+      ]
+    }]
+  ],
+
+  "boneChestTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "pool" : "basicTreasure"},
+        {"weight" : 0.8, "pool" : "boneTreasure"}
+      ],
+      "poolRounds" : [
+        [0.1, 1],
+        [0.7, 2],
+        [0.2, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "boneTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : ["bone", 15]},
+        {"weight" : 0.5, "item" : ["throwingbones", 5]},
+        {"weight" : 0.3, "item" : "bonebed-recipe"},
+        {"weight" : 0.3, "item" : "bonechair-recipe"},
+        {"weight" : 0.3, "item" : "bonechest-recipe"},
+        {"weight" : 0.3, "item" : "bonedoor-recipe"},
+        {"weight" : 0.3, "item" : "bonetable-recipe"},
+        {"weight" : 0.3, "item" : [ "generatedsword", 1, { "definition" : "bonesword" } ]},
+        {"weight" : 0.1, "item" : "apexskullhead"},
+        {"weight" : 0.1, "item" : "avianskullhead"},
+        {"weight" : 0.1, "item" : "floranskullhead"},
+        {"weight" : 0.1, "item" : "glitchskullhead"},
+        {"weight" : 0.1, "item" : "humanskullhead"},
+        {"weight" : 0.1, "item" : "hylotlskullhead"}
+      ]
+    }]
+  ],
+
+  // underground detached biomes
+
+  "mushroomUndergroundChestTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "pool" : "basicTreasure"},
+        {"weight" : 0.8, "pool" : "mushroomUndergroundTreasure"}
+      ],
+      "poolRounds" : [
+        [0.1, 1],
+        [0.7, 2],
+        [0.2, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "mushroomUndergroundTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : ["shroom", 10]},
+        {"weight" : 0.3, "item" : "shroomblock-recipe"},
+        {"weight" : 0.3, "item" : "shroombed-recipe"},
+        {"weight" : 0.3, "item" : "shroomchair-recipe"},
+        {"weight" : 0.3, "item" : "shroomchest-recipe"},
+        {"weight" : 0.3, "item" : "shroomdoor-recipe"},
+        {"weight" : 0.3, "item" : "shroomlamp-recipe"},
+        {"weight" : 0.3, "item" : "shroomtable-recipe"},
+        {"weight" : 0.3, "item" : "evilmushroomhead"},
+        {"weight" : 0.3, "item" : "mushroomhead"},
+        {"weight" : 0.3, "item" : "raggedcapeback"},
+        {"weight" : 0.3, "item" : "smashroom"}
+      ]
+    }]
+  ],
+
+  "wildernessChestTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.4, "pool" : "basicTreasure"},
+        {"weight" : 0.6, "pool" : "wildernessTreasure"}
+      ],
+      "poolRounds" : [
+        [0.1, 1],
+        [0.7, 2],
+        [0.2, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "wildernessTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.3, "item" : "copperarmorhead"},
+        {"weight" : 0.3, "item" : "copperarmorchest"},
+        {"weight" : 0.3, "item" : "copperarmorpants"},
+        {"weight" : 0.3, "item" : "overgrownmower"},
+        {"weight" : 0.3, "item" : "undergrowthtrimmer"}
+      ]
+    }]
+  ],
+
+  // v v v v needs configuration v v v v
+
+  "eyeTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.05, "item" : "eyebed-recipe"},
+        {"weight" : 0.05, "item" : "eyechair-recipe"},
+        {"weight" : 0.05, "item" : "eyechest-recipe"},
+        {"weight" : 0.05, "item" : "eyedoor-recipe"},
+        {"weight" : 0.05, "item" : "eyetable-recipe"},
+        {"weight" : 0.04, "item" : "eyehead-recipe"},
+        {"weight" : 0.04, "item" : "eyeback"},
+        {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "eyeaxe" } ]},
+        {"weight" : 0.03, "item" : [ "generatedshield", 1, { "definition" : "eyeshield" } ]}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.5, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "toxicTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.05, "item" : "toxicchair-recipe"},
+        {"weight" : 0.05, "item" : "toxicchest-recipe"},
+        {"weight" : 0.05, "item" : "toxiclamp1-recipe"},
+        {"weight" : 0.05, "item" : "toxiclamp2-recipe"},
+        {"weight" : 0.05, "item" : "toxictable-recipe"},
+        {"weight" : 0.04, "item" : "toxicflowerback"},
+        {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "toxicbroadsword" } ]}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.5, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "geometricTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.05, "item" : "geometricchair-recipe"},
+        {"weight" : 0.05, "item" : "geometricchest-recipe"},
+        {"weight" : 0.05, "item" : "geometricbed-recipe"},
+        {"weight" : 0.05, "item" : "geometricscreen-recipe"},
+        {"weight" : 0.05, "item" : "geometrictable-recipe"}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.5, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "icesphereTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.1, "item" : "snowglobe1"},
+        {"weight" : 0.1, "item" : "snowglobe2"}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.5, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "rustTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.05, "item" : "rustchair-recipe"},
+        {"weight" : 0.05, "item" : "rustbed-recipe"},
+        {"weight" : 0.05, "item" : "rustchest-recipe"},
+        {"weight" : 0.05, "item" : "rustdoor-recipe"},
+        {"weight" : 0.05, "item" : "rusttable-recipe"},
+        {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "rustsword" } ]}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.5, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "crystalTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.05, "item" : "crystalbed-recipe"},
+        {"weight" : 0.05, "item" : "crystalchair-recipe"},
+        {"weight" : 0.05, "item" : "crystalchest-recipe"},
+        {"weight" : 0.05, "item" : "crystallamp-recipe"},
+        {"weight" : 0.05, "item" : "crystaltable-recipe"},
+        {"weight" : 0.03, "item" : "crystalbackpackback"},
+        {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "crystalspear" } ]}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.5, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "cellTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.05, "item" : "cellchair-recipe"},
+        {"weight" : 0.05, "item" : "celltable-recipe"},
+        {"weight" : 0.05, "item" : "celldoor-recipe"},
+        {"weight" : 0.05, "item" : "celllamp-recipe"},
+        {"weight" : 0.05, "item" : "cellchest-recipe"}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.5, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "sandstoneTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.05, "item" : "sandstonebed-recipe"},
+        {"weight" : 0.05, "item" : "sandstonechair-recipe"},
+        {"weight" : 0.05, "item" : "sandstonechest-recipe"},
+        {"weight" : 0.05, "item" : "sandstonedoor-recipe"},
+        {"weight" : 0.05, "item" : "sandstonetable-recipe"},
+        {"weight" : 0.05, "item" : "sandstonetorch-recipe"}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.5, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "iceTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.05, "item" : "icebed-recipe"},
+        {"weight" : 0.05, "item" : "icechair-recipe"},
+        {"weight" : 0.05, "item" : "icechest-recipe"},
+        {"weight" : 0.05, "item" : "icedoor-recipe"},
+        {"weight" : 0.05, "item" : "icetable-recipe"}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.5, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "giantflowerTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.05, "item" : "giantflowerbed-recipe"},
+        {"weight" : 0.05, "item" : "giantflowerchair-recipe"},
+        {"weight" : 0.05, "item" : "giantflowerchest-recipe"},
+        {"weight" : 0.05, "item" : "giantflowerdoor-recipe"},
+        {"weight" : 0.05, "item" : "giantflowerlamp-recipe"},
+        {"weight" : 0.05, "item" : "giantflowertable-recipe"}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.5, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "fleshTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.05, "item" : "fleshchair-recipe"},
+        {"weight" : 0.05, "item" : "fleshchest-recipe"},
+        {"weight" : 0.05, "item" : "fleshdoor-recipe"},
+        {"weight" : 0.05, "item" : "fleshtable-recipe"}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.5, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "hiveTreasure" : [
+    //TODO: needs moar hiev
+    [1, {
+      "pool" : [
+        {"weight" : 0.04, "item" : [ "hivebomb", 1]},
+        {"weight" : 0.04, "item" : [ "generatedgun", 1, { "definition" : "stingergun" } ]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "heckTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.05, "item" : "bonewingsback"},
+        {"weight" : 0.05, "item" : "goathead"},
+        {"weight" : 0.04, "item" : [ "heartstringbow" ]},
+        {"weight" : 0.04, "item" : [ "generatedgun", 1, { "definition" : "boneassault" } ]},
+        {"weight" : 0.04, "item" : [ "generatedgun", 1, { "definition" : "boneshotgun" } ]},
+        {"weight" : 0.04, "item" : [ "generatedgun", 1, { "definition" : "bonepistol" } ]},
+        {"weight" : 0.03, "item" : [ "generatedsword", 1, { "definition" : "bonesword" } ]}
+      ],
+      "poolRounds" : [
+        [0.5, 1],
+        [0.5, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+}

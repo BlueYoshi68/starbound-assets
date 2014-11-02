@@ -1,0 +1,17 @@
+{
+  "name" : "bandage2",
+  "effectConfig" : {
+    "healAmount" : 100,
+    "emissionRate" : 5
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "bandage.lua"
+  ],
+
+  "animationConfig" : "bandage.animation",
+
+  "label" : "healing",
+  "icon" : "/interface/statuses/heal.png"
+}

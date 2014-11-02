@@ -1,0 +1,80 @@
+{
+  "type" : "missile",
+
+  "categories" : [ "smallmissile" ],
+  "parts" : [ "body" ],
+
+  "animation" : "missile.animation",
+  "colors" : "/monsters/colors.config",
+
+  "dropPools" : [ ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/boss/missile/behavior.lua",
+      "/scripts/util.lua",
+      "/scripts/vec2.lua"
+    ],
+
+    "metaBoundBox" : [-1.0, -0.5, 1.0, 0.5],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-1.0, -0.5], [1.0, -0.5], [1.0, 0.5], [-1.0, 0.5] ],
+
+      "mass" : 0.1,
+      "walkSpeed" : 3,
+      "runSpeed" : 6,
+      "jumpSpeed" : 5,
+      "flySpeed" : 10,
+      "airFriction" : 0.1,
+      "airForce" : 50.0
+    },
+
+    "bodyMaterialKind" : "robotic",
+
+    "knockoutTime" : 1,
+    "knockoutEffect" : "blink",
+    "deathParticles" : "deathPoof",
+    "deathNoise" : [ ],
+    "turnHostileNoise" : [ ],
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "persistentEffectCategories" : [
+        "innate"
+      ],
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 0,
+
+      "stats" : {
+        "maxHealth" : {
+          "baseValue" : 3
+        },
+        "protection" : {
+          "baseValue" : 1.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        }
+      },
+
+      "resources" : {
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8]
+  }
+}

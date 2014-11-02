@@ -1,0 +1,10 @@
+{
+  "itemName" : "toffee",
+  "rarity" : "Common",
+  "inventoryIcon" : "toffee.png",
+  "description" : "Toffee! A common ingredient in sweets.",
+  "shortdescription" : "Toffee",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

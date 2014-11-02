@@ -1,0 +1,10 @@
+{
+  "itemName" : "fishfingers",
+  "rarity" : "Common",
+  "inventoryIcon" : "fishfingers.png",
+  "description" : "Tasty fried fish in stick form. Where's the custard?",
+  "shortdescription" : "Fish Fingers",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

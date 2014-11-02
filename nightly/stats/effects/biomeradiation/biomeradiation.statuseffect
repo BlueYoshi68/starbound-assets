@@ -1,0 +1,14 @@
+{
+  "name" : "biomeradiation",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "biomeradiation.lua"
+  ],
+
+  "animationConfig" : "biomeradiation.animation",
+
+  "label" : "deadly radiation",
+  "icon" : "/interface/statuses/irradiated.png"
+}

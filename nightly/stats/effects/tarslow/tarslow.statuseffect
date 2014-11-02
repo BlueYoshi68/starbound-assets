@@ -1,0 +1,14 @@
+{
+  "name" : "tarslow",
+  "effectConfig" : {},
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "tarslow.lua"
+  ],
+
+  "animationConfig" : "tarslow.animation",
+
+  "label" : "tarred",
+  "icon" : "/interface/statuses/tar.png"
+}

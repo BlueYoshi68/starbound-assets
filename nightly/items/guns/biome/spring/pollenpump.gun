@@ -1,0 +1,34 @@
+{
+  "itemName" : "pollenpump",
+  "inventoryIcon" : "pollenpumpicon.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Perfect for all your pest control needs.",
+  "shortdescription" : "Pollen Pump",
+  "image" : "pollenpump.png:<frame>",
+  "imageFrameSelector" : "pollenpumpImageSelector",
+  "handPosition" : [-6, -1],
+  "firePosition" : [13, 2.5],
+  "recoilTime" : 0.1,
+  "level" : 2,
+  "fireTime" : 0.35,
+  "twoHanded" : true,
+
+  "fireOnRelease" : true,
+  "walkWhileFiring" : true,
+
+  "projectileType" : "pollenpumpgas",
+  "powerProjectileType" : "pollenpumpgasspray",
+  "powerProjectileTime" : [1.0, 60],
+  "projectile" : {
+    "power" : 9,
+    "powerCurve" : "pollenpumpPowerMultiplier",
+    "speed" : 5,
+    "speedCurve" : "pollenpumpTimeMultiplier"
+  },
+
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/pumpgun_blast1.wav" }, { "file" : "/sfx/gun/pumpgun_blast2.wav" }, { "file" : "/sfx/gun/pumpgun_blast3.wav" } ]
+  }
+}

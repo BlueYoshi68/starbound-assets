@@ -1,0 +1,11 @@
+{
+  "itemName" : "blackcurrentcrumble",
+  "rarity" : "Common",
+  "inventoryIcon" : "blackcurrentcrumble.png",
+  "description" : "A crumble that holds a charge.",
+  "shortdescription" : "Black Current Crumble",
+  "handPosition" : [0, 12],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

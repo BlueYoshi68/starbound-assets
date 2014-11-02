@@ -1,0 +1,11 @@
+{
+  "itemName" : "eggfriedrice",
+  "rarity" : "Common",
+  "inventoryIcon" : "eggfriedrice.png",
+  "description" : "Fried rice, a Hylotl staple.",
+  "shortdescription" : "Eggshoot Fried Rice",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

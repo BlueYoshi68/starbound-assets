@@ -1,0 +1,197 @@
+{
+  "commandName" : "upgradeBeamaxe3",
+  "onlyOnce" : true,
+  "icon" : "beamaxe.png",
+  "actions" : [
+     { 
+      "action" : "UpdatePlayerEssentialItem",
+      "itemsRequired" : [ ["platinumbar", 8] ],
+      "parameters" : {
+        "blockRadius" : 4,
+        "minBeamWidth" : 4.3,
+        "maxBeamWidth" : 6.3,
+        "tileDamage" : 2.5
+      },
+      "essentialItem" : "beamaxe"
+    },
+    {
+      "action" : "DisableCommand",
+      "command" : "upgradeBeamaxe3"
+    },
+    {
+      "action" : "EnableCommand",
+      "command" : "upgradeBeamaxe4"
+    }
+  ],
+
+  "speciesText" : {
+    "apex" : {
+      "buttonText" : "Upgrade M. M. - Power II, Size II",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With 8 bars of platinum, I can upgrade your matter manipulator to mine in an even larger area, along with a boost in power.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Success! Your matter manipulator has been upgraded.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure. We'll need 8 rubium bars to complete this upgrade.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "avian" : {
+      "buttonText" : "Upgrade M. M. - Power II, Size II",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With 8 bars of platinum, I can upgrade your matter manipulator to mine in an even larger area, along with a boost in power.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Success! Your matter manipulator has been upgraded.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure. We'll need 8 rubium bars to complete this upgrade.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "floran" : {
+      "buttonText" : "Upgrade M. M. - Power II, Size II",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With 8 bars of platinum, I can upgrade your matter manipulator to mine in an even larger area, along with a boost in power.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Success! Your matter manipulator has been upgraded.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure. We'll need 8 rubium bars to complete this upgrade.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "glitch" : {
+      "buttonText" : "Upgrade M. M. - Power II, Size II",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With 8 bars of platinum, I can upgrade your matter manipulator to mine in an even larger area, along with a boost in power.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Success! Your matter manipulator has been upgraded.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure. We'll need 8 rubium bars to complete this upgrade.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "human" : {
+      "buttonText" : "Upgrade M. M. - Power II, Size II",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With 8 bars of platinum, I can upgrade your matter manipulator to mine in an even larger area, along with a boost in power.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Success! Your matter manipulator has been upgraded.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure. We'll need 8 rubium bars to complete this upgrade.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "Upgrade M. M. - Power II, Size II",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With 8 bars of platinum, I can upgrade your matter manipulator to mine in an even larger area, along with a boost in power.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Success! Your matter manipulator has been upgraded.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure. We'll need 8 rubium bars to complete this upgrade.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "hylotl" : {
+      "buttonText" : "Upgrade M. M. - Power II, Size II",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With 8 bars of platinum, I can upgrade your matter manipulator to mine in an even larger area, along with a boost in power.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Success! Your matter manipulator has been upgraded.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure. We'll need 8 rubium bars to complete this upgrade.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name" : "rage",
+  "effectConfig" : {
+    "groundMovementModifier" : -0.5,
+    "runModifier" : -0.35,
+    "jumpModifier" : -0.35,
+    "powerModifier" : 0.5
+  },
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "rage.lua"
+  ],
+
+  "animationConfig" : "rage.animation",
+
+  "label" : "rage",
+  "icon" : "/interface/statuses/rage.png"
+}

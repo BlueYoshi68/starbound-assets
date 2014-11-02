@@ -1,0 +1,561 @@
+{
+  "avianVillageLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "childrenofkluexCodex", 1]},
+        {"weight" : 0.08, "item" : [ "groundeddoctrineCodex", 1]},
+        {"weight" : 0.08, "item" : [ "kluexcommandsCodex", 1]},
+        {"weight" : 0.08, "item" : [ "kluexdelusion01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "kluexdelusion02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "kluexdelusion03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "kluexdelusion04Codex", 1]},
+        {"weight" : 0.08, "item" : [ "kluexdelusion05Codex", 1]},
+        {"weight" : 0.08, "item" : [ "lasladiary01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "lasladiary02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "lasladiary03Codex", 1]},
+        {"weight" : 0.01, "item" : [ "poachedavesmingo-recipe", 1]},
+        {"weight" : 0.01, "item" : [ "spicyfeathercrown-recipe", 1]},
+        {"weight" : 0.01, "item" : [ "wartweedstew-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "curriedbeakseed-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "eggshootsalad-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "pearlpeaparcels-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "cornpeckers-recipe", 1]},
+        {"weight" : 0.04, "item" : [ "boiledpearlpeas-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "crowncake-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "candiedcorn-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "pearlpeapancakes-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "carrotbread-recipe", 1]},
+        {"weight" : 0.08, "item" : [ "notesfromthegroundCodex", 1]},
+        {"weight" : 0.08, "item" : [ "progenitorsCodex", 1]},
+        {"weight" : 0.08, "item" : [ "thefallCodex", 1]},
+        {"weight" : 0.08, "item" : [ "villageprayerCodex", 1]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 3]}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "avianTempleLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "ancientprayerCodex", 1]},
+        {"weight" : 0.08, "item" : [ "avianhistoryCodex", 1]},
+        {"weight" : 0.08, "item" : [ "clippedcouncilCodex", 1]},
+        {"weight" : 0.08, "item" : [ "excommunicationCodex", 1]},
+        {"weight" : 0.08, "item" : [ "flightlessmandateCodex", 1]},
+        {"weight" : 0.08, "item" : [ "modernprayerCodex", 1]},
+        {"weight" : 0.08, "item" : [ "natureofsacrificeCodex", 1]},
+        {"weight" : 0.08, "item" : [ "notefrompilotCodex", 1]},
+        {"weight" : 0.08, "item" : [ "rudeawakeningCodex", 1]},
+        {"weight" : 0.08, "item" : [ "speciesandgodsCodex", 1]},
+        {"weight" : 0.08, "item" : [ "templecoraleCodex", 1]},
+        {"weight" : 0.08, "item" : [ "writingoftextsCodex", 1]},
+        {"weight" : 0.02, "item" : [ "pearlpeaparcels-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "crowncake-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "poachedavesmingo-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "cornpeckers-recipe", 1]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 3]}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "avianTombLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "avianburialsCodex", 1]},
+        {"weight" : 0.08, "item" : [ "tombdiary01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "tombdiary02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "tombdiary03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "tombdiary04Codex", 1]},
+        {"weight" : 0.08, "item" : [ "tombdiary05Codex", 1]},
+        {"weight" : 0.08, "item" : [ "tombwordsCodex", 1]},
+        {"weight" : 0.08, "item" : [ "avianafterlifeCodex", 1]},
+        {"weight" : 0.08, "item" : [ "aviantraditionsCodex", 1]},
+        {"weight" : 0.08, "item" : [ "aviantombkeepersCodex", 1]},
+        {"weight" : 0.08, "item" : [ "sunborncorpsesCodex", 1]},
+        {"weight" : 0.08, "item" : [ "trappedtombCodex", 1]},
+        {"weight" : 0.02, "item" : [ "pearlpeaparcels-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "crowncake-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "poachedavesmingo-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "cornpeckers-recipe", 1]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 3]}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "avianAirshipLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "shipairshantyCodex", 1]},
+        {"weight" : 0.08, "item" : [ "shipmechanic01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "shipmechanic02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "shipmechanic03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "shipmechanic04Codex", 1]},
+        {"weight" : 0.08, "item" : [ "shipmechanic05Codex", 1]},
+        {"weight" : 0.08, "item" : [ "shipmechanic06Codex", 1]},
+        {"weight" : 0.08, "item" : [ "shipfightflightCodex", 1]},
+        {"weight" : 0.08, "item" : [ "shipheroCodex", 1]},
+        {"weight" : 0.08, "item" : [ "shipironavianCodex", 1]},
+        {"weight" : 0.08, "item" : [ "shipmaldiaryCodex", 1]},
+        {"weight" : 0.08, "item" : [ "shippowercrystalsCodex", 1]},
+        {"weight" : 0.08, "item" : [ "shipseasickCodex", 1]},
+        {"weight" : 0.01, "item" : [ "eggshootsalad-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "spicyfeathercrown-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "cornpeckers-recipe", 1]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 3]}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "avianTowerLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "towerascendant01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "towerascendant02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "towerascendant03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "towerascendant04Codex", 1]},
+        {"weight" : 0.08, "item" : [ "towerascendant05Codex", 1]},
+        {"weight" : 0.08, "item" : [ "towerascendant06Codex", 1]},
+        {"weight" : 0.08, "item" : [ "towerascendant07Codex", 1]},
+        {"weight" : 0.08, "item" : [ "towerascendant08Codex", 1]},
+        {"weight" : 0.08, "item" : [ "towerascendant09Codex", 1]},
+        {"weight" : 0.08, "item" : [ "towerascendant10Codex", 1]},
+        {"weight" : 0.08, "item" : [ "towerbeverageCodex", 1]},
+        {"weight" : 0.08, "item" : [ "towerresultsCodex", 1]},
+        {"weight" : 0.02, "item" : [ "pearlpeaparcels-recipe", 1]},
+        {"weight" : 0.01, "item" : [ "cornpeckers-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "eggshootsalad-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "boiledpearlpeas-recipe", 1]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 3]}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "apexTestLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "testincarcerus01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "testincarcerus02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "testincarcerus03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "testincarcerus04Codex", 1]},
+        {"weight" : 0.08, "item" : [ "testincarcerus05Codex", 1]},
+        {"weight" : 0.08, "item" : [ "testincarcerus06Codex", 1]},
+        {"weight" : 0.08, "item" : [ "testincarcerus07Codex", 1]},
+        {"weight" : 0.08, "item" : [ "testincarcerus08Codex", 1]},
+        {"weight" : 0.08, "item" : [ "testincarcerus09Codex", 1]},
+        {"weight" : 0.08, "item" : [ "testincarcerus10Codex", 1]},
+        {"weight" : 0.08, "item" : [ "testincarcerus11Codex", 1]},
+        {"weight" : 0.08, "item" : [ "testapechantCodex", 1]},
+        {"weight" : 0.08, "item" : [ "testlooseendsCodex", 1]},
+        {"weight" : 0.02, "item" : [ "apegrapes-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "fruitsalad-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "luckydip-recipe", 1]},
+        {"weight" : 0.01, "item" : [ "roastbanana-recipe", 1]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 3]}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "apexLabLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "labblog01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "labblog02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "labblog03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "labblog04Codex", 1]},
+        {"weight" : 0.08, "item" : [ "labblog05Codex", 1]},
+        {"weight" : 0.08, "item" : [ "labblog06Codex", 1]},
+        {"weight" : 0.08, "item" : [ "labblog07Codex", 1]},
+        {"weight" : 0.08, "item" : [ "labblog08Codex", 1]},
+        {"weight" : 0.08, "item" : [ "labblog09Codex", 1]},
+        {"weight" : 0.08, "item" : [ "labblog10Codex", 1]},
+        {"weight" : 0.08, "item" : [ "labannoyanceCodex", 1]},
+        {"weight" : 0.08, "item" : [ "labnoteCodex", 1]},
+        {"weight" : 0.02, "item" : [ "avesmingoicecream-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "fishfingers-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "roastdinner-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "bananacon-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "batteredbanana-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "luckydip-recipe", 1]},
+        {"weight" : 0.01, "item" : [ "bananacreampie-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "bananabread-recipe", 1]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 3]}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "apexTownLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "townadvertCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townbigapeCodex", 1]},
+        {"weight" : 0.08, "item" : [ "towncaseapexCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townfolkCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townfriendsCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townheadlineCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townminutesCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townpleasantCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townposterCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townproblemsCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townresistanceCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townrhymeCodex", 1]},
+        {"weight" : 0.08, "item" : [ "townsillyCodex", 1]},
+        {"weight" : 0.03, "item" : [ "fishfingers-recipe", 1]},
+        {"weight" : 0.04, "item" : [ "roastdinner-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "bananacon-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "batteredbanana-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "apegrapes-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "fruitsalad-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "avesmingoicecream-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "bananasplit-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "bananacreampie-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "bananabread-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "luckydip-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "roastbanana", 1]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 3]}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "floranHellLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "helljournal01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "helljournal02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "helljournal03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "helljournal04Codex", 1]},
+        {"weight" : 0.08, "item" : [ "helljournal05Codex", 1]},
+        {"weight" : 0.08, "item" : [ "helljournal06Codex", 1]},
+        {"weight" : 0.08, "item" : [ "helljournal07Codex", 1]},
+        {"weight" : 0.08, "item" : [ "helljournal08Codex", 1]},
+        {"weight" : 0.08, "item" : [ "helllogCodex", 1]},
+        {"weight" : 0.08, "item" : [ "helldrysap01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "helldrysap02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "hellnoteCodex", 1]},
+        {"weight" : 0.08, "item" : [ "hellbiologyCodex", 1]},
+        {"weight" : 0.03, "item" : [ "sweetmeat-recipe", 1]},
+        {"weight" : 0.01, "item" : [ "pussplumpie-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "burningeyeballs-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "hotbone-recipe", 1]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 3]}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "floranHuntLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "huntslateCodex", 1]},
+        {"weight" : 0.08, "item" : [ "huntart01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "huntart02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "huntart03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "huntart04Codex", 1]},
+        {"weight" : 0.08, "item" : [ "huntart05Codex", 1]},
+        {"weight" : 0.08, "item" : [ "huntnote01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "huntnote02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "huntnote03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "huntnote04Codex", 1]},
+        {"weight" : 0.08, "item" : [ "hunttrial01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "hunttrial02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "hunttrial03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "hunttrial04Codex", 1]},
+        {"weight" : 0.08, "item" : [ "hunttrial05Codex", 1]},
+        {"weight" : 0.03, "item" : [ "thespecial-recipe", 1]},
+        {"weight" : 0.01, "item" : [ "meatwich-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "meatandmarrow-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "oculemonstew-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "offal-recipe", 1]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 3]}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "floranVillageLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "florviljournal01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "florviljournal02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilteachingCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilwordsCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilarchitectCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilbanCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilbookCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvildrawingCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilguestsCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilpeaceCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilprintCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilrantCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florvilreviewCodex", 1]},
+        {"weight" : 0.08, "item" : [ "florviltreetopCodex", 1]},
+        {"weight" : 0.02, "item" : [ "thespecial-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "meatwich-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "meatandmarrow-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "oculemonstew-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "fishinabone-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "eyebowls-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "offal-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "boneboomarrow-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "sweetmeat-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "pussplumpie-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "burningeyeballs-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "hotbone-recipe", 1]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 3]}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "humanBunkerLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "bunkerlog01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerlog02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerlog03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerlog04Codex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerlog05Codex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerlog06Codex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerpolicyCodex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerhumansCodex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerbeastCodex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerbustersCodex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerbookCodex", 1]},
+        {"weight" : 0.08, "item" : [ "bunkerordersCodex", 1]},
+        {"weight" : 0.01, "item" : [ "burger-recipe", 1]},
+        {"weight" : 0.01, "item" : [ "vegetablesoup-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "chilistew-recipe", 1]},
+        {"weight" : 0.01, "item" : [ "fishnchips-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "mashedpotato-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "gardensalad-recipe", 1]},
+        {"weight" : 0.01, "item" : [ "sweetcorn-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "cake-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "applepie-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "candyapple-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "icecream-recipe", 1]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 3]}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "humanPrisonLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "prisoncasebook01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "prisoncasebook02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "prisoncasebook03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "prisoncasebook04Codex", 1]},
+        {"weight" : 0.08, "item" : [ "prisoncasebook05Codex", 1]},
+        {"weight" : 0.08, "item" : [ "prisoncasebook06Codex", 1]},
+        {"weight" : 0.08, "item" : [ "prisoncasebook07Codex", 1]},
+        {"weight" : 0.08, "item" : [ "prisoncasebook08Codex", 1]},
+        {"weight" : 0.08, "item" : [ "prisoncasebook09Codex", 1]},
+        {"weight" : 0.08, "item" : [ "prisoncasebook10Codex", 1]},
+        {"weight" : 0.08, "item" : [ "prisoncasebook11Codex", 1]},
+        {"weight" : 0.08, "item" : [ "prisonghostsCodex", 1]},
+        {"weight" : 0.01, "item" : [ "fishnchips-recipe", 1]},
+        {"weight" : 0.01, "item" : [ "mashedpotato-recipe", 1]},
+        {"weight" : 0.01, "item" : [ "applepie-recipe", 1]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 3]}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "glitchSewerLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "sewerbattlegroundCodex", 1]},
+        {"weight" : 0.08, "item" : [ "sewerconstructfreeCodex", 1]},
+        {"weight" : 0.08, "item" : [ "sewerdayoutCodex", 1]},
+        {"weight" : 0.08, "item" : [ "sewerferryingCodex", 1]},
+        {"weight" : 0.08, "item" : [ "sewergrowflyCodex", 1]},
+        {"weight" : 0.08, "item" : [ "sewerlamentCodex", 1]},
+        {"weight" : 0.08, "item" : [ "sewerlonelyCodex", 1]},
+        {"weight" : 0.08, "item" : [ "sewermecharachnidCodex", 1]},
+        {"weight" : 0.08, "item" : [ "sewerpoCodex", 1]},
+        {"weight" : 0.08, "item" : [ "sewerpometheusCodex", 1]},
+        {"weight" : 0.08, "item" : [ "sewerseveringCodex", 1]},
+        {"weight" : 0.08, "item" : [ "sewerstrangeCodex", 1]},
+        {"weight" : 0.02, "item" : [ "pizzap-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "automatostew-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "smash-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "nutsandbolts-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "corntent-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "piodia-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "copperkeypie-recipe", 1]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 3]}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "glitchCastleLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "castleking01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "castleking02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "castleking03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "castleking04Codex", 1]},
+        {"weight" : 0.08, "item" : [ "castleking05Codex", 1]},
+        {"weight" : 0.08, "item" : [ "castleking06Codex", 1]},
+        {"weight" : 0.08, "item" : [ "castlecuriousCodex", 1]},
+        {"weight" : 0.08, "item" : [ "castlefoldnoteCodex", 1]},
+        {"weight" : 0.08, "item" : [ "castleguestCodex", 1]},
+        {"weight" : 0.08, "item" : [ "castlemessageCodex", 1]},
+        {"weight" : 0.08, "item" : [ "castlemisunderstandingCodex", 1]},
+        {"weight" : 0.08, "item" : [ "castleprefixCodex", 1]},
+        {"weight" : 0.02, "item" : [ "pizzap-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "automatostew-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "blackcurrentcrumble-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "sweettime-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "nutsandbolts-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "piodia-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "boltos-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "stuffedautomato-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "copperkeypie-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "candyautomato-recipe", 1]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 3]}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "glitchVillageLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.08, "item" : [ "deckardnoteCodex", 1]},
+        {"weight" : 0.08, "item" : [ "outcastscoraleCodex", 1]},
+        {"weight" : 0.08, "item" : [ "stamppamphletCodex", 1]},
+        {"weight" : 0.08, "item" : [ "transcript0292Codex", 1]},
+        {"weight" : 0.08, "item" : [ "transcript0293Codex", 1]},
+        {"weight" : 0.08, "item" : [ "individualscoraleCodex", 1]},
+        {"weight" : 0.08, "item" : [ "outcastposterCodex", 1]},
+        {"weight" : 0.08, "item" : [ "hierarchycoraleCodex", 1]},
+        {"weight" : 0.08, "item" : [ "steelbook01Codex", 1]},
+        {"weight" : 0.08, "item" : [ "steelbook02Codex", 1]},
+        {"weight" : 0.08, "item" : [ "steelbook03Codex", 1]},
+        {"weight" : 0.08, "item" : [ "steelbook04Codex", 1]},
+        {"weight" : 0.02, "item" : [ "pizzap-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "automatostew-recipe", 1]},
+        {"weight" : 0.04, "item" : [ "piodia-recipe", 1]},
+        {"weight" : 0.04, "item" : [ "boltos-recipe", 1]},
+        {"weight" : 0.04, "item" : [ "smash-recipe", 1]},
+        {"weight" : 0.03, "item" : [ "corntent-recipe", 1]},
+        {"weight" : 0.04, "item" : [ "stuffedautomato-recipe", 1]},
+        {"weight" : 0.04, "item" : [ "blackcurrentcrumble-recipe", 1]},
+        {"weight" : 0.02, "item" : [ "sweettime-recipe", 1]},
+        {"weight" : 0.04, "item" : [ "copperkeypie-recipe", 1]},
+        {"weight" : 0.04, "item" : [ "candyautomato-recipe", 1]},
+        {"weight" : 0.04, "item" : [ "nutsandbolts-recipe", 1]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 5]},
+        {"weight" : 0.45, "item" : [ "bookpiles", 3]},
+        {"weight" : 0.08, "item" : [ "todolistCodex", 1]}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+}

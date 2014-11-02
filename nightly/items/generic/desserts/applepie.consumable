@@ -1,0 +1,10 @@
+{
+  "itemName" : "applepie",
+  "rarity" : "Common",
+  "inventoryIcon" : "applepie.png",
+  "description" : "Apple pie! It's as American as itself!",
+  "shortdescription" : "Apple Pie",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

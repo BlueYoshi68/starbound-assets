@@ -1,0 +1,25 @@
+{
+  "itemName" : "mediumsnowball",
+  "rarity" : "Common",
+  "inventoryIcon" : "snowballmediumicon.png",
+  "image" : "snowballmediumicon.png",
+  "shortdescription" : "Medium Snowball",
+  "description" : "A medium snowball. Begging to be thrown.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.6,
+
+  "projectileType" : "mediumsnowball",
+  "projectileConfig" : {
+    "speed" : 32,
+    "power" : 3
+  },
+
+  "learnBlueprintsOnPickup" : [
+    "largesnowball"
+  ]
+}
+

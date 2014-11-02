@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "reed", "count" : 15 }
+  ],
+  "output" : { "item" : "reeddesk", "count" : 1 },
+  "groups" : [ "craftingtable", "furniture", "all" ]
+}

@@ -1,0 +1,25 @@
+{
+  "itemName" : "largesnowball",
+  "rarity" : "Common",
+  "inventoryIcon" : "snowballlargeicon.png",
+  "image" : "snowballlargeicon.png",
+  "shortdescription" : "Large Snowball",
+  "description" : "A large snowball. Begging to be thrown.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.8,
+
+  "projectileType" : "largesnowball",
+  "projectileConfig" : {
+    "speed" : 24,
+    "power" : 6
+  },
+
+  "learnBlueprintsOnPickup" : [
+    "giganticsnowball"
+  ]
+}
+

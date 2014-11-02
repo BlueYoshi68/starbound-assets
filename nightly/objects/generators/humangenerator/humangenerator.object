@@ -1,0 +1,67 @@
+{
+  "objectName" : "humangenerator",
+  "rarity" : "Legendary",
+  "description" : "-todo-",
+  "shortdescription" : "Human Shield Generator",
+  "race" : "human",
+  "price" : 2000,
+  "lightColor" : [78, 111, 128],
+  "category" : "wire",
+  "objectItem" : "circuitboard",
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "glitchDescription" : "-todo-",
+  "humanDescription" : "-todo-",
+  "hylotlDescription" : "-todo-",
+
+  "inventoryIcon" : "humangeneratoricon.png",
+  "orientations" : [
+    {
+      "image" : "humangenerator.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+
+      "imagePosition" : [-80, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      
+      "lightPosition" : [-2, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "humangenerator.png:<color>.<frame>",
+      "direction" : "right",
+
+      "imagePosition" : [-80, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      
+      "lightPosition" : [1, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/shieldgenerator/shieldgenerator.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "humangenerator.animation",
+
+  "animationParts" : {
+    "bg" : "humangenerator.png",
+    "fg" : "humangeneratorlit.png"
+  },
+  
+  "animationPosition" : [-80, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+  "inboundNodes" : [ [0, 2] ],
+
+  "onSounds" : [ "/sfx/objects/apexconsole2switch.wav" ],
+  "offSounds" : [ "/sfx/objects/apexconsole2switch.wav" ]
+}

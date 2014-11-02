@@ -1,0 +1,14 @@
+{
+  "name" : "biomecold",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "biomecold.lua"
+  ],
+
+  "animationConfig" : "biomecold.animation",
+
+  "label" : "deadly chill",
+  "icon" : "/interface/statuses/biomecold.png"
+}

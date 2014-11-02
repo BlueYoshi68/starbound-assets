@@ -1,0 +1,30 @@
+{
+  "itemName" : "gnomegun",
+  "inventoryIcon" : "gnomegun.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "-todo-",
+  "shortdescription" : "-todo-",
+  "image" : "gnomegun.png",
+  "handPosition" : [-6, -2],
+  "firePosition" : [18, 0],
+  "recoilTime" : 0.1,
+  "level" : 2,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.01,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "rainbowgnome",
+  "projectile" : {
+    "speed" : 32,
+    "life" : 3,
+    "power" : 0.15, 
+    "color" : [255, 10, 10]
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/gnomegun1.wav" }, { "file" : "/sfx/gun/gnomegun2.wav" }, { "file" : "/sfx/gun/gnomegun3.wav" }, { "file" : "/sfx/gun/gnomegun4.wav" } ],
+    "animation" : "/animations/muzzleflash/rainbowmuzzle/rainbowmuzzle.animation"
+  }
+}

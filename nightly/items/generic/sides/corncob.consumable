@@ -1,0 +1,10 @@
+{
+  "itemName" : "corncob",
+  "rarity" : "Common",
+  "inventoryIcon" : "corncob.png",
+  "description" : "A buttery ear of corn on the cob.",
+  "shortdescription" : "Corn Cob",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

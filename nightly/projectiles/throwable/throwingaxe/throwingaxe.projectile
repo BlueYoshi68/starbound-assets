@@ -1,0 +1,21 @@
+{
+  "projectileName" : "throwingaxe",
+  "frames" : "throwingaxe.png",
+  "animationCycle" : 0.25,
+  "physics" : "grenade",
+  "frameNumber" : 4,
+  "pointLight" : false,
+  "speed" : 40,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 200.0,
+  "damageKind" : "axe",
+  "emitters" : [ "daggerblue" ],
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ]
+}
+
+

@@ -1,0 +1,10 @@
+{
+  "itemName" : "ancientbones",
+  "rarity" : "Common",
+  "inventoryIcon" : "ancientbones.png",
+  "description" : "These large bones are old. Very old.",
+  "shortdescription" : "Ancient Bones",
+  "learnBlueprintsOnPickup" : [
+    "throwingbones"
+  ]
+}

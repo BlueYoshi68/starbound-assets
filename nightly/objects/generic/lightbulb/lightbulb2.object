@@ -1,0 +1,29 @@
+{
+  "objectName" : "lightbulb2",
+  "rarity" : "Common",
+  "description" : "A bare lightbulb hanging from a metal rod in the ceiling. Charming.",
+  "shortdescription" : "Lightbulb",
+  "race" : "generic",
+
+  "apexDescription" : "A light bulb.",
+  "avianDescription" : "Light!",
+  "floranDescription" : "Bright!",
+  "glitchDescription" : "Kindness. I wish to donate a lampshade.",
+  "humanDescription" : "A depressing light.",
+  "hylotlDescription" : "Undecorated.",
+
+  "category" : "light",
+  "price" : 300,
+  "lightColor" : [179, 179, 152],
+
+  "inventoryIcon" : "lightbulbicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "lightbulb.png:<color>.<frame>", "fullbright" : true }, { "image" : "lightbulblit.png:<color>.<frame>" } ],
+      "imagePosition" : [2, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+}

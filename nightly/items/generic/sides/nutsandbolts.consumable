@@ -1,0 +1,11 @@
+{
+  "itemName" : "nutsandbolts",
+  "rarity" : "Common",
+  "inventoryIcon" : "nutsandbolts.png",
+  "description" : "Assorted copper-flavored morsels.",
+  "shortdescription" : "Nuts n' Bolts",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

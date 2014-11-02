@@ -1,0 +1,14 @@
+{
+  "name" : "biomeheat",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "biomeheat.lua"
+  ],
+
+  "animationConfig" : "biomeheat.animation",
+
+  "label" : "deadly heat",
+  "icon" : "/interface/statuses/deadly heat.png"
+}

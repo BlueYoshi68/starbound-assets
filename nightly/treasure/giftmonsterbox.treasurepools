@@ -1,0 +1,29 @@
+{
+  "giftMonsterBoxTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.9, "pool" : "money"},
+        {"weight" : 0.1, "item" : [ "generatedsword", 1, { "definition" : "candycane" } ]}
+      ],
+      "poolRounds" : [
+        [0.10, 0],
+        [0.90, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "smallGiftMonsterBoxTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.95, "pool" : "money"},
+        {"weight" : 0.05, "item" : [ "generatedsword", 1, { "definition" : "candycane" } ]}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "objectName" : "oillantern1",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 300,
+
+  "description" : "A pretty oil lantern.",
+  "shortdescription" : "Oil Lantern",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "A lantern burning oil as fuel.",
+  "avianDescription" : "Fuel keeps the flame alight.",
+  "floranDescription" : "Flame eatsss liquid insside.",
+  "glitchDescription" : "Identify. The lantern contains oil.",
+  "humanDescription" : "A beautiful oil lantern.",
+  "hylotlDescription" : "The fuel in this lantern would not burn under the sea.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [179, 155, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "oillantern1icon.png",
+  "orientations" : [
+
+    {
+      "image" : "oillantern1.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationParts" : {
+        "bg" : "oillantern1.png",
+        "fg" : "oillantern1lit.png"
+      },
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ]
+    },
+
+    {
+      "image" : "oillantern1.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationParts" : {
+        "bg" : "oillantern1.png",
+        "fg" : "oillantern1lit.png"
+      },
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 1] ]
+    },
+
+    {
+      "image" : "oillantern1.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      
+      "animationParts" : {
+        "bg" : "oillantern1.png",
+        "fg" : "oillantern1lit.png"
+      },
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 0] ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/oillantern.wav",
+
+  "animation" : "oillantern1.animation",
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : true,
+
+  "inboundNodes" : [ [0, 0] ]
+
+}

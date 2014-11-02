@@ -1,0 +1,12 @@
+{
+  "itemName" : "spidersilkblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "spidersilkblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Clouds packed tight into a solid block.",
+  "shortdescription" : "Spider silk Block",
+  "glitchdescription" : "todo",
+  "florandescription" : "todo",
+
+  "materialId" : 142
+}

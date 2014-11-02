@@ -1,0 +1,28 @@
+{
+  "itemName" : "boneshotgun",
+  "inventoryIcon" : "boneshotgun.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "-todo-",
+  "shortdescription" : "Bone Shotgun",
+  "image" : "boneshotgun.png",
+  "handPosition" : [-4, -1],
+  "firePosition" : [21, 2],
+  "recoilTime" : 0.1,
+  "level" : 3,
+  "spread" : 5,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.85,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "bonethorn",
+  "projectile" : {
+    "power" : 1.0
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/boneshotgun.wav" } ],
+    "animation" : "/animations/muzzleflash/bulletmuzzle4/bulletmuzzle4.animation"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "throwinggnome",
+  "rarity" : "Common",
+  "inventoryIcon" : "throwinggnomeicon.png",
+  "image" : "throwinggnomeicon.png",
+  "shortdescription" : "Ball of Gnomes",
+  "description" : "You'd have to be really messed up to throw these little guys...",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "throwinggnome",
+  "projectileConfig" : {
+    "speed" : 30,
+    "power" : 3
+  }
+}
+

@@ -1,0 +1,99 @@
+{
+  "name" : "underground0a",
+  "friendlyName" : "Underground0a",
+  "caveLiquidType" : "water",
+  "requiredStatuses" : [ ],
+  "spawnProfiles" : [ "gardenunderground" ],
+
+  "undergroundParallax" : "rockunderground.undergroundparallax",
+
+  "mainBlock" : "dirt",
+  "subBlocks" : [ "clay", "cobblestone" ],
+  "ores" : "depth1",
+
+  "undergroundAmbientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/desert_underground.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/desert_underground.ogg" ]
+    }
+  },
+
+  "undergroundMusicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/planetarium.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vastimmortalsuns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/M54.ogg", "/music/on-the-beach-at-night.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+    }
+  },
+
+  "undergroundPlaceables" : {
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.8, "capsulesmall" ], [0.2, "capsulemed" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:layer1Chests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:layer1Chests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:randomEncounterUnderground",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "earlygenericunderground", "earlyapexundergroundencounter", "earlyavianundergroundencounter", "earlyglitchundergroundencounter", "midapexundergroundencounter", "midavianundergroundencounter", "midfloranundergroundencounter", "midglitchundergroundencounter", "lateapexundergroundencounter", "lateavianundergroundencounter", "lateglitchundergroundencounter" ]
+      }
+    ]
+  },
+
+  "hueShiftOptions" : [0],
+
+  "statusParameters" : {
+    "temperatureBounds" : [3, 10],
+    "dayNightTemperatureVariability" : -3,
+    "temperatureVariability" : 3
+  }
+}

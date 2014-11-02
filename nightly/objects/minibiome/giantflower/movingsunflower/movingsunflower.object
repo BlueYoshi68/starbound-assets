@@ -1,0 +1,41 @@
+{
+  "objectName" : "movingsunflower",
+  "rarity" : "Common",
+
+  "category" : "wire",
+  "price" : 800,
+  "description" : "A sunflower who looking for the sun.",
+  "shortdescription" : "Moving sunflower.",
+  "race" : "apex",
+
+  "apexDescription" : "This big sunflower seems to be lost.",
+  "avianDescription" : "I want to help this flower to find a sun.",
+  "floranDescription" : "Ssssun flower.",
+  "glitchDescription" : "Worried. This flower is looking for something, or someone.",
+  "humanDescription" : "A big sunflower. Obviously it looking for the sun.",
+  "hylotlDescription" : "A big yellow flower. It moves when I touch it.",
+
+  "inventoryIcon" : "movingsunflowericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "movingsunflower.png:<color>.off",
+      "imagePosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle3.animation",
+  "animationParts" : {
+    "switch" : "movingsunflower.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "outboundNodes" : [ [0, 0] ],
+
+  "onSounds" : [ "/sfx/objects/apexconsole2switch.wav" ],
+  "offSounds" : [ "/sfx/objects/apexconsole2switch.wav" ]
+}

@@ -1,0 +1,35 @@
+{
+  "objectName" : "reedchair",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 750,
+  "description" : "A chair made of wood and reed.",
+  "shortdescription" : "Reed chair",
+  "race" : "none",
+
+  "apexDescription" : "A chair made of wood and reed.",
+  "avianDescription" : "A chair made of wood and reed.",
+  "floranDescription" : "A chair made of wood and reed.",
+  "glitchDescription" : "A chair made of wood and reed.",
+  "humanDescription" : "A chair made of wood and reed.",
+  "hylotlDescription" : "A chair made of wood and reed.",
+
+  "inventoryIcon" : "reedchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "reedchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "cake",
+  "rarity" : "Common",
+  "inventoryIcon" : "cake.png",
+  "description" : "It's a delicious cake!",
+  "shortdescription" : "Cake",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

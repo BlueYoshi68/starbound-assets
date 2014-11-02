@@ -1,0 +1,30 @@
+{
+  "objectName" : "flowerstatue1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1000,
+  "description" : "A statue of a flower, god of the florans.",
+  "shortdescription" : "Big flower statue",
+  "race" : "none",
+
+  "apexDescription" : "A majestic flower statue.",
+  "avianDescription" : "This is a really big flower.",
+  "floranDescription" : "Beautiful sssstatue.",
+  "glitchDescription" : "Blissful. I want to sit next to this statue.",
+  "humanDescription" : "Is this a statue of a big poppy or a rose?",
+  "hylotlDescription" : "A big flower made of rock.",
+
+  "inventoryIcon" : "flowerstatue1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "flowerstatue1.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

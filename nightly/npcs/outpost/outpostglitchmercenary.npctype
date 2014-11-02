@@ -1,0 +1,116 @@
+{
+  "type" : "outpostglitchmercenary",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                    "Apologetic. Please do not be offended if my comrade in black will not speak to you. He's not much of a talker."
+                ],
+            
+                "glitch" : {
+                    "default" : [
+                      "Apologetic. Please do not be offended if my comrade in black will not speak to you. He's not much of a talker."
+                    ],
+
+                    "avian" : [
+                      "Apologetic. Please do not be offended if my comrade in black will not speak to you. He's not much of a talker."
+                    ],
+
+                    "apex" : [
+                      "Apologetic. Please do not be offended if my comrade in black will not speak to you. He's not much of a talker."
+                    ],
+
+                    "floran" : [
+                      "Apologetic. Please do not be offended if my comrade in black will not speak to you. He's not much of a talker."
+                    ],
+
+                    "glitch" : [
+                      "Wistful. Were times not simpler before we learned of all... this?"
+                    ],
+
+                    "human" : [
+                      "Apologetic. Please do not be offended if my comrade in black will not speak to you. He's not much of a talker."
+                    ],
+
+                    "hylotl" : [
+                      "Apologetic. Please do not be offended if my comrade in black will not speak to you. He's not much of a talker."
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "chest" : [ { "name" : "glitchtier2chest" } ],
+                    "legs" : [ { "name" : "apextier1pants", "parameters" : { "colorIndex" : 1 } } ],
+                    "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } } ]
+                }
+            ] ]
+        ]
+    },
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "targetMaterialKind" : "organic"
+    },
+
+    "persistentEffectCategories" : [
+      "innate",
+      "armor",
+      "tools",
+      "lounging"
+    ],
+
+    "primaryScriptSources" : [
+      "/stats/npc_primary.lua"
+    ],
+    "primaryScriptDelta" : 5,
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 40.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 40.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 0.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      },
+      "energyRegen" : {
+        "baseValue" : 100.0
+      },
+      "shieldSuppressed" : {
+        "baseValue" : 0.0
+      },
+      "invulnerable" : {
+        "baseValue" : 0.0
+      }
+    },
+
+    "resources" : {
+      "health" : {
+        "maxStat" : "maxHealth",
+        "deltaStat" : "healthRegen",
+        "defaultPercentage" : 100
+      },
+      "energy" : {
+        "maxStat" : "maxEnergy",
+        "deltaStat" : "energyRegen",
+        "defaultPercentage" : 100
+      }
+    }
+  }
+}

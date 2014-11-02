@@ -1,0 +1,23 @@
+{
+  "projectileName" : "chargedfrozenflamearrow",
+  "physics" : "arrow",
+  "frames" : "chargedfrozenflamearrow.png",
+  "animationCycle" : 0.25,
+  "lightColor" : [151, 76, 191],
+  "frameNumber" : 3,
+  "emitters" : [ "frozenfiretrail", "frozenflames" ],
+  "damageKindImage" : "/interface/statuses/frozenfire.png",
+  "damageKind" : "bow",
+  "power" : 20,
+  "timeToLive" : 30,
+  "pointLight" : true,
+  "statusEffects" : [
+    { "effect" : "frozenburning", "duration" : 5 }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ]
+}

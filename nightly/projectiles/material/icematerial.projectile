@@ -1,0 +1,24 @@
+{
+  "projectileName" : "icematerial",
+  "materialId" : 32,
+  "physics" : "grenade",
+  // uses alternate animation path
+  "frames" : "",
+  "animationCycle" : 0,
+  "frameNumber" : 0,
+  "power" : 0,
+  "onlyHitTerrain" : true,
+
+  "speed" : 0,
+  "fallSpeed" : 30, // this should be somekind of planet gravity scaled thing.
+
+  "actionOnReap" : [
+    {
+      "action" : "tile",
+      "materials" : [
+        {"kind" : "ice"}
+      ]
+    }
+  ],
+  "damageKind" : "slash"
+}

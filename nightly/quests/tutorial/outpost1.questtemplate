@@ -1,0 +1,17 @@
+{
+  "id" : "outpost1.gearup",
+  "title" : "^#9be3d6;A Fair Trade",
+  "text" : "Nice to see a friendly face. To tell you the truth, we're really hurting for food supplies at the moment. If you bring me ^green;five pieces of alien meat^white;, I can give you an ^green;air pocket generator^white;. They create breathable air in the empty space around you. ^orange;They won't work in liquids^white;, but they're very useful for exploring airless environments.",
+  "completionText" : "Thanks, you're a lifesaver! Here's your reward, as promised.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "alienmeat", 5] }
+  ],
+  "moneyRange" : [0, 0],
+  "rewards" : [
+    [ [ "airpocketback", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "",
+  "requireTurnIn" : true
+}

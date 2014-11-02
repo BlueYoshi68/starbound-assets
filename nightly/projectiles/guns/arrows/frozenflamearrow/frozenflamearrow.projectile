@@ -1,0 +1,17 @@
+{
+  "projectileName" : "frozenflamearrow",
+  "physics" : "arrow",
+  "frames" : "frozenflamearrow.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "damageKind" : "bow",
+  "power" : 20,
+  "timeToLive" : 30,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ]
+}

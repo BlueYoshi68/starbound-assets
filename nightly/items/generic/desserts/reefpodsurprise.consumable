@@ -1,0 +1,11 @@
+{
+  "itemName" : "reefpodsurprise",
+  "rarity" : "Common",
+  "inventoryIcon" : "reefpodsurprise.png",
+  "description" : "Reefpod and oculemon poached in a strong ricewine. Adults only!",
+  "shortdescription" : "Reefpod Surprise",
+  "handPosition" : [0, -4],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

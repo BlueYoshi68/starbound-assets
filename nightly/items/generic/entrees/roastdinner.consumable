@@ -1,0 +1,11 @@
+{
+  "itemName" : "roastdinner",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "roastdinner.png",
+  "description" : "A roast fit for an omnipotent primate overlord.",
+  "shortdescription" : "Roast Dinner",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

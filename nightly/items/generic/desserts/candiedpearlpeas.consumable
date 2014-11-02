@@ -1,0 +1,10 @@
+{
+  "itemName" : "candiedpearlpeas",
+  "rarity" : "Common",
+  "inventoryIcon" : "candiedpearlpeas.png",
+  "description" : "Pearlpeas are roasted in sugar and shoved on a stick.",
+  "shortdescription" : "Candied Pearlpeas",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

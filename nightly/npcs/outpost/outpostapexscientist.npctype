@@ -1,0 +1,116 @@
+{
+  "type" : "outpostapexscientist",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                    "I grew weary of watching my Apex brothers being tormented at the hands of the Miniknog, so I left."
+                ],
+            
+                "apex" : {
+                    "default" : [
+                      "I grew weary of watching my Apex brothers being tormented at the hands of the Miniknog, so I left."
+                    ],
+
+                    "avian" : [
+                      "I grew weary of watching my Apex brothers being tormented at the hands of the Miniknog, so I left."
+                    ],
+
+                    "apex" : [
+                      "It makes me happy to see another Apex who has escaped the brutality of the Miniknog."
+                    ],
+
+                    "floran" : [
+                      "I grew weary of watching my Apex brothers being tormented at the hands of the Miniknog, so I left."
+                    ],
+
+                    "glitch" : [
+                      "I grew weary of watching my Apex brothers being tormented at the hands of the Miniknog, so I left."
+                    ],
+
+                    "human" : [
+                      "I grew weary of watching my Apex brothers being tormented at the hands of the Miniknog, so I left."
+                    ],
+
+                    "hylotl" : [
+                      "I grew weary of watching my Apex brothers being tormented at the hands of the Miniknog, so I left."
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "head" : [ { "name" : "glasses2head" } ],
+                    "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 8 } } ],
+                    "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 6 } } ]
+                }
+            ] ]
+        ]
+    },
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "targetMaterialKind" : "organic"
+    },
+
+    "persistentEffectCategories" : [
+      "innate",
+      "armor",
+      "tools",
+      "lounging"
+    ],
+
+    "primaryScriptSources" : [
+      "/stats/npc_primary.lua"
+    ],
+    "primaryScriptDelta" : 5,
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 40.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 40.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 0.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      },
+      "energyRegen" : {
+        "baseValue" : 100.0
+      },
+      "shieldSuppressed" : {
+        "baseValue" : 0.0
+      },
+      "invulnerable" : {
+        "baseValue" : 0.0
+      }
+    },
+
+    "resources" : {
+      "health" : {
+        "maxStat" : "maxHealth",
+        "deltaStat" : "healthRegen",
+        "defaultPercentage" : 100
+      },
+      "energy" : {
+        "maxStat" : "maxEnergy",
+        "deltaStat" : "energyRegen",
+        "defaultPercentage" : 100
+      }
+    }
+  }
+}

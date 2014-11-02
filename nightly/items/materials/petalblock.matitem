@@ -1,0 +1,12 @@
+{
+  "itemName" : "petalblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "petalblock.png",
+  "dropCollision" : [71, 66, 57, 255],
+  "description" : "-todo-",
+  "shortdescription" : "Petal Block",
+  "glitchdescription" : "-todo-",
+  "florandescription" : "-todo-",
+
+  "materialId" : 409
+}

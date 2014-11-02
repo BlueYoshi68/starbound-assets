@@ -1,0 +1,11 @@
+{
+  "itemName" : "ricepudding",
+  "rarity" : "Common",
+  "inventoryIcon" : "ricepudding.png",
+  "description" : "A sweet, warm bowl of rice pudding.",
+  "shortdescription" : "Rice Pudding",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

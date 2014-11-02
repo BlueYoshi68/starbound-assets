@@ -1,0 +1,25 @@
+{
+  "itemName" : "throwingspear",
+  "rarity" : "Common",
+  "inventoryIcon" : "throwingspearicon.png",
+  "image" : "throwingspearicon.png",
+  "shortdescription" : "Throwing Spear.",
+  "description" : "A throwing spear. Get over here!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "throwingspear",
+  "projectileConfig" : {
+    "speed" : 50,
+    "power" : 25
+  },
+
+  "learnBlueprintsOnPickup" : [
+    "throwingspear"
+  ]
+}
+

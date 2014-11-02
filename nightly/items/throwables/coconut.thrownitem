@@ -1,0 +1,21 @@
+{
+  "itemName" : "coconut",
+  "rarity" : "Common",
+  "inventoryIcon" : "coconuticon.png",
+  "image" : "coconuticon.png",
+  "shortdescription" : "coconut",
+  "description" : "A coconut. Just waiting to be thrown.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "coconut",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 2
+  }
+}
+

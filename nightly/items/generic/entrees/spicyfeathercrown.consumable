@@ -1,0 +1,10 @@
+{
+  "itemName" : "spicyfeathercrown",
+  "rarity" : "Common",
+  "inventoryIcon" : "spicyfeathercrown.png",
+  "description" : "Feathercrown sauteed in spicy chili peppers. Hot hot hot!",
+  "shortdescription" : "Spicy Feathercrown",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

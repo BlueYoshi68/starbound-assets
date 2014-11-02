@@ -1,0 +1,13 @@
+{
+  "itemName" : "reefjuice",
+  "rarity" : "Common",
+  "inventoryIcon" : "reefjuice.png",
+  "description" : "Reefpod juice! It has a mildly fishy flavor.",
+  "shortdescription" : "Reefjuice",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    "wellfed"
+  ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

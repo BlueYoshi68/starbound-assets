@@ -1,0 +1,30 @@
+{
+  "itemName" : "novatier1rifle",
+  "inventoryIcon" : "novatier1rifle.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "-todo-",
+  "shortdescription" : "Winchestar",
+  "image" : "novatier1rifle.png",
+  "handPosition" : [-2, 0],
+  "firePosition" : [27, 2],
+  "recoilTime" : 0.1,
+  "level" : 1,
+  "tooltipKind" : "gun",
+  "fireTime" : 2.0,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "bullet-2",
+  "projectile" : {
+    "speed" : 75,
+    "life" : 3,
+    "power" : 12,
+    "color" : [255, 10, 10]
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/rifle1.wav" }, { "file" : "/sfx/gun/rifle2.wav" } ],
+    "animation" : "/animations/muzzleflash/bulletmuzzle4/bulletmuzzle4.animation"
+  }
+}

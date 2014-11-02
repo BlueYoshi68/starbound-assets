@@ -1,0 +1,21 @@
+{
+  "itemName" : "tarball",
+  "rarity" : "Common",
+  "inventoryIcon" : "tarballicon.png",
+  "image" : "tarballicon.png",
+  "shortdescription" : "Tarball",
+  "description" : "A tarball. I bet being hit by one of these feels gross.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "tarball",
+  "projectileConfig" : {
+    "speed" : 32,
+    "power" : 2
+  }
+}
+

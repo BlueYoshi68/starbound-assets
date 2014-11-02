@@ -1,0 +1,12 @@
+{
+  "itemName" : "pozest",
+  "rarity" : "Common",
+  "inventoryIcon" : "pozest.png",
+  "description" : "A popular cocktail with the barfly Glitch.",
+  "shortdescription" : "Pozest",
+  "effects" : [ [
+    "wellfed"
+  ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

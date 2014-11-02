@@ -1,0 +1,12 @@
+{
+  "itemName" : "milk",
+  "rarity" : "Common",
+  "inventoryIcon" : "milk.png",
+  "description" : "Mmm, milk.",
+  "shortdescription" : "Milk",
+  "effects" : [ [
+    "wellfed"
+  ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

@@ -1,0 +1,21 @@
+{
+  "itemName" : "throwingbones",
+  "rarity" : "Common",
+  "inventoryIcon" : "throwingbonesicon.png",
+  "image" : "throwingbones.png",
+  "shortdescription" : "Throwing Bones",
+  "description" : "Nothing screams archaic like throwing bones at your enemies.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "throwingbones",
+  "projectileConfig" : {
+    "speed" : 35,
+    "power" : 45
+  }
+}
+

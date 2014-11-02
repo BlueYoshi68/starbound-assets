@@ -1,0 +1,241 @@
+{
+  "basicMonsterTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.89, "pool" : "money"},
+        {"weight" : 0.1, "item" : "alienmeat"},
+        {"weight" : 0.01, "pool" : "basicTreasure"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }],
+    [2, {
+      "pool" : [
+        {"weight" : 0.69, "pool" : "money"},
+        {"weight" : 0.1, "item" : "alienmeat"},
+        {"weight" : 0.1, "item" : "cellmateria"},
+        {"weight" : 0.1, "item" : "monsterplating"},
+        {"weight" : 0.01, "pool" : "basicTreasure"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }],
+    [3, {
+      "pool" : [
+        {"weight" : 0.69, "pool" : "money"},
+        {"weight" : 0.1, "item" : "alienmeat"},
+        {"weight" : 0.1, "item" : "cellmateria"},
+        {"weight" : 0.1, "item" : "monsterplating"},
+        {"weight" : 0.01, "pool" : "basicTreasure"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }],
+    [4, {
+      "pool" : [
+        {"weight" : 0.69, "pool" : "money"},
+        {"weight" : 0.1, "item" : "alienmeat"},
+        {"weight" : 0.1, "item" : "cellmateria"},
+        {"weight" : 0.1, "item" : "monsterplating"},
+        {"weight" : 0.01, "pool" : "basicTreasure"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }],
+    [5, {
+      "pool" : [
+        {"weight" : 0.69, "pool" : "money"},
+        {"weight" : 0.1, "item" : "alienmeat"},
+        {"weight" : 0.1, "item" : "cellmateria"},
+        {"weight" : 0.1, "item" : "monsterplating"},
+        {"weight" : 0.01, "pool" : "basicTreasure"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }],
+    [6, {
+      "pool" : [
+        {"weight" : 0.69, "pool" : "money"},
+        {"weight" : 0.1, "item" : "alienmeat"},
+        {"weight" : 0.1, "item" : "cellmateria"},
+        {"weight" : 0.1, "item" : "monsterplating"},
+        {"weight" : 0.01, "pool" : "basicTreasure"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }],
+    [7, {
+      "pool" : [
+        {"weight" : 0.69, "pool" : "money"},
+        {"weight" : 0.1, "item" : "alienmeat"},
+        {"weight" : 0.1, "item" : "cellmateria"},
+        {"weight" : 0.1, "item" : "monsterplating"},
+        {"weight" : 0.01, "pool" : "basicTreasure"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }],
+    [8, {
+      "pool" : [
+        {"weight" : 0.69, "pool" : "money"},
+        {"weight" : 0.1, "item" : "alienmeat"},
+        {"weight" : 0.1, "item" : "cellmateria"},
+        {"weight" : 0.1, "item" : "monsterplating"},
+        {"weight" : 0.01, "pool" : "basicTreasure"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }],
+    [9, {
+      "pool" : [
+        {"weight" : 0.69, "pool" : "money"},
+        {"weight" : 0.1, "item" : "alienmeat"},
+        {"weight" : 0.1, "item" : "cellmateria"},
+        {"weight" : 0.1, "item" : "monsterplating"},
+        {"weight" : 0.01, "pool" : "basicTreasure"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }],
+    [10, {
+      "pool" : [
+        {"weight" : 0.69, "pool" : "money"},
+        {"weight" : 0.1, "item" : "alienmeat"},
+        {"weight" : 0.1, "item" : "cellmateria"},
+        {"weight" : 0.1, "item" : "monsterplating"},
+        {"weight" : 0.01, "pool" : "basicTreasure"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "robotTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.9, "pool" : "money"},
+        {"weight" : 0.1, "item" : "wire"}
+      ],
+      "poolRounds" : [
+        [0.4, 0],
+        [0.5, 1],
+        [0.1, 2]
+      ]
+    }],
+    [2, {
+      "pool" : [
+        {"weight" : 0.7, "pool" : "money"},
+        {"weight" : 0.1, "item" : "laserdiode"},
+        {"weight" : 0.1, "item" : "wire"},
+        {"weight" : 0.1, "item" : "circuitboard"}
+      ],
+      "poolRounds" : [
+        [0.2, 0],
+        [0.6, 1],
+        [0.2, 2]
+      ]
+    }],
+    [4, {
+      "pool" : [
+        {"weight" : 0.55, "pool" : "money"},
+        {"weight" : 0.15, "item" : "laserdiode"},
+        {"weight" : 0.15, "item" : "wire"},
+        {"weight" : 0.15, "item" : "circuitboard"}
+      ],
+      "poolRounds" : [
+        [0.1, 0],
+        [0.6, 1],
+        [0.3, 2]
+      ]
+    }]
+  ],
+
+  "minibosstreasure" : [
+    [1, {
+      "fill" : [
+        {"pool" : "goodWeapon"}
+      ]
+    }]
+  ],
+
+  "boss1Treasure" : [
+    [1, {
+      "fill" : [ {"item" : [ "moltencore", 5]}, {"item" : "bossdreadwingCodex"}]
+    }]
+  ],
+
+  "boss2Treasure" : [
+    [1, {
+      "fill" : [ {"item" : [ "processor", 5]}, {"item" : "bossfatalcircuitCodex"}]
+    }]
+  ],
+
+  "boss3Treasure" : [
+    [1, {
+      "fill" : [ {"item" : [ "dragonbone", 5]}, {"item" : "bossbonedragonCodex"}]
+    }]
+  ],
+
+  "boss4Treasure" : [
+    [1, {
+      "fill" : [ {"item" : [ "endomorphicjelly", 5]}, {"item" : "bossjellyCodex"}]
+    }]
+  ],
+
+  "potreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "pool" : "money"},
+        {"weight" : 0.5, "item" : "poop"}
+      ],
+      "poolRounds" : [
+        [0.35, 0],
+        [0.65, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "chickentreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : [ "rawpoultry", 2]}
+      ],
+      "poolRounds" : [
+        [0.5, 0],
+        [0.5, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ]
+}

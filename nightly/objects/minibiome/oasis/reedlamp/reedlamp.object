@@ -1,0 +1,51 @@
+{
+  "objectName" : "reedlamp",
+  "rarity" : "Common",
+  "description" : "It's look like reed, but it's actually a lamp.",
+  "shortdescription" : "Reed lamp",
+  "race" : "floran",
+
+  "apexDescription" : "It's look like reed, but it's actually a lamp.",
+  "avianDescription" : "It's look like reed, but it's actually a lamp.",
+  "floranDescription" : "It's look like reed, but it's actually a lamp.",
+  "glitchDescription" : "It's look like reed, but it's actually a lamp.",
+  "humanDescription" : "It's look like reed, but it's actually a lamp.",
+  "hylotlDescription" : "It's look like reed, but it's actually a lamp.",
+
+  "category" : "light",
+  "price" : 750,
+  "lightColor" : [120, 179, 89],
+
+  "inventoryIcon" : "reedlampicon.png",
+  "orientations" : [
+    {
+      "image" : "reedlamp.png:<color>.<frame>",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "lightPosition" : [0, 3]
+    },
+    {
+      "image" : "reedlamp.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "lightPosition" : [0, 3]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "reedlamp.png",
+    "fg" : "reedlamplit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 0] ]
+}

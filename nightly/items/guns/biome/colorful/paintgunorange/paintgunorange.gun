@@ -1,0 +1,26 @@
+{
+  "itemName" : "paintgunorange",
+  "inventoryIcon" : "paintgunorange.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "-todo-",
+  "shortdescription" : "Orange Paintgun",
+  "image" : "paintgunorange.png",
+  "handPosition" : [-6, -3],
+  "firePosition" : [12, 0],
+  "recoilTime" : 0.1,
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.18,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "paintballorange",
+  "projectile" : {
+    "power" : 1.1
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/paintgun1.wav" }, { "file" : "/sfx/gun/paintgun2.wav" }, { "file" : "/sfx/gun/paintgun3.wav" }, { "file" : "/sfx/gun/paintgun4.wav" }, { "file" : "/sfx/gun/paintgun5.wav" } ]
+  }
+}

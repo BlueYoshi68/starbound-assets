@@ -1,0 +1,10 @@
+{
+  "itemName" : "fishinabone",
+  "rarity" : "Common",
+  "inventoryIcon" : "fishinabone.png",
+  "description" : "A whole fish shoved haphazardly inside a boneboo.",
+  "shortdescription" : "Fish in a Bone",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

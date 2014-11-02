@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "petalred", "count" : 10 },
+    { "item" : "petalyellow", "count" : 10 },
+    { "item" : "rainbowwood", "count" : 15 }
+  ],
+  "output" : { "item" : "crayonorange", "count" : 1 },
+  "groups" : [ "metalworkstation", "weapons", "all" ]
+}

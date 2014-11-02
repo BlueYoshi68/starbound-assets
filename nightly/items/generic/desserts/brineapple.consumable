@@ -1,0 +1,11 @@
+{
+  "itemName" : "brineapple",
+  "rarity" : "Common",
+  "inventoryIcon" : "brineapple.png",
+  "description" : "Jellied coralcreep inside of a glazed pineapple, served warm. A fancy Hylotl treat!",
+  "shortdescription" : "Brineapple",
+  "handPosition" : [0, 2],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

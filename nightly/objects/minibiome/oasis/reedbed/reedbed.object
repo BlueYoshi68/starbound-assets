@@ -1,0 +1,41 @@
+{
+  "objectName" : "reedbed",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 1000,
+  "description" : "A bed made of wood and reed.",
+  "shortdescription" : "Reed bed",
+  "race" : "none",
+
+  "apexDescription" : "A bed made of wood and reed.",
+  "avianDescription" : "A bed made of wood and reed.",
+  "floranDescription" : "A bed made of wood and reed.",
+  "glitchDescription" : "A bed made of wood and reed.",
+  "humanDescription" : "A bed made of wood and reed.",
+  "hylotlDescription" : "A bed made of wood and reed.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-11, 18],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "reedbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "reedbed.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "objectName" : "medievaltorch",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 200,
+  "description" : "A simple wooden torch.",
+  "shortdescription" : "Glitch Torch",
+  "race" : "glitch",
+
+  "hydrophobic" : true,
+
+  "apexDescription" : "A small torch.",
+  "avianDescription" : "A flickering torch.",
+  "floranDescription" : "Hsss the flame ssspits.",
+  "glitchDescription" : "Identify. The kind of torch that illuminates castle corridors.",
+  "humanDescription" : "A small torch that spits embers.",
+  "hylotlDescription" : "A burning torch.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "medievaltorchicon.png",
+  "orientations" : [
+    {
+      "image" : "torch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "medievaltorch.png",
+        "fg" : "medievaltorchlit.png"
+      },
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [0, -1] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "torchleft.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "medievaltorchleft.png",
+        "fg" : "medievaltorchleftlit.png"
+      },
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [-1, 0] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "torchright.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "medievaltorchright.png",
+        "fg" : "medievaltorchrightlit.png"
+      },
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "fgAnchors" : [ [1, 0] ],
+
+      "direction" : "right"
+    },
+
+    {
+      "image" : "medievaltorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "animationParts" : {
+        "bg" : "medievaltorch.png",
+        "fg" : "medievaltorchlit.png"
+      },
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "bgAnchors" : [ [0, 0] ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.wav",
+
+  "animation" : "medievaltorch.animation",
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
+
+}

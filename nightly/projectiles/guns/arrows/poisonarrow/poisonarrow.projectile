@@ -1,0 +1,17 @@
+{
+  "projectileName" : "poisonarrow",
+  "physics" : "arrow",
+  "frames" : "poisonarrow.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "/interface/statuses/poison.png",
+  "power" : 20,
+  "damageKind" : "bow",
+  "timeToLive" : 30,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ]
+}

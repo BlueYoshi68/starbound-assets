@@ -1,0 +1,26 @@
+{
+  "itemName" : "paintgungreen",
+  "inventoryIcon" : "paintgungreen.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "-todo-",
+  "shortdescription" : "Green Paintgun",
+  "image" : "paintgungreen.png",
+  "handPosition" : [-6, -3],
+  "firePosition" : [12, 0],
+  "recoilTime" : 0.1,
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "fireTime" : 0.18,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "paintballgreen",
+  "projectile" : {
+    "power" : 1.1
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/paintgun1.wav" }, { "file" : "/sfx/gun/paintgun2.wav" }, { "file" : "/sfx/gun/paintgun3.wav" }, { "file" : "/sfx/gun/paintgun4.wav" }, { "file" : "/sfx/gun/paintgun5.wav" } ]
+  }
+}

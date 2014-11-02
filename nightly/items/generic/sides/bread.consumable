@@ -1,0 +1,11 @@
+{
+  "itemName" : "bread",
+  "rarity" : "Common",
+  "inventoryIcon" : "bread.png",
+  "description" : "Mmm, fresh out of the oven.",
+  "shortdescription" : "Bread",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

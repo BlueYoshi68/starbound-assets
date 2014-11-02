@@ -1,0 +1,29 @@
+{
+  "itemName" : "novatier6rifle",
+  "inventoryIcon" : "novatier6rifle.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "-todo-",
+  "shortdescription" : "Almighty Magnetar",
+  "image" : "novatier6rifle.png",
+  "handPosition" : [-4, -1],
+  "firePosition" : [26, 1.5],
+  "recoilTime" : 0.1,
+  "level" : 6,
+  "tooltipKind" : "gun",
+  "fireTime" : 2.0,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "plasma4pink",
+  "projectile" : {
+    "speed" : 75,
+    "life" : 3,
+    "power" : 12
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_sniper3.wav" } ],
+    "animation" : "/animations/muzzleflash/plasmamuzzle3pink/plasmamuzzle3pink.animation"
+  }
+}

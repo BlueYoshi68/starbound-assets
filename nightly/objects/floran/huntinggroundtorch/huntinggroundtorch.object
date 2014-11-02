@@ -1,0 +1,68 @@
+{
+  "objectName" : "huntinggroundtorch",
+  "rarity" : "Common",
+  "description" : "A torch. Illuminates the giant beast about to eat you.",
+  "shortdescription" : "Hunting Ground Torch",
+  "race" : "floran",
+
+  "hydrophobic" : true,
+
+  "apexDescription" : "A torch.",
+  "avianDescription" : "A torch.",
+  "floranDescription" : "Torch.",
+  "glitchDescription" : "Statement. Torch.",
+  "humanDescription" : "A torch.",
+  "hylotlDescription" : "A torch.",
+
+  "category" : "light",
+  "price" : 800,
+
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "statusEffects" : [ ],
+
+  "inventoryIcon" : "huntinggroundtorchicon.png",
+  "orientations" : [
+    {
+      "image" : "huntinggroundtorch.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "huntinggroundtorch.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.wav",
+
+  "animation" : "huntinggroundtorch.animation",
+  "animationParts" : {
+    "bg" : "huntinggroundtorch.png",
+    "fg" : "huntinggroundtorchlit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, 1] ],
+  
+  "interactive" : false
+}

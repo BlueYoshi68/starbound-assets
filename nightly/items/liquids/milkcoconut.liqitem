@@ -1,0 +1,11 @@
+{
+  "itemName" : "liquidmilk",
+  "rarity" : "Common",
+  "inventoryIcon" : "liquidmilkicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Coconut Milk",
+  "description" : "A measure of coconut milk. This taste is amazing.",
+
+  "liquidId" : 9
+  
+}

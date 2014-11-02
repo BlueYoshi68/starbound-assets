@@ -1,0 +1,12 @@
+{
+  "name" : "wellfed",
+  "effectConfig" : {},
+  "defaultDuration" : 300,
+
+  "scripts" : [
+    "wellfed.lua"
+  ],
+
+  "label" : "Well Fed",
+  "icon" : "/interface/statuses/wellfed.png"
+}

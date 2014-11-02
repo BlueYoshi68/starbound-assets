@@ -1,0 +1,10 @@
+{
+  "itemName" : "potato",
+  "rarity" : "Common",
+  "inventoryIcon" : "potatoicon.png",
+  "description" : "Po-ta-to",
+  "shortdescription" : "Potato",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

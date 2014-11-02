@@ -1,0 +1,11 @@
+{
+  "name" : "partytime",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "partytime.lua"
+  ],
+
+  "animationConfig" : "partytime.animation"
+}

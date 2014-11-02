@@ -1,0 +1,10 @@
+{
+  "itemName" : "burger",
+  "rarity" : "Common",
+  "inventoryIcon" : "burger.png",
+  "description" : "A juicy hamburger.",
+  "shortdescription" : "Burger",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

@@ -1,0 +1,193 @@
+{
+  "commandName" : "upgradeBeamaxe5",
+  "onlyOnce" : true,
+  "icon" : "beamaxe.png",
+  "actions" : [
+     { 
+      "action" : "UpdatePlayerEssentialItem",
+      "itemsRequired" : [ ["refinedaegisalt", 3], ["refinedrubium", 3], ["refinedviolium", 3] ],
+      "parameters" : {
+        "blockRadius" : 5,
+        "minBeamWidth" : 5,
+        "maxBeamWidth" : 7,
+        "tileDamage" : 6.5
+      },
+      "essentialItem" : "beamaxe"
+    },
+    {
+      "action" : "DisableCommand",
+      "command" : "upgradeBeamaxe5"
+    }
+  ],
+
+  "speciesText" : {
+    "apex" : {
+      "buttonText" : "Upgrade M. M. - Power IV, Size III",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With 3 refined aegisalt, 3 refined rubium, and 3 refined violium, I could push your matter manipulator to the limit, enabling it to mine an even larger area and boosting its power significantly.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Success! Your matter manipulator has been upgraded.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure. We'll need 3 refined aegisalt, 3 refined rubium, and 3 refined violium to complete this upgrade.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "avian" : {
+      "buttonText" : "Upgrade M. M. - Power IV, Size III",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With 3 refined aegisalt, 3 refined rubium, and 3 refined violium, I could push your matter manipulator to the limit, enabling it to mine an even larger area and boosting its power significantly.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Success! Your matter manipulator has been upgraded.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure. We'll need 3 refined aegisalt, 3 refined rubium, and 3 refined violium to complete this upgrade.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "floran" : {
+      "buttonText" : "Upgrade M. M. - Power IV, Size III",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With 3 refined aegisalt, 3 refined rubium, and 3 refined violium, I could push your matter manipulator to the limit, enabling it to mine an even larger area and boosting its power significantly.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Success! Your matter manipulator has been upgraded.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure. We'll need 3 refined aegisalt, 3 refined rubium, and 3 refined violium to complete this upgrade.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "glitch" : {
+      "buttonText" : "Upgrade M. M. - Power IV, Size III",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With 3 refined aegisalt, 3 refined rubium, and 3 refined violium, I could push your matter manipulator to the limit, enabling it to mine an even larger area and boosting its power significantly.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Success! Your matter manipulator has been upgraded.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure. We'll need 3 refined aegisalt, 3 refined rubium, and 3 refined violium to complete this upgrade.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "human" : {
+      "buttonText" : "Upgrade M. M. - Power IV, Size III",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With 3 refined aegisalt, 3 refined rubium, and 3 refined violium, I could push your matter manipulator to the limit, enabling it to mine an even larger area and boosting its power significantly.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Success! Your matter manipulator has been upgraded.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure. We'll need 3 refined aegisalt, 3 refined rubium, and 3 refined violium to complete this upgrade.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "novakid" : {
+      "buttonText" : "Upgrade M. M. - Power IV, Size III",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With 3 refined aegisalt, 3 refined rubium, and 3 refined violium, I could push your matter manipulator to the limit, enabling it to mine an even larger area and boosting its power significantly.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Success! Your matter manipulator has been upgraded.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure. We'll need 3 refined aegisalt, 3 refined rubium, and 3 refined violium to complete this upgrade.",
+          "speedModifier" : 1.0
+        }
+      ]
+    },
+    "hylotl" : {
+      "buttonText" : "Upgrade M. M. - Power IV, Size III",
+      "selectSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "With 3 refined aegisalt, 3 refined rubium, and 3 refined violium, I could push your matter manipulator to the limit, enabling it to mine an even larger area and boosting its power significantly.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "successSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Success! Your matter manipulator has been upgraded.",
+          "speedModifier" : 1.0
+        }
+      ],
+      "failSpeech" : [
+        {
+          "animation" : "talk",
+          "text" : "Failure. We'll need 3 refined aegisalt, 3 refined rubium, and 3 refined violium to complete this upgrade.",
+          "speedModifier" : 1.0
+        }
+      ]
+    }
+  }
+}

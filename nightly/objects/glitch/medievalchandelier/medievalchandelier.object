@@ -1,0 +1,70 @@
+{
+  "objectName" : "medievalchandelier",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 750,
+
+  "description" : "If this were a videogame, this might fall down and crush someone.",
+  "shortdescription" : "Glitch Chandelier",
+  "race" : "glitch",
+
+  "hydrophobic" : true,
+
+  "apexDescription" : "An iron chandelier. A good way to light a large room.",
+  "avianDescription" : "A way of suspending lights from the ceiling so they reach out across the room.",
+  "floranDescription" : "Hanging fire make Floran nervouss.",
+  "glitchDescription" : "Identify. A Glitch chandelier. One of the few sources of heat within a Glitch castle.",
+  "humanDescription" : "A metal chandelier. It appears to cast long shadows.",
+  "hylotlDescription" : "This chandelier bathes its surroundings in an orange glow.",
+
+  "statusEffects" : [ ],
+    
+  "lightColor" : [179, 149, 107],
+  "lightPosition" : [0, -1],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "medievalchandeliericon.png",
+  "orientations" : [
+
+    {
+      "image" : "medievalchandelier.png:<color>.<frame>",
+      "imagePosition" : [-16, -16],
+      "animationPosition" : [-16, -16],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "medievalchandelier.png:<color>.<frame>",
+      "imagePosition" : [-16, -16],
+      "animationPosition" : [-16, -16],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.wav",
+
+  "animation" : "medievalchandelier.animation",
+  "animationParts" : {
+    "bg" : "medievalchandelier.png",
+    "fg" : "medievalchandelierlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inboundNodes" : [ [0, -1] ],
+  
+  "interactive" : false
+
+}

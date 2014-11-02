@@ -1,0 +1,11 @@
+{
+  "name" : "colorpurple",
+  "effectConfig" : {
+    "color" : "800080"
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "color.lua"
+  ]
+}

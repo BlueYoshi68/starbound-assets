@@ -1,0 +1,23 @@
+{
+  "projectileName" : "chargedpoisonarrow",
+  "physics" : "arrow",
+  "frames" : "chargedpoisonarrow.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "emitters" : [ "poisondrip" ],
+  "damageKindImage" : "/interface/statuses/poison.png",
+  "timeToLive" : 30,
+  "pointLight" : true,
+  "lightColor" : [48, 79, 13],
+  "statusEffects" : [
+    "weakpoison"
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 20,
+  "damageKind" : "bow"
+}

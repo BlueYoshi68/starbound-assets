@@ -1,0 +1,15 @@
+{
+  "projectileName" : "poisonsmoke",
+  "frames" : "poisonsmoke.png",
+  "animationCycle" : 0.9,
+  "frameNumber" : 8,
+  "speed" : 0,
+  "fallSpeed" : 0,
+  "damagePoly" : [ [-4, 24],[4, 24], [4, 0], [-4, 0] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "power" : 0,
+  "universalDamage" : false,
+  "damageKind" : "default"
+}

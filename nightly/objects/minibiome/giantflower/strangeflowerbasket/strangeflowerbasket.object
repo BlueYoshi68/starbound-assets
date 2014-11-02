@@ -1,0 +1,34 @@
+{
+  "objectName" : "strangeflowerbasket",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 800,
+  "description" : "Strange huge flowers, you can hide inside!",
+  "shortdescription" : "Giant flowers",
+  "race" : "none",
+
+  "apexDescription" : "Caution, someone could be hidden behind these flowers.",
+  "avianDescription" : "These flowers looks comfortable.",
+  "floranDescription" : "Florans like to hide in flowersss",
+  "glitchDescription" : "Interested. It might be a Floran bed.",
+  "humanDescription" : "A good place to play Hide and Seek.",
+  "hylotlDescription" : "Big strange flowers. I could try hiding behind these.",
+
+  "inventoryIcon" : "strangeflowerbasketicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "strangeflowerbasket.png:<color>",
+      "imagePosition" : [-24, 0],
+      "sitPosition" : [-6, 22],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "objectType" : "loungeable",
+  "sitCoverImage" : "/objects/minibiome/giantflower/strangeflowerbasket/strangeflowerbasketcover.png",
+  "sitFlipDirection" : false
+}

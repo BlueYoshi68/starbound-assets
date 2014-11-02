@@ -1,0 +1,11 @@
+{
+  "name" : "wet",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "wet.lua"
+  ],
+
+  "animationConfig" : "wet.animation"
+}

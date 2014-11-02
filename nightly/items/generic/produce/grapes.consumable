@@ -1,0 +1,11 @@
+{
+  "itemName" : "grapes",
+  "rarity" : "Common",
+  "inventoryIcon" : "grapesicon.png",
+  "description" : "Grapes, nature's snackfood.",
+  "shortdescription" : "Grapes",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

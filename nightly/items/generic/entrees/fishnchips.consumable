@@ -1,0 +1,10 @@
+{
+  "itemName" : "fishnchips",
+  "rarity" : "Common",
+  "inventoryIcon" : "fishnchips.png",
+  "description" : "Fry all the things! This is an old Earthling favorite.",
+  "shortdescription" : "Fish n Chips",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

@@ -1,0 +1,12 @@
+{
+  "itemName" : "cactiblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "cactiblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "-todo-",
+  "shortdescription" : "Cacti Block",
+  "glitchdescription" : "-todo-",
+  "florandescription" : "-todo-",
+
+  "materialId" : 407
+}

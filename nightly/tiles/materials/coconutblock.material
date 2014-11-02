@@ -1,0 +1,23 @@
+{
+  "materialId" : 111,
+  "materialName" : "coconutblock",
+  "particleColor" : [102, 73, 41, 255],
+  "itemDrop" : "coconutblock",
+  "description" : "Just a block made of coconut.",
+  "shortdescription" : "Coconut block",
+  "glitchDescription" : "Statement. Coconut.",
+  "floranDescription" : "Unssstabbed coco.",
+  "footstepSound" : "/sfx/blocks/footstep_wood.wav",
+  "health" : 6,
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "coconutblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "objectName" : "seashell4",
+  "rarity" : "Common",
+  "category" : "pot",
+  "price" : 400,
+
+  "description" : "-todo-",
+  "shortdescription" : "Seashell",
+  "race" : "apex",
+
+  "apexDescription" : "-todo-",
+  "avianDescription" : "A capsule. Something is inside, I wonder what it is...",
+  "floranDescription" : "Sssmash it open! Get the goodiess insside!",
+  "glitchDescription" : "Destructive. Engage smashing.",
+  "humanDescription" : "I think there's something in there. I can probably break it open.",
+  "hylotlDescription" : "Sometimes force can yield rewards.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "seashell4.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
+  "smashDropOptions" : [
+    [ [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ] ]
+  ]
+}

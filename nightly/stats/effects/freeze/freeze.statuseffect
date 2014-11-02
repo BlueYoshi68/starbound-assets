@@ -1,0 +1,15 @@
+{
+  "name" : "freeze",
+  "effectConfig" : {},
+  "defaultDuration" : 2,
+
+  "scripts" : [
+    "freeze.lua"
+  ],
+
+  "animationConfig" : "freeze.animation",
+
+  "label" : "frozen",
+  "icon" : "/interface/statuses/frozen.png"
+}
+

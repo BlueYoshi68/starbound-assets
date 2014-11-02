@@ -1,0 +1,11 @@
+{
+  "itemName" : "chocolate",
+  "rarity" : "Common",
+  "inventoryIcon" : "chocolate.png",
+  "description" : "Just objectively the best thing ever.",
+  "shortdescription" : "Chocolate",
+  "handPosition" : [8, -4],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

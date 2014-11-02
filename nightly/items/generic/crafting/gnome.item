@@ -1,0 +1,10 @@
+{
+  "itemName" : "gnome",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "gnome.png",
+  "description" : "It's a gnome.",
+  "shortdescription" : "Gnome",
+  "learnBlueprintsOnPickup" : [
+    "bonematerial"
+  ]
+}

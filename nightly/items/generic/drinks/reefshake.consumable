@@ -1,0 +1,13 @@
+{
+  "itemName" : "reefshake",
+  "rarity" : "Common",
+  "inventoryIcon" : "reefshake.png",
+  "description" : "A reefpod milkshake! Kids love it.",
+  "shortdescription" : "Reefshake",
+  "handPosition" : [0, 8],
+  "effects" : [ [
+    "wellfed"
+  ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

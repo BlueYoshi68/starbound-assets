@@ -1,0 +1,22 @@
+{
+  "materialId" : 407,
+  "materialName" : "cactiblock",
+  "particleColor" : [166, 27, 32, 255],
+  "itemDrop" : "cactiblock",
+  "description" : "-todo-.",
+  "shortdescription" : "Cacti Block",
+  "glitchDescription" : "Disgust. A block made of flesh.",
+  "floranDescription" : "Sssquishy meat block.",
+  "footstepSound" : "/sfx/blocks/footstep_grass.wav",
+  "health" : 2,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "cactiblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "materialId" : 409,
+  "materialName" : "petalblock",
+  "particleColor" : [71, 66, 57, 255],
+  "itemDrop" : "petalblock",
+  "description" : "-todo-",
+  "shortdescription" : "Petal Block",
+  "glitchDescription" : "-todo-",
+  "floranDescription" : "Block.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.wav",
+  "health" : 10,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "petalblock.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

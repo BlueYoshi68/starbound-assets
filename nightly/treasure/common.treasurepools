@@ -1,0 +1,707 @@
+{
+  // generic treasure chest contents
+  "basicChestTreasure" : [
+    [0, {
+      "poolRounds" : [
+        [0.05, 1],
+        [0.30, 2],
+        [0.45, 3],
+        [0.15, 4],
+        [0.05, 5]
+      ],
+      "pool" : [
+        {"weight" : 1.0, "pool" : "basicTreasure"}
+      ]
+    }]
+  ],
+
+  "basicTreasure" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.4, "pool" : "chestMoney"},
+        {"weight" : 0.1, "pool" : "ore"},
+        {"weight" : 0.1, "pool" : "food"},
+        {"weight" : 0.1, "pool" : "healingItem"},
+        {"weight" : 0.1, "pool" : "fuel"},
+        {"weight" : 0.05, "pool" : "thrownWeapon"},
+        {"weight" : 0.05, "pool" : "weapon"},
+        {"weight" : 0.03, "pool" : "tool"},
+        {"weight" : 0.03, "pool" : "seed"},
+        {"weight" : 0.02, "pool" : "shield"},
+        {"weight" : 0.01, "pool" : "costume"},
+        {"weight" : 0.01, "pool" : "instrument"}
+      ]
+    }]
+  ],
+
+  "chestMoney" : [
+    [0, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 15]},
+        {"weight" : 0.6, "item" : ["money", 30]},
+        {"weight" : 0.2, "item" : ["money", 50]}
+      ]
+    }],
+    [2, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 30]},
+        {"weight" : 0.6, "item" : ["money", 60]},
+        {"weight" : 0.2, "item" : ["money", 200]}
+      ]
+    }],
+    [4, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 50]},
+        {"weight" : 0.6, "item" : ["money", 100]},
+        {"weight" : 0.2, "item" : ["money", 300]}
+      ]
+    }],
+    [6, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 100]},
+        {"weight" : 0.6, "item" : ["money", 200]},
+        {"weight" : 0.2, "item" : ["money", 500]}
+      ]
+    }]
+  ],
+
+  "money" : [
+    [0, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 5]},
+        {"weight" : 0.6, "item" : ["money", 10]},
+        {"weight" : 0.2, "item" : ["money", 25]}
+      ]
+    }],
+    [2, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 15]},
+        {"weight" : 0.6, "item" : ["money", 30]},
+        {"weight" : 0.2, "item" : ["money", 100]}
+      ]
+    }],
+    [4, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 25]},
+        {"weight" : 0.6, "item" : ["money", 50]},
+        {"weight" : 0.2, "item" : ["money", 150]}
+      ]
+    }],
+    [6, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 50]},
+        {"weight" : 0.6, "item" : ["money", 100]},
+        {"weight" : 0.2, "item" : ["money", 250]}
+      ]
+    }]
+  ],
+
+  "fuel" : [
+    //TODO: add tiers
+    [0, {
+      "poolRounds" : [[0.5, 1], [0.3, 2], [0.1, 3], [0.1, 4]],
+      "pool" : [
+        {"weight" : 1.0, "item" : [ "coalore", 2]}
+      ]
+    }]
+  ],
+
+  "ore" : [
+    //TODO: fix and add tiers
+    [0, {
+      "poolRounds" : [[0.85, 1], [0.1, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.6, "item" : [ "copperore", 4]},
+        {"weight" : 0.3, "item" : [ "ironore", 4]},
+        {"weight" : 0.1, "item" : [ "silverore", 4]}
+      ]
+    }],
+    [2, {
+      "poolRounds" : [[0.85, 1], [0.1, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.5, "item" : [ "ironore", 4]},
+        {"weight" : 0.3, "item" : [ "silverore", 4]},
+        {"weight" : 0.2, "item" : [ "goldore", 4]}
+      ]
+    }],
+    [3, {
+      "poolRounds" : [[0.85, 1], [0.1, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.5, "item" : [ "goldore", 4]},
+        {"weight" : 0.3, "item" : [ "platinumore", 4]},
+        {"weight" : 0.2, "item" : [ "diamondore", 4]}
+      ]
+    }]
+  ],
+
+  "tool" : [
+    //TODO: add tiers
+    [0, {
+      "pool" : [
+        {"weight" : 0.4, "pool" : "diggingTool"},
+
+        {"weight" : 0.5, "item" : [ "torch", 8]},
+
+        {"weight" : 0.03, "item" : [ "stoneaxe", 1]},
+        {"weight" : 0.03, "item" : [ "stonehoe", 1]},
+
+        {"weight" : 0.01, "item" : [ "redflashlight", 1]},
+        {"weight" : 0.01, "item" : [ "greenflashlight", 1]},
+        {"weight" : 0.01, "item" : [ "yellowflashlight", 1]},
+
+        {"weight" : 0.0033, "item" : [ "spawnertools", 1]},
+        {"weight" : 0.0033, "item" : [ "spawnerchef", 1]},
+        {"weight" : 0.0033, "item" : [ "spawnerdoctor", 1]}
+      ]
+    }]
+  ],
+
+  "diggingTool" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.7, "item" : "copperpickaxe"},
+        {"weight" : 0.3, "item" : "silverpickaxe"}
+      ]
+    }],
+    [2, {
+      "pool" : [
+        {"weight" : 0.7, "item" : "silverpickaxe"},
+        {"weight" : 0.3, "item" : "platinumpickaxe"}
+      ]
+    }],
+    [3, {
+      "pool" : [
+        {"weight" : 0.7, "item" : "platinumpickaxe"},
+        {"weight" : 0.3, "item" : "diamondpickaxe"}
+      ]
+    }],
+    [4, {
+      "pool" : [
+        {"weight" : 0.7, "item" : "diamondpickaxe"},
+        {"weight" : 0.3, "item" : "golddrill"}
+      ]
+    }],
+    [5, {
+      "pool" : [
+        {"weight" : 0.7, "item" : "golddrill"},
+        {"weight" : 0.3, "item" : "platinumdrill"}
+      ]
+    }],
+    [6, {
+      "pool" : [
+        {"weight" : 0.7, "item" : "platinumdrill"},
+        {"weight" : 0.3, "item" : "diamonddrill"}
+      ]
+    }],
+    [7, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "diamonddrill"}
+      ]
+    }]
+  ],
+
+  "healingItem" : [
+    //TODO: add tiers?
+    [0, {
+      "pool" : [
+        {"weight" : 0.55, "item" : [ "bandage", 3]},
+        {"weight" : 0.3, "pool" : "stim"},
+        {"weight" : 0.15, "item" : [ "medkit", 1]}
+      ]
+    }]
+  ],
+
+  "stim" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.25, "item" : [ "redstim", 1]},
+        {"weight" : 0.25, "item" : [ "bluestim", 1]},
+        {"weight" : 0.25, "item" : [ "greenstim", 1]},
+        {"weight" : 0.25, "item" : [ "yellowstim", 1]}
+      ],
+      "poolRounds" : [
+        [0.3, 1],
+        [0.4, 2],
+        [0.3, 3]
+      ]
+    }]
+  ],
+
+  "weapon" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.8, "pool" : "commonMelee"},
+        {"weight" : 0.2, "pool" : "uncommonMelee"}
+      ]
+    }],
+    [2, {
+      "pool" : [
+        {"weight" : 0.7, "pool" : "commonMelee"},
+        {"weight" : 0.2, "pool" : "uncommonMelee"},
+        {"weight" : 0.1, "pool" : "uniqueMelee"}
+      ]
+    }],
+    [4, {
+      "pool" : [
+        {"weight" : 0.2, "pool" : "commonMelee"},
+        {"weight" : 0.3, "pool" : "uncommonMelee"},
+        {"weight" : 0.05, "pool" : "uniqueMelee"},
+
+        {"weight" : 0.2, "pool" : "commonGun"},
+        {"weight" : 0.3, "pool" : "uncommonGun"},
+        {"weight" : 0.03, "pool" : "rareGun"},
+        {"weight" : 0.02, "pool" : "legendaryGun"}
+      ]
+    }]
+  ],
+
+  "goodWeapon" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "pool" : "uncommonMelee"}
+      ]
+    }],
+    [2, {
+      "pool" : [
+        {"weight" : 0.7, "pool" : "uncommonMelee"},
+        {"weight" : 0.3, "pool" : "uniqueMelee"}
+      ]
+    }],
+    [4, {
+      "pool" : [
+        {"weight" : 0.4, "pool" : "uncommonMelee"},
+        {"weight" : 0.1, "pool" : "uniqueMelee"},
+
+        {"weight" : 0.4, "pool" : "uncommonGun"},
+        {"weight" : 0.07, "pool" : "rareGun"},
+        {"weight" : 0.03, "pool" : "legendaryGun"}
+      ]
+    }]
+  ],
+
+  "thrownWeapon" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.2, "item" : [ "bomb", 3]},
+        {"weight" : 0.3, "item" : [ "throwingdagger", 10]},
+        {"weight" : 0.3, "item" : [ "javelin", 10]},
+        {"weight" : 0.2, "item" : [ "molotov", 5]}
+      ]
+    }]
+  ],
+
+  "commonMelee" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : [ "generatedsword", 1, { "definition" : "crappybroadsword" } ]},
+        {"weight" : 1.0, "item" : [ "generatedsword", 1, { "definition" : "crappyaxe" } ]},
+        {"weight" : 1.0, "item" : [ "generatedsword", 1, { "definition" : "crappyspear" } ]},
+        {"weight" : 1.0, "item" : [ "generatedsword", 1, { "definition" : "crappyhammer" } ]}
+      ]
+    }],
+    [2, {
+      "pool" : [
+        {"weight" : 1.0, "item" : [ "generatedsword", 1, { "definition" : "tier2broadsword" } ]},
+        {"weight" : 1.0, "item" : [ "generatedsword", 1, { "definition" : "tier2axe" } ]},
+        {"weight" : 1.0, "item" : [ "generatedsword", 1, { "definition" : "tier2spear" } ]},
+        {"weight" : 1.0, "item" : [ "generatedsword", 1, { "definition" : "tier2hammer" } ]},
+        {"weight" : 1.0, "item" : [ "generatedsword", 1, { "definition" : "tier2dagger" } ]},
+        {"weight" : 1.0, "item" : [ "generatedsword", 1, { "definition" : "tier2shortsword" } ]}
+      ]
+    }],
+    [3, {
+      "pool" : [
+        {"weight" : 1.0, "item" : [ "generatedsword", 1, { "definition" : "commonbroadsword" } ]},
+        {"weight" : 1.0, "item" : [ "generatedsword", 1, { "definition" : "commonaxe" } ]},
+        {"weight" : 1.0, "item" : [ "generatedsword", 1, { "definition" : "commonspear" } ]},
+        {"weight" : 1.0, "item" : [ "generatedsword", 1, { "definition" : "commonhammer" } ]},
+        {"weight" : 1.0, "item" : [ "generatedsword", 1, { "definition" : "commondagger" } ]},
+        {"weight" : 1.0, "item" : [ "generatedsword", 1, { "definition" : "commonshortsword" } ]}
+      ]
+    }]
+  ],
+
+  "uncommonMelee" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.09, "item" : [ "generatedsword", 1, { "definition" : "uncommoncrappybroadsword" } ]},
+        {"weight" : 0.09, "item" : [ "generatedsword", 1, { "definition" : "uncommoncrappyaxe" } ]},
+        {"weight" : 0.09, "item" : [ "generatedsword", 1, { "definition" : "uncommoncrappyspear" } ]},
+        {"weight" : 0.09, "item" : [ "generatedsword", 1, { "definition" : "uncommoncrappyhammer" } ]}
+      ]
+    }],
+    [2, {
+      "pool" : [
+        {"weight" : 0.007, "item" : [ "generatedsword", 1, { "definition" : "uncommontier2axe" } ]},
+        {"weight" : 0.007, "item" : [ "generatedsword", 1, { "definition" : "uncommontier2spear" } ]},
+        {"weight" : 0.007, "item" : [ "generatedsword", 1, { "definition" : "uncommontier2hammer" } ]},
+        {"weight" : 0.007, "item" : [ "generatedsword", 1, { "definition" : "uncommontier2dagger" } ]},
+        {"weight" : 0.007, "item" : [ "generatedsword", 1, { "definition" : "uncommontier2shortsword" } ]}
+      ]
+    }],
+    [3, {
+      "pool" : [
+        {"weight" : 0.007, "item" : [ "generatedsword", 1, { "definition" : "uncommonaxe" } ]},
+        {"weight" : 0.007, "item" : [ "generatedsword", 1, { "definition" : "uncommonspear" } ]},
+        {"weight" : 0.007, "item" : [ "generatedsword", 1, { "definition" : "uncommonhammer" } ]},
+        {"weight" : 0.007, "item" : [ "generatedsword", 1, { "definition" : "uncommondagger" } ]},
+        {"weight" : 0.007, "item" : [ "generatedsword", 1, { "definition" : "uncommonshortsword" } ]}
+      ]
+    }]
+  ],
+
+  "commonGun" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.00015, "item" : [ "generatedgun", 1, { "definition" : "commonassaultrifle" } ]},
+        {"weight" : 0.00015, "item" : [ "generatedgun", 1, { "definition" : "commonplasmaassaultrifle" } ]},
+        {"weight" : 0.00015, "item" : [ "generatedgun", 1, { "definition" : "commonshotgun" } ]},
+        {"weight" : 0.00015, "item" : [ "generatedgun", 1, { "definition" : "commonplasmashotgun" } ]},
+        {"weight" : 0.00015, "item" : [ "generatedgun", 1, { "definition" : "commonsniperrifle" } ]},
+        {"weight" : 0.00015, "item" : [ "generatedgun", 1, { "definition" : "commonplasmasniperrifle" } ]},
+        {"weight" : 0.00015, "item" : [ "generatedgun", 1, { "definition" : "commonpistol" } ]},
+        {"weight" : 0.00015, "item" : [ "generatedgun", 1, { "definition" : "commonplasmapistol" } ]},
+        {"weight" : 0.00015, "item" : [ "generatedgun", 1, { "definition" : "commonmachinepistol" } ]},
+        {"weight" : 0.00015, "item" : [ "generatedgun", 1, { "definition" : "commonmachinepistol_plasma" } ]},
+        {"weight" : 0.00015, "item" : [ "generatedgun", 1, { "definition" : "commongrenadelauncher" } ]},
+        {"weight" : 0.00015, "item" : [ "generatedgun", 1, { "definition" : "commonrocketlauncher" } ]},
+        {"weight" : 0.00015, "item" : [ "generatedgun", 1, { "definition" : "revolver" } ]}
+      ]
+    }]
+  ],
+
+  "uncommonGun" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.0005, "item" : [ "generatedgun", 1, { "definition" : "uncommongrenadelauncher" } ]},
+        {"weight" : 0.0005, "item" : [ "generatedgun", 1, { "definition" : "uncommonassaultrifle" } ]},
+        {"weight" : 0.0005, "item" : [ "generatedgun", 1, { "definition" : "uncommonshotgun" } ]},
+        {"weight" : 0.0005, "item" : [ "generatedgun", 1, { "definition" : "uncommonsniperrifle" } ]},
+        {"weight" : 0.0005, "item" : [ "generatedgun", 1, { "definition" : "uncommonpistol" } ]},
+        {"weight" : 0.0005, "item" : [ "generatedgun", 1, { "definition" : "uncommonmachinepistol" } ]},
+        {"weight" : 0.0005, "item" : [ "generatedgun", 1, { "definition" : "uncommonrocketlauncher" } ]}
+      ]
+    }]
+  ],
+
+  "rareGun" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.0003, "item" : [ "generatedgun", 1, { "definition" : "rareassaultrifle" } ]},
+        {"weight" : 0.0003, "item" : [ "generatedgun", 1, { "definition" : "rareplasmaassaultrifle" } ]},
+        {"weight" : 0.0003, "item" : [ "generatedgun", 1, { "definition" : "rareshotgun" } ]},
+        {"weight" : 0.0003, "item" : [ "generatedgun", 1, { "definition" : "rareplasmashotgun" } ]},
+        {"weight" : 0.0003, "item" : [ "generatedgun", 1, { "definition" : "raresniperrifle" } ]},
+        {"weight" : 0.0003, "item" : [ "generatedgun", 1, { "definition" : "rareplasmasniperrifle" } ]},
+        {"weight" : 0.0003, "item" : [ "generatedgun", 1, { "definition" : "rarepistol" } ]},
+        {"weight" : 0.0003, "item" : [ "generatedgun", 1, { "definition" : "rareplasmapistol" } ]},
+        {"weight" : 0.0003, "item" : [ "generatedgun", 1, { "definition" : "raremachinepistol" } ]},
+        {"weight" : 0.0003, "item" : [ "generatedgun", 1, { "definition" : "rareplasmamachinepistol" } ]},
+        {"weight" : 0.0003, "item" : [ "generatedgun", 1, { "definition" : "raregrenadelauncher" } ]},
+        {"weight" : 0.0003, "item" : [ "generatedgun", 1, { "definition" : "rarerocketlauncher" } ]}
+      ]
+    }]
+  ],
+
+  "legendaryGun" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.0001, "item" : [ "generatedgun", 1, { "definition" : "legendarygrenadelauncher" } ]},
+        {"weight" : 0.0001, "item" : [ "generatedgun", 1, { "definition" : "legendaryassaultrifle" } ]},
+        {"weight" : 0.0001, "item" : [ "generatedgun", 1, { "definition" : "legendaryshotgun" } ]},
+        {"weight" : 0.0001, "item" : [ "generatedgun", 1, { "definition" : "legendarysniperrifle" } ]},
+        {"weight" : 0.0001, "item" : [ "generatedgun", 1, { "definition" : "legendarypistol" } ]},
+        {"weight" : 0.0001, "item" : [ "generatedgun", 1, { "definition" : "legendarymachinepistol" } ]},
+        {"weight" : 0.0001, "item" : [ "generatedgun", 1, { "definition" : "legendaryrocketlauncher" } ]}
+      ]
+    }]
+  ],
+
+  "uniqueMelee" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.0010, "item" : [ "generatedsword", 1, { "definition" : "watersword" } ]},
+        {"weight" : 0.0010, "item" : [ "generatedsword", 1, { "definition" : "eyesword" } ]},
+        {"weight" : 0.0010, "item" : [ "generatedsword", 1, { "definition" : "bonehammer" } ]},
+        {"weight" : 0.0015, "item" : [ "generatedsword", 1, { "definition" : "teslaspear" } ]},
+        {"weight" : 0.0015, "item" : [ "generatedsword", 1, { "definition" : "slavesword" } ]},
+        {"weight" : 0.0012, "item" : [ "generatedsword", 1, { "definition" : "starcleaversword" } ]}
+      ]
+    }]
+  ],
+
+  "shield" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.007, "item" : [ "generatedshield", 1, { "definition" : "tier1shield" } ]},
+        {"weight" : 0.007, "item" : [ "generatedshield", 1, { "definition" : "tier1woodshield" } ]}
+      ]
+    }],
+    [2, {
+      "pool" : [
+        {"weight" : 0.011, "item" : [ "generatedshield", 1, { "definition" : "tier2shield" } ]}
+      ]
+    }],
+    [3, {
+      "pool" : [
+        {"weight" : 0.011, "item" : [ "generatedshield", 1, { "definition" : "tierxshield" } ]}
+      ]
+    }]
+  ],
+
+  "seed" : [
+    //TODO: divide by levels
+    [0, {
+      "pool" : [
+        {"weight" : 0.0026, "item" : [ "automatoseed", 3]},
+        {"weight" : 0.0026, "item" : [ "avesmingoseed", 3]},
+        {"weight" : 0.0026, "item" : [ "bananaseed", 3]},
+        {"weight" : 0.0026, "item" : [ "beakseedseed", 3]},
+        {"weight" : 0.0026, "item" : [ "boltbulbseed", 3]},
+        {"weight" : 0.0026, "item" : [ "bonebooseed", 3]},
+        {"weight" : 0.0026, "item" : [ "carrotseed", 3]},
+        {"weight" : 0.0026, "item" : [ "chiliseed", 3]},
+        {"weight" : 0.0026, "item" : [ "coralcreepseed", 3]},
+        {"weight" : 0.0026, "item" : [ "cornseed", 3]},
+        {"weight" : 0.0026, "item" : [ "currentcornseed", 3]},
+        {"weight" : 0.0026, "item" : [ "diodiaseed", 3]},
+        {"weight" : 0.0026, "item" : [ "dirturchinseed", 3]},
+        {"weight" : 0.0026, "item" : [ "eggshootseed", 3]},
+        {"weight" : 0.0026, "item" : [ "feathercrownseed", 3]},
+        {"weight" : 0.0026, "item" : [ "grapesseed", 3]},
+        {"weight" : 0.0026, "item" : [ "kiwiseed", 3]},
+        {"weight" : 0.0026, "item" : [ "pearlpeaseed", 3]},
+        {"weight" : 0.0026, "item" : [ "pineappleseed", 3]},
+        {"weight" : 0.0026, "item" : [ "potatoseed", 3]},
+        {"weight" : 0.0026, "item" : [ "pussplumseed", 3]},
+        {"weight" : 0.0026, "item" : [ "reefpodseed", 3]},
+        {"weight" : 0.0026, "item" : [ "riceseed", 3]},
+        {"weight" : 0.0026, "item" : [ "sugarcaneseed", 3]},
+        {"weight" : 0.0026, "item" : [ "tomatoseed", 3]},
+        {"weight" : 0.0026, "item" : [ "wartweedseed", 3]},
+        {"weight" : 0.0026, "item" : [ "wheatseed", 3]}
+      ]
+    }]
+  ],
+
+  "food" : [
+    //TODO: divide by levels, add buff foods
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "pool" : "produce"}
+      ]
+    }]
+  ],
+
+  "produce" : [
+    //TODO: divide by levels
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "automato"},
+        {"weight" : 1.0, "item" : "avesmingo"},
+        {"weight" : 1.0, "item" : "banana"},
+        {"weight" : 1.0, "item" : "beakseed"},
+        {"weight" : 1.0, "item" : "boltbulb"},
+        {"weight" : 1.0, "item" : "boneboo"},
+        {"weight" : 1.0, "item" : "cacti"},
+        {"weight" : 1.0, "item" : "carrot"},
+        {"weight" : 1.0, "item" : "chili"},
+        {"weight" : 1.0, "item" : "coralcreep"},
+        {"weight" : 1.0, "item" : "corn"},
+        {"weight" : 1.0, "item" : "currentcorn"},
+        {"weight" : 1.0, "item" : "diodia"},
+        {"weight" : 1.0, "item" : "dirturchin"},
+        {"weight" : 1.0, "item" : "egg"},
+        {"weight" : 1.0, "item" : "eggshoot"},
+        {"weight" : 1.0, "item" : "feathercrown"},
+        {"weight" : 1.0, "item" : "grapes"},
+        {"weight" : 1.0, "item" : "greenapple"},
+        {"weight" : 1.0, "item" : "kiwi"},
+        {"weight" : 1.0, "item" : "neonmelon"},
+        {"weight" : 1.0, "item" : "oculemon"},
+        {"weight" : 1.0, "item" : "orange"},
+        {"weight" : 1.0, "item" : "pearlpea"},
+        {"weight" : 1.0, "item" : "pineapple"},
+        {"weight" : 1.0, "item" : "potato"},
+        {"weight" : 1.0, "item" : "pussplum"},
+        {"weight" : 1.0, "item" : "redapple"},
+        {"weight" : 1.0, "item" : "reefpod"},
+        {"weight" : 1.0, "item" : "rice"},
+        {"weight" : 1.0, "item" : "shroom"},
+        {"weight" : 1.0, "item" : "sugar"},
+        {"weight" : 1.0, "item" : "tomato"},
+        {"weight" : 1.0, "item" : "toxictop"},
+        {"weight" : 1.0, "item" : "wartweed"},
+        {"weight" : 1.0, "item" : "wheat"}
+      ]
+    }]
+  ],
+
+  "costume" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.0003, "item" : [ "bananahead", 1]},
+        {"weight" : 0.0003, "item" : [ "captainshead", 1]},
+        {"weight" : 0.0003, "item" : [ "coolfezhead", 1]},
+        {"weight" : 0.0003, "item" : [ "strawberryhead", 1]},
+        {"weight" : 0.0003, "item" : [ "herocaphead", 1]},
+        {"weight" : 0.0003, "item" : [ "bearhead", 1]},
+        {"weight" : 0.0003, "item" : [ "dinosaurhead", 1]},
+        {"weight" : 0.0003, "item" : [ "dress1legs", 1]},
+        {"weight" : 0.0003, "item" : [ "dress1chest", 1]},
+        {"weight" : 0.0003, "item" : [ "winterscarfhead", 1]},
+        {"weight" : 0.0003, "item" : [ "bettychest", 1]},
+        {"weight" : 0.0003, "item" : [ "bettyhead", 1]},
+        {"weight" : 0.0003, "item" : [ "bettylegs", 1]},
+        {"weight" : 0.0003, "item" : [ "buccaneerchest", 1]},
+        {"weight" : 0.0003, "item" : [ "buccaneerhead", 1]},
+        {"weight" : 0.0003, "item" : [ "buccaneerlegs", 1]},
+        {"weight" : 0.0003, "item" : [ "chefhead", 1]},
+        {"weight" : 0.0003, "item" : [ "cheflegs", 1]},
+        {"weight" : 0.0003, "item" : [ "chefchest", 1]},
+        {"weight" : 0.0003, "item" : [ "cowboyhead", 1]},
+        {"weight" : 0.0003, "item" : [ "cowboychest", 1]},
+        {"weight" : 0.0003, "item" : [ "cowboylegs", 1]},
+        {"weight" : 0.0003, "item" : [ "fairyback", 1]},
+        {"weight" : 0.0003, "item" : [ "fairychest", 1]},
+        {"weight" : 0.0003, "item" : [ "fairyhead", 1]},
+        {"weight" : 0.0003, "item" : [ "fairylegs", 1]},
+        {"weight" : 0.0003, "item" : [ "hikerback", 1]},
+        {"weight" : 0.0003, "item" : [ "hikerlegs", 1]},
+        {"weight" : 0.0003, "item" : [ "hikerchest", 1]},
+        {"weight" : 0.0003, "item" : [ "hunterchest", 1]},
+        {"weight" : 0.0003, "item" : [ "hunterlegs", 1]},
+        {"weight" : 0.0003, "item" : [ "jumpsuitlegs", 1]},
+        {"weight" : 0.0003, "item" : [ "jumpsuitchest", 1]},
+        {"weight" : 0.0003, "item" : [ "pilotback", 1]},
+        {"weight" : 0.0003, "item" : [ "pilothead", 1]},
+        {"weight" : 0.0003, "item" : [ "pilotlegs", 1]},
+        {"weight" : 0.0003, "item" : [ "pilotchest", 1]},
+        {"weight" : 0.0003, "item" : [ "piratelegs", 1]},
+        {"weight" : 0.0003, "item" : [ "piratehead", 1]},
+        {"weight" : 0.0003, "item" : [ "piratechest", 1]},
+        {"weight" : 0.0003, "item" : [ "pirateback", 1]},
+        {"weight" : 0.0003, "item" : [ "pixelherodemoback", 1]},
+        {"weight" : 0.0003, "item" : [ "pixelherodemolegs", 1]},
+        {"weight" : 0.0003, "item" : [ "pixelherodemochest", 1]},
+        {"weight" : 0.0003, "item" : [ "plaguedoctorhead", 1]},
+        {"weight" : 0.0003, "item" : [ "scientistchest", 1]},
+        {"weight" : 0.0003, "item" : [ "scientisthead", 1]},
+        {"weight" : 0.0003, "item" : [ "scientistlegs", 1]},
+        {"weight" : 0.0003, "item" : [ "skullmaskhead", 1]},
+        {"weight" : 0.0003, "item" : [ "startracklegs", 1]},
+        {"weight" : 0.0003, "item" : [ "startrackchest", 1]},
+        {"weight" : 0.0003, "item" : [ "strapchest", 1]},
+        {"weight" : 0.0003, "item" : [ "straplegs", 1]},
+        {"weight" : 0.0003, "item" : [ "tvhelmethead", 1]},
+        {"weight" : 0.0003, "item" : [ "wedding1chest", 1]},
+        {"weight" : 0.0003, "item" : [ "wedding1legs", 1]},
+        {"weight" : 0.0003, "item" : [ "wedding2head", 1]},
+        {"weight" : 0.0003, "item" : [ "wedding2chest", 1]},
+        {"weight" : 0.0003, "item" : [ "wedding2legs", 1]},
+        {"weight" : 0.0003, "item" : [ "wizardhead", 1]},
+        {"weight" : 0.0003, "item" : [ "wizardlegs", 1]},
+        {"weight" : 0.0003, "item" : [ "wizardback", 1]},
+        {"weight" : 0.0003, "item" : [ "wizardchest", 1]},
+        {"weight" : 0.0003, "item" : [ "caphead", 1]},
+        {"weight" : 0.0003, "item" : [ "cardboardhead", 1]},
+        {"weight" : 0.0003, "item" : [ "devhead", 1]},
+        {"weight" : 0.0003, "item" : [ "floppyhathead", 1]},
+        {"weight" : 0.0003, "item" : [ "glasses1head", 1]},
+        {"weight" : 0.0003, "item" : [ "glasses2head", 1]},
+        {"weight" : 0.0003, "item" : [ "hobohead", 1]},
+        {"weight" : 0.0003, "item" : [ "horsehead", 1]},
+        {"weight" : 0.0003, "item" : [ "kathoodhead", 1]},
+        {"weight" : 0.0003, "item" : [ "ladyhathead", 1]},
+        {"weight" : 0.0003, "item" : [ "plainhoodhead", 1]},
+        {"weight" : 0.0003, "item" : [ "sharkhead", 1]},
+        {"weight" : 0.0003, "item" : [ "tophathead", 1]},
+        {"weight" : 0.0003, "item" : [ "ushankahead", 1]},
+        {"weight" : 0.0003, "item" : [ "venetianmaskhead", 1]}
+      ]
+    }]
+  ],
+
+  "instrument" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.0007, "item" : [ "accordion", 1]},
+        {"weight" : 0.0008, "item" : [ "acousticguitar", 1]},
+        {"weight" : 0.0007, "item" : [ "banjo", 1]},
+        {"weight" : 0.0007, "item" : [ "bassguitar", 1]},
+        {"weight" : 0.0008, "item" : [ "brightpiano", 1]},
+        {"weight" : 0.0008, "item" : [ "bones", 1]},
+        {"weight" : 0.0007, "item" : [ "clarinet", 1]},
+        {"weight" : 0.0007, "item" : [ "drumkit", 1]},
+        {"weight" : 0.0007, "item" : [ "dulcimer", 1]},
+        {"weight" : 0.0007, "item" : [ "electricbass", 1]},
+        {"weight" : 0.0007, "item" : [ "flute", 1]},
+        {"weight" : 0.0008, "item" : [ "harmonica", 1]},
+        {"weight" : 0.0007, "item" : [ "harp", 1]},
+        {"weight" : 0.0007, "item" : [ "koto", 1]},
+        {"weight" : 0.0007, "item" : [ "leadguitar", 1]},
+        {"weight" : 0.0007, "item" : [ "microphone", 1]},
+        {"weight" : 0.0007, "item" : [ "musicbox", 1]},
+        {"weight" : 0.0008, "item" : [ "nylonguitar", 1]},
+        {"weight" : 0.0007, "item" : [ "oboe", 1]},
+        {"weight" : 0.0007, "item" : [ "ocarina", 1]},
+        {"weight" : 0.0007, "item" : [ "overdriveguitar", 1]},
+        {"weight" : 0.0008, "item" : [ "piano", 1]},
+        {"weight" : 0.0007, "item" : [ "reedorgan", 1]},
+        {"weight" : 0.0007, "item" : [ "rockorgan", 1]},
+        {"weight" : 0.0007, "item" : [ "saxophone", 1]},
+        {"weight" : 0.0007, "item" : [ "steeldrum", 1]},
+        {"weight" : 0.0008, "item" : [ "trumpet", 1]},
+        {"weight" : 0.0008, "item" : [ "violin", 1]},
+        {"weight" : 0.0001, "item" : [ "jukebox", 1]}
+      ]
+    }]
+  ],
+
+  "techTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.33, "item" : "doublejumpTech-chip"},
+        {"weight" : 0.33, "item" : "dashTech-chip"}
+      ],
+      "allowDuplication" : false
+    }],
+
+    [2, {
+      "pool" : [
+        {"weight" : 0.33, "item" : "doublejumpTech-chip"},
+        {"weight" : 0.33, "item" : "dashTech-chip"},
+        {"weight" : 0.33, "item" : "hoverTech-chip"},
+        {"weight" : 0.33, "item" : "rocketjump-chip"},
+        {"weight" : 0.33, "item" : "morphballTech-chip"},
+        {"weight" : 0.33, "item" : "jetpackTech-chip"},
+        {"weight" : 0.33, "item" : "butterflyboost-chip"}
+      ],
+      "allowDuplication" : false
+    }],
+
+    [3, {
+      "pool" : [
+        {"weight" : 0.33, "item" : "humanMechTech-chip"},
+        {"weight" : 0.33, "item" : "targetblinktech-chip"},
+        {"weight" : 0.33, "item" : "bubbleboost-chip"},
+        {"weight" : 0.33, "item" : "doublejumpTech-chip"},
+        {"weight" : 0.33, "item" : "dashTech-chip"},
+        {"weight" : 0.33, "item" : "hoverTech-chip"},
+        {"weight" : 0.33, "item" : "rocketjump-chip"},
+        {"weight" : 0.33, "item" : "morphballTech-chip"},
+        {"weight" : 0.33, "item" : "jetpackTech-chip"},
+        {"weight" : 0.33, "item" : "butterflyboost-chip"}
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+}

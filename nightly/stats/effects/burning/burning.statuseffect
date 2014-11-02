@@ -1,0 +1,14 @@
+{
+  "name" : "burning",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "burning.lua"
+  ],
+
+  "animationConfig" : "burning.animation",
+
+  "label" : "burning",
+  "icon" : "/interface/statuses/fire.png"
+}

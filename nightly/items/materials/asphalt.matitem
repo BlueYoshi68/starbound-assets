@@ -1,0 +1,12 @@
+{
+  "itemName" : "asphalt",
+  "rarity" : "Common",
+  "inventoryIcon" : "asphalt.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "-todo-",
+  "shortdescription" : "Asphalt",
+  "glitchdescription" : "-todo-",
+  "florandescription" : "-todo-",
+
+  "materialId" : 408
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "cornontheblob",
+  "rarity" : "Common",
+  "inventoryIcon" : "cornontheblob.png",
+  "description" : "Your standard ear of sweetcorn, but with dirturchin spread on top. Mmm!",
+  "shortdescription" : "Corn on the Blob",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

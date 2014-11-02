@@ -1,0 +1,11 @@
+{
+  "itemName" : "neonmelon",
+  "rarity" : "Common",
+  "inventoryIcon" : "neonmelon.png",
+  "description" : "A neonmelon",
+  "shortdescription" : "neonmelon",
+  "handPosition" : [-8, 0],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

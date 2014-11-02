@@ -1,0 +1,30 @@
+{
+  "itemName" : "novatier8revolver",
+  "inventoryIcon" : "novatier8revolver.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "-todo-",
+  "shortdescription" : "The Good",
+  "image" : "novatier8revolver.png",
+  "handPosition" : [-3, -4],
+  "firePosition" : [13, 0.5],
+  "recoilTime" : 0.1,
+  "level" : 6,
+  "tooltipKind" : "gun",
+  "fireTime" : 1.25,
+  "twoHanded" : false,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "plasma4green",
+  "projectile" : {
+    "speed" : 75,
+    "life" : 3,
+    "power" : 7.5,
+    "color" : [255, 10, 10]
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_ar2.wav" } ],
+    "animation" : "/animations/muzzleflash/plasmamuzzle3green/plasmamuzzle3green.animation"
+  }
+}

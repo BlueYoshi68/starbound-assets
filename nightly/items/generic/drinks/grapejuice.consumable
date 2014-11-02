@@ -1,0 +1,12 @@
+{
+  "itemName" : "grapejuice",
+  "rarity" : "Common",
+  "inventoryIcon" : "grapejuice.png",
+  "description" : "A sweet juice made of grapes.",
+  "shortdescription" : "Grape Juice",
+  "effects" : [ [
+    "wellfed"
+  ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

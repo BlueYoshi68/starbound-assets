@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "snowflake", "count" : 20 },
+    { "item" : "platinumbar", "count" : 5 }
+  ],
+  "output" : { "item" : "generatedshield", "count" : 1, "data" : { "definition" : "frostshield", "level" : 3 } },
+  "groups" : [ "metalworkstation", "armor", "all" ]
+}

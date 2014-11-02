@@ -1,0 +1,67 @@
+{
+  "objectName" : "medievallamp",
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 300,
+
+  "description" : "An oil lamp. It gives off some warmth.",
+  "shortdescription" : "Medieval Lamp",
+  "race" : "glitch",
+
+  "apexDescription" : "A small iron lamp.",
+  "avianDescription" : "An iron lamp built to hang on a hook.",
+  "floranDescription" : "Fire in a cage. Floran like.",
+  "glitchDescription" : "Educate. This lamp is built to hang on a hook outside a dungeon cell, to keep a guard's hands free.",
+  "humanDescription" : "A little iron lamp. The loop on top is made for a hook.",
+  "hylotlDescription" : "A portable lamp that can be hung on the wall.",
+
+  "statusEffects" : [ ],
+    
+  "lightColor" : [179, 149, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "medievallampicon.png",
+  "orientations" : [
+
+    {
+      "image" : "medievallamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "medievallamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/oillantern.wav",
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "medievallamp.png",
+    "fg" : "medievallamplit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : true,
+
+  "inboundNodes" : [ [0, 0] ]
+
+}

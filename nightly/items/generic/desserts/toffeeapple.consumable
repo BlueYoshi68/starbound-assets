@@ -1,0 +1,11 @@
+{
+  "itemName" : "toffeeapple",
+  "rarity" : "Common",
+  "inventoryIcon" : "toffeeapple.png",
+  "description" : "An apple slathered in toffee.",
+  "shortdescription" : "Toffee Apple",
+  "handPosition" : [-6, 0],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

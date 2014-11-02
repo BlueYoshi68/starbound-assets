@@ -1,0 +1,90 @@
+{
+  "objectName" : "statuspod",
+  "rarity" : "Common",
+
+  "category" : "--todo--",
+  "price" : 0,
+  "description" : "A status pod. Take your chances...",
+  "shortdescription" : "Status Pod",
+  "race" : "generic",
+
+  "apexDescription" : "A status pod. Will I be lucky?",
+  "avianDescription" : "A status pod. I hope I get lucky.",
+  "floranDescription" : "Floran trigger little pot with reckless abandon.",
+  "glitchDescription" : "Analysis. This status pod's effects are unable to be analysed.",
+  "humanDescription" : "Ooh, a lucky dip!",
+  "hylotlDescription" : "I bet something bad happens.",
+
+  "inventoryIcon" : "statuspodicon.png",
+  "lightColor" : [120, 120, 120],
+
+  "orientations" : [
+    {
+      "dualImage" : "statuspod.png:default",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/generic/statuspod/statuspod.lua" ],
+  "scriptDelta" : 10,
+
+  "animation" : "/objects/generic/statuspod/statuspod.animation",
+  "animationParts" : {
+    "pod" : "statuspod.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "useSounds" : [ "/sfx/objects/bardoor_open.wav" ],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "breakDropOptions" : [ ],
+
+  "projectileOptions" : [
+    {
+      "projectileType" : "healingstatusprojectile",
+      "projectileParams" : { }
+    },
+    {
+      "projectileType" : "fasthealingstatusprojectile",
+      "projectileParams" : { }
+    },
+    {
+      "projectileType" : "burningstatusprojectile",
+      "projectileParams" : { }
+    },
+    {
+      "projectileType" : "poisonstatusprojectile",
+      "projectileParams" : { }
+    },
+    {
+      "projectileType" : "runstatusprojectile",
+      "projectileParams" : { }
+    },
+    {
+      "projectileType" : "glowstatusprojectile",
+      "projectileParams" : { }
+    },
+    {
+      "projectileType" : "levitationstatusprojectile",
+      "projectileParams" : { }
+    },
+    {
+      "projectileType" : "ragestatusprojectile",
+      "projectileParams" : { }
+    },
+    {
+      "projectileType" : "lowgravstatusprojectile",
+      "projectileParams" : { }
+    },
+    {
+      "projectileType" : "bouncystatusprojectile",
+      "projectileParams" : { }
+    }
+  ],
+  "activationTime" : 600
+}

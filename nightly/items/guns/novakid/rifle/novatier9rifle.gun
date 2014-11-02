@@ -1,0 +1,29 @@
+{
+  "itemName" : "novatier9rifle",
+  "inventoryIcon" : "novatier9rifle.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "-todo-",
+  "shortdescription" : "Sunblaster",
+  "image" : "novatier9rifle.png",
+  "handPosition" : [-8, -1],
+  "firePosition" : [18, 1.5],
+  "recoilTime" : 0.1,
+  "level" : 5,
+  "tooltipKind" : "gun",
+  "fireTime" : 2.0,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "yellowplasmabullet",
+  "projectile" : {
+    "speed" : 75,
+    "life" : 3,
+    "power" : 12
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_sniper1.wav" } ],
+    "animation" : "/animations/muzzleflash/plasmamuzzle4yellow/plasmamuzzle4yellow.animation"
+  }
+}

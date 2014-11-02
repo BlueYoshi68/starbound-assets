@@ -1,0 +1,115 @@
+{
+  "type" : "outpostavianrefugee",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                      "I almost became a ritual sacrifice to Kluex, but was rescued and brought here. What do I do now?"
+                ],
+            
+                "avian" : {
+                    "default" : [
+                      "I almost became a ritual sacrifice to Kluex, but was rescued and brought here. What do I do now?"
+                    ],
+
+                    "avian" : [
+                      "Another who no longer follows Kluex? Your presence brings me comfort, friend."
+                    ],
+
+                    "apex" : [
+                      "I almost became a ritual sacrifice to Kluex, but was rescued and brought here. What do I do now?"
+                    ],
+
+                    "floran" : [
+                      "I almost became a ritual sacrifice to Kluex, but was rescued and brought here. What do I do now?"
+                    ],
+
+                    "glitch" : [
+                      "I almost became a ritual sacrifice to Kluex, but was rescued and brought here. What do I do now?"
+                    ],
+
+                    "human" : [
+                      "I almost became a ritual sacrifice to Kluex, but was rescued and brought here. What do I do now?"
+                    ],
+
+                    "hylotl" : [
+                      "I almost became a ritual sacrifice to Kluex, but was rescued and brought here. What do I do now?"
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "chest" : [ { "name" : "aviancommonershirt", "parameters" : { "colorIndex" : 11 } } ],
+                    "legs" : [ { "name" : "hylotltier4pants", "parameters" : { "colorIndex" : 11 } } ]
+                }
+            ] ]
+        ]
+    },
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "targetMaterialKind" : "organic"
+    },
+
+    "persistentEffectCategories" : [
+      "innate",
+      "armor",
+      "tools",
+      "lounging"
+    ],
+
+    "primaryScriptSources" : [
+      "/stats/npc_primary.lua"
+    ],
+    "primaryScriptDelta" : 5,
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 40.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 40.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 0.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      },
+      "energyRegen" : {
+        "baseValue" : 100.0
+      },
+      "shieldSuppressed" : {
+        "baseValue" : 0.0
+      },
+      "invulnerable" : {
+        "baseValue" : 0.0
+      }
+    },
+
+    "resources" : {
+      "health" : {
+        "maxStat" : "maxHealth",
+        "deltaStat" : "healthRegen",
+        "defaultPercentage" : 100
+      },
+      "energy" : {
+        "maxStat" : "maxEnergy",
+        "deltaStat" : "energyRegen",
+        "defaultPercentage" : 100
+      }
+    }
+  }
+}

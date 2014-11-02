@@ -1,0 +1,9 @@
+{
+  "itemName" : "reed",
+  "rarity" : "Common",
+  "inventoryIcon" : "reed.png",
+  "description" : "A bunch of cut reeds.",
+  "shortdescription" : "Reed",
+
+  "learnBlueprintsOnPickup" : [ "reedblock" ]
+}

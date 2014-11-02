@@ -1,0 +1,12 @@
+{
+  "itemName" : "eyepiles",
+  "rarity" : "common",
+  "inventoryIcon" : "eyepiles.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Pile of Eyes",
+  "description" : "-todo-",
+  "glitchdescription" : "Studying. A pile of very interesting tomes.",
+  "florandescription" : "Floran will try to read all books.",
+
+  "materialId" : 550
+}

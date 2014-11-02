@@ -1,0 +1,23 @@
+{
+  "name" : "thorns",
+  "effectConfig" : {
+    "range" : 3,
+    "minRange" : 0.5,
+
+    "projectileCount" : 20,
+    "projectileType" : "armorthorns",
+    "projectileSpeed" : 20,
+    "damageMultiplier" : 0.01,
+
+    "cooldown" : 5,
+    "thornsDuration" : 0.2
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "thorns.lua"
+  ],
+
+  "label" : "thorns",
+  "icon" : "/interface/statuses/thorns.png"
+}

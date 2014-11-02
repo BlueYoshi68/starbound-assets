@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "petalred", "count" : 20 },
+    { "item" : "rainbowwood", "count" : 10 }
+  ],
+  "output" : { "item" : "crayonredback", "count" : 1 },
+  "groups" : [ "craftingtable", "armors", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "candyapple",
+  "rarity" : "Common",
+  "inventoryIcon" : "candyapple.png",
+  "description" : "All the nutritious value of an apple masked by globs of sweet, sweet sugar.",
+  "shortdescription" : "Candy Apple",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

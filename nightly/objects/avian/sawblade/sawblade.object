@@ -1,0 +1,99 @@
+{
+  "objectName" : "sawblade",
+  "rarity" : "Common",
+  "description" : "Wow, this looks sharp!",
+  "shortdescription" : "Sawblade Trap",
+  "race" : "avian",
+  "category" : "other",
+  "price" : 2000,
+
+  "apexDescription" : "Looks sharp.",
+  "avianDescription" : "Avians protect their tombs.",
+  "floranDescription" : "Sssharp. Floran must avoid.",
+  "glitchDescription" : "Trepidation. This appears to be spinning at four thousand RPM.",
+  "humanDescription" : "Woah, I have to be careful here.",
+  "hylotlDescription" : "I'm not keen to become sushi.",
+
+  "inventoryIcon" : "sawbladeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "sawbladeground.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 3,
+      "animationCycle" : 0.2,
+
+      "spaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 1], [-1, 1], [0, 1], [1, 1] ],
+      "anchors" : [ "bottom" ],
+
+          "touchDamage" : {
+            "poly" : [ [-1.8, 0.3], [-0.8, 2.0], [0.8, 2.0], [1.8, 0.3] ],
+            "damage" : 80,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "sawblade"
+          }
+    },
+
+    {
+      "dualImage" : "sawbladeceiling.png:<color>.<frame>",
+
+      "imagePosition" : [-16, -8],
+      "frames" : 3,
+      "animationCycle" : 0.2,
+
+      "spaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [-2, -1], [-1, -1], [0, -1], [1, -1] ],
+      "anchors" : [ "top" ],
+
+          "touchDamage" : {
+            "poly" : [ [-1.8, 0.7], [-0.8, -1.0], [0.8, -1.0], [1.8, 0.7] ],
+            "damage" : 80,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "sawblade"
+          }
+    },
+
+    {
+      "image" : "sawbladeleft.png:<color>.<frame>",
+
+      "imagePosition" : [0, -16],
+      "frames" : 3,
+      "animationCycle" : 0.2,
+
+      "spaces" : [ [1, 1], [0, 1], [1, 0], [0, 0], [1, -1], [0, -1], [1, -2], [0, -2] ],
+      "anchors" : [ "left" ],
+
+          "touchDamage" : {
+            "poly" : [ [0.3, 2.0], [2, 0.8], [2, -0.8], [0.3, -2.0] ],
+            "damage" : 80,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "sawblade"
+          }
+    },
+
+    {
+      "image" : "sawbladeright.png:<color>.<frame>",
+
+      "imagePosition" : [-8, -16],
+      "frames" : 3,
+      "animationCycle" : 0.2,
+
+      "spaces" : [ [-1, 1], [0, 1], [-1, 0], [0, 0], [-1, -1], [0, -1], [-1, -2], [0, -2] ],
+      "anchors" : [ "right" ],
+
+          "touchDamage" : {
+            "poly" : [ [0.7, 2.0], [-1, 0.8], [-1, -0.8], [0.7, -2.0] ],
+            "damage" : 80,
+
+            "damageType" : "IgnoresDef",
+            "damageSourceKind" : "sawblade"
+          }
+    }
+  ],
+
+  //mollys first object (note: it was actually oven1, this is molly's first copy paste derp)
+
+  "soundEffect" : "/sfx/objects/sawblade.wav"
+}

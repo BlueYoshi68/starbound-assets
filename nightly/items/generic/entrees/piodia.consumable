@@ -1,0 +1,11 @@
+{
+  "itemName" : "piodia",
+  "rarity" : "Common",
+  "inventoryIcon" : "piodia.png",
+  "description" : "A variation on pizzap- it's got a more coppery tang.",
+  "shortdescription" : "Piodia",
+  "handPosition" : [-2, 4],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

@@ -1,0 +1,78 @@
+{
+  "name" : "minivillage",
+  "friendlyName" : "Mini Village",
+
+  "requiredStatuses" : [ ],
+  "spawnProfiles" : [ "undergroundmix1", "undergroundmix2", "undergroundmix3" ],
+
+  "mainBlock" : "fadedblocks",
+  "subBlocks" : [ "rock19", "rock02" ],
+  "ores" : "depth2",
+
+  "statusParameters" : {
+    "temperatureBounds" : [10, 30],
+    "dayNightTemperatureVariability" : 3,
+    "temperatureVariability" : 3
+  },
+
+  "undergroundAmbientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/desert_underground.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/desert_underground.ogg" ]
+    }
+  },
+
+  "undergroundMusicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/planetarium.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vastimmortalsuns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/M54.ogg", "/music/on-the-beach-at-night.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-Disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/M54.ogg", "/music/Nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+    }
+  },
+
+  "undergroundPlaceables" : {
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 11,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.1, "smallclocktower" ], [0.15, "smallhouse1" ], [0.15, "smallhouse2" ], [0.15, "smallhouse3" ], [0.15, "smallhouse3" ], [0.15, "smallhouse4" ], [0.15, "smallhouse5" ], [0.15, "smallhouse6" ], [0.15, "smallhouse7" ], [0.15, "smallhouse8" ], [0.15, "smallhouse9" ], [0.15, "smallhouse10" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1.0, "smalllamppost" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  },
+
+  "hueShiftOptions" : [0],
+  "undergroundParallax" : "minivillage.undergroundparallax",
+
+  "sky" : {
+    "topColor" : [182, 204, 255],
+    "bottomColor" : [224, 239, 255],
+    "nightTopColor" : [0, 0, 30],
+    "nightBottomColor" : [0, 0, 0]
+  }
+}

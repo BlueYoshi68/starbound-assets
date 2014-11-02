@@ -1,0 +1,10 @@
+{
+  "itemName" : "bananacon",
+  "rarity" : "Common",
+  "inventoryIcon" : "bananacon.png",
+  "description" : "With bacon, a banana and some wizardry, you get...bananacon.",
+  "shortdescription" : "Bananacon",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

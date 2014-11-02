@@ -1,0 +1,27 @@
+{
+  "itemName" : "blowgun",
+  "inventoryIcon" : "blowgun.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "-todo-",
+  "shortdescription" : "Blowgun",
+  "image" : "blowgun.png",
+  "handPosition" : [-4, -4],
+  "firePosition" : [16, 0],
+  "recoilTime" : 0.1,
+  "level" : 2,
+  "tooltipKind" : "gun",
+  "fireTime" : 1.25,
+  "twoHanded" : true,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "blowdart",
+  "projectile" : {
+    "speed" : 60,
+    "power" : 6
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/blowgun1.wav" }, { "file" : "/sfx/gun/blowgun2.wav" }, { "file" : "/sfx/gun/blowgun3.wav" } ]
+  }
+}

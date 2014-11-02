@@ -1,0 +1,21 @@
+{
+  "projectileName" : "throwingbone",
+  "frames" : "throwingbone.png",
+  "frameNumber" : 8,
+  "animationCycle" : 0.5,
+  "physics" : "grenade",
+  "bounces" : 2,
+  "pointLight" : false,
+  "speed" : 30,
+  "power" : 5.0,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/throwable/throwingbones/boneimpact.config"
+    }
+  ],
+  "damageKind" : "hammer",
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ]
+}
+
+

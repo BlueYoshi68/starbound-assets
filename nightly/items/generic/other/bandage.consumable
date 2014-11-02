@@ -1,0 +1,14 @@
+{
+  "itemName" : "bandage",
+  "rarity" : "Common",
+  "inventoryIcon" : "bandage.png",
+  "description" : "A bandage for healing minor wounds.",
+  "shortdescription" : "Bandage",
+  "effects" : [ [
+      {
+        "effect" : "bandage1"
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ]
+}

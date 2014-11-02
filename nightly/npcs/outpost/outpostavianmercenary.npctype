@@ -1,0 +1,116 @@
+{
+  "type" : "outpostavianmercenary",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                      "I once served the Stargazers, until I came to realize that I no longer agreed with their views."
+                ],
+            
+                "avian" : {
+                    "default" : [
+                      "I once served the Stargazers, until I came to realize that I no longer agreed with their views."
+                    ],
+
+                    "avian" : [
+                      "You need not fear the wrath of the Stargazers in this place, my friend."
+                    ],
+
+                    "apex" : [
+                      "I once served the Stargazers, until I came to realize that I no longer agreed with their views."
+                    ],
+
+                    "floran" : [
+                      "Many among my people despise your kind, but I think the tenacity of the Floran is worthy of praise."
+                    ],
+
+                    "glitch" : [
+                      "I once served the Stargazers, until I came to realize that I no longer agreed with their views."
+                    ],
+
+                    "human" : [
+                      "I once served the Stargazers, until I came to realize that I no longer agreed with their views."
+                    ],
+
+                    "hylotl" : [
+                      "I once served the Stargazers, until I came to realize that I no longer agreed with their views."
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "chest" : [ { "name" : "aviantier3chest", "parameters" : { "colorIndex" : 6 } } ],
+                    "legs" : [ { "name" : "apextier8pants", "parameters" : { "colorIndex" : 11 } } ],
+                    "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } } ]
+                }
+            ] ]
+        ]
+    },
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "targetMaterialKind" : "organic"
+    },
+
+    "persistentEffectCategories" : [
+      "innate",
+      "armor",
+      "tools",
+      "lounging"
+    ],
+
+    "primaryScriptSources" : [
+      "/stats/npc_primary.lua"
+    ],
+    "primaryScriptDelta" : 5,
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 40.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 40.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 0.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      },
+      "energyRegen" : {
+        "baseValue" : 100.0
+      },
+      "shieldSuppressed" : {
+        "baseValue" : 0.0
+      },
+      "invulnerable" : {
+        "baseValue" : 0.0
+      }
+    },
+
+    "resources" : {
+      "health" : {
+        "maxStat" : "maxHealth",
+        "deltaStat" : "healthRegen",
+        "defaultPercentage" : 100
+      },
+      "energy" : {
+        "maxStat" : "maxEnergy",
+        "deltaStat" : "energyRegen",
+        "defaultPercentage" : 100
+      }
+    }
+  }
+}

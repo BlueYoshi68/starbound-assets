@@ -1,0 +1,74 @@
+{
+  "starterTreasure" : [
+    [0, {
+      "fill" : [
+        {"item" : "flashlight"},
+        {"item" : [ "torch", 10 ]},
+        {"item" : [ "wheatseed", 6]}
+      ]
+    }]
+  ],
+
+  "avianStarterTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "starterTreasure"},
+        {"item" : [ "avianstarter", 1]}
+      ]
+    }]
+  ],
+
+  "apexStarterTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "starterTreasure"},
+        {"item" : [ "apexstarter", 1]}
+      ]
+    }]
+  ],
+
+  "humanStarterTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "starterTreasure"},
+        {"item" : [ "humanstarter", 1]}
+      ]
+    }]
+  ],
+
+  "glitchStarterTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "starterTreasure"},
+        {"item" : [ "glitchstarter", 1]}
+      ]
+    }]
+  ],
+
+  "hylotlStarterTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "starterTreasure"},
+        {"item" : [ "hylotlstarter", 1]}
+      ]
+    }]
+  ],
+
+  "floranStarterTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "starterTreasure"},
+        {"item" : [ "floranstarter", 1]}
+      ]
+    }]
+  ],
+
+  "novakidStarterTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "starterTreasure"},
+        {"item" : [ "rustyrevolver", 1]}
+      ]
+    }]
+  ]
+}

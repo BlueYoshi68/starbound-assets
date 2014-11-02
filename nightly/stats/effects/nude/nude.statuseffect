@@ -1,0 +1,12 @@
+{
+  "name" : "nude",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "nude.lua"
+  ],
+
+  "label" : "nude",
+  "icon" : "/interface/statuses/nude.png"
+}

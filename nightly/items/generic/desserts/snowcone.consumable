@@ -1,0 +1,10 @@
+{
+  "itemName" : "snowcone",
+  "rarity" : "Common",
+  "inventoryIcon" : "snowcone.png",
+  "description" : "-todo-",
+  "shortdescription" : "Snowcone",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

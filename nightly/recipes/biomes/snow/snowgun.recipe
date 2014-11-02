@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "platinumbar", "count" : 10 },
+    { "item" : "snow", "count" : 5 },
+    { "item" : "glassmaterial", "count" : 5 }
+  ],
+  "output" : { "item" : "snowgun", "count" : 1 },
+  "groups" : [ "metalworkstation", "weapons", "all" ]
+}

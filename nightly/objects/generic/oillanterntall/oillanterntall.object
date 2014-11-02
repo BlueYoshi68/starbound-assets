@@ -1,0 +1,56 @@
+{
+  "objectName" : "oillanterntall",
+  "rarity" : "Common",
+  "description" : "It's an oil lantern on a stick.",
+  "shortdescription" : "Standing Oil Lamp",
+  "race" : "generic",
+  "category" : "light",
+  "price" : 800,
+
+  "apexDescription" : "The height of this lamp sends the light much further.",
+  "avianDescription" : "A lamp built to light a large area.",
+  "floranDescription" : "Floran feel ssafe with light sso high up.",
+  "glitchDescription" : "Inspiration. Such a lamp would light a Glitch courtyard nicely.",
+  "humanDescription" : "A pretty lamppost.",
+  "hylotlDescription" : "These wouldn't work beneath the ocean.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [179, 155, 107],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "oillanterntallicon.png",
+  "orientations" : [
+    {
+      "image" : "oillanterntall.png:<color>.<frame>",
+      "imagePosition" : [-4, 0],
+      "direction" : "right",
+      
+      "animationParts" : {
+        "bg" : "oillanterntall.png",
+        "fg" : "oillanterntalllit.png"
+      },
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/oillantern.wav",
+
+  "animation" : "oillanterntall.animation",
+  "animationPosition" : [-4, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : true,
+
+  "inboundNodes" : [ [0, 0] ]
+
+}

@@ -1,0 +1,22 @@
+{
+  "materialId" : 408,
+  "materialName" : "asphalt",
+  "particleColor" : [166, 27, 32, 255],
+  "itemDrop" : "asphalt",
+  "description" : "-todo-",
+  "shortdescription" : "Asphalt",
+  "glitchDescription" : "-todo-",
+  "floranDescription" : "-todo-",
+  "footstepSound" : "/sfx/blocks/footstep_mud.wav",
+  "health" : 8,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "asphalt.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

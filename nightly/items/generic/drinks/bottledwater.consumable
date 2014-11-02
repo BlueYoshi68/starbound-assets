@@ -1,0 +1,12 @@
+{
+  "itemName" : "bottledwater",
+  "rarity" : "Common",
+  "inventoryIcon" : "bottledwater.png",
+  "description" : "Fresh, clean water.",
+  "shortdescription" : "Bottled Water",
+  "effects" : [ [
+    "wellfed"
+  ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

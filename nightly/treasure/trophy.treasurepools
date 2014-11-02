@@ -1,0 +1,7 @@
+{
+  "startertrophy" : [
+    [1, {
+        "fill" : [{"item" : ["monsterclaw", 3]}]
+      } ]
+  ]
+}

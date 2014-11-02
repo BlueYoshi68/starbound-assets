@@ -1,0 +1,11 @@
+{
+  "itemName" : "coconutblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "coconutblockicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Just a block made of coconut.",
+  "shortdescription" : "Coconut block",
+  "glitchdescription" : "Statement. Coconut.",
+  "florandescription" : "Unssstabbed coco.",
+  "materialId" : 111
+}

@@ -1,0 +1,12 @@
+{
+  "name" : "bouncy",
+  "effectConfig" : {},
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "bouncy.lua"
+  ],
+
+  "label" : "bouncy",
+  "icon" : "/interface/statuses/bounce.png"
+}

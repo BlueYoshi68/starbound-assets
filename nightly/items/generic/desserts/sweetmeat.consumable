@@ -1,0 +1,10 @@
+{
+  "itemName" : "sweetmeat",
+  "rarity" : "Common",
+  "inventoryIcon" : "sweetmeat.png",
+  "description" : "A rare sweet Floran dish-- candied bacon.",
+  "shortdescription" : "Sweet Meat",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "pizzaslice",
+  "rarity" : "Common",
+  "inventoryIcon" : "pizzaslice.png",
+  "description" : "A hot slice of pepperoni pizza.",
+  "shortdescription" : "Pizza Slice",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

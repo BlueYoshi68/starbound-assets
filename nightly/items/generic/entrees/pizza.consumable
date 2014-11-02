@@ -1,0 +1,10 @@
+{
+  "itemName" : "pizza",
+  "rarity" : "Common",
+  "inventoryIcon" : "pizza.png",
+  "description" : "A whole pizza! You...gonna eat all that?",
+  "shortdescription" : "Pizza",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

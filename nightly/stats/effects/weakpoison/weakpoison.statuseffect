@@ -1,0 +1,14 @@
+{
+  "name" : "weakpoison",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "weakpoison.lua"
+  ],
+
+  "animationConfig" : "weakpoison.animation",
+
+  "label" : "weak poison",
+  "icon" : "/interface/statuses/poison.png"
+}

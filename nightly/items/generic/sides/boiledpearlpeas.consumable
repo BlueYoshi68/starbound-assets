@@ -1,0 +1,11 @@
+{
+  "itemName" : "boiledpearlpeas",
+  "rarity" : "Common",
+  "inventoryIcon" : "boiledpearlpeas.png",
+  "description" : "A bowl of rather bland boiled pearlpeas.",
+  "shortdescription" : "Boiled Pearlpeas",
+  "handPosition" : [0, 12],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

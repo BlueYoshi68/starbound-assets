@@ -1,0 +1,25 @@
+{
+  "materialId" : 142,
+  "materialName" : "spidersilkblock",
+  "particleColor" : [255, 255, 255, 255],
+  "transparent" : true,
+  "itemDrop" : "spidersilkblock",
+  "description" : "Spider silk.",
+  "shortdescription" : "Spider silk Block",
+  "glitchDescription" : "todo",
+  "floranDescription" : "todo",
+  "footstepSound" : "/sfx/blocks/footstep_ash.wav",
+  "tillableMod" : 31,
+  "soil" : true,
+  "health" : 0.01,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "spidersilkblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : false,
+    "zLevel" : 0
+  }
+}

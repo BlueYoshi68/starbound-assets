@@ -1,0 +1,117 @@
+{
+  "type" : "outpostglitchsilenttype",
+  "baseType" : "outpostcivilian",
+
+    "scriptConfig" : {
+        "converse" : {
+            "waitTime" : 0.5,
+            "dialog" : {
+          
+                "default" : [
+                    "..."
+                ],
+            
+                "glitch" : {
+                    "default" : [
+                      "..."
+                    ],
+
+                    "avian" : [
+                      "..."
+                    ],
+
+                    "apex" : [
+                      "..."
+                    ],
+
+                    "floran" : [
+                      "..."
+                    ],
+
+                    "glitch" : [
+                      "..."
+                    ],
+
+                    "human" : [
+                      "..."
+                    ],
+
+                    "hylotl" : [
+                      "..."
+                    ]
+                }
+            }
+        }
+    },
+
+    "items" : {
+        "default" : [
+            [0, [
+                {
+                    "head" : [ { "name" : "glitchtier4head", "parameters" : { "colorIndex" : 1 } } ],
+                    "chest" : [ { "name" : "apextier9chest", "parameters" : { "colorIndex" : 1 } } ],
+                    "legs" : [ { "name" : "glitchtier4pants", "parameters" : { "colorIndex" : 1 } } ],
+                    "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 1 } } ]
+                }
+            ] ]
+        ]
+    },
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "targetMaterialKind" : "organic"
+    },
+
+    "persistentEffectCategories" : [
+      "innate",
+      "armor",
+      "tools",
+      "lounging"
+    ],
+
+    "primaryScriptSources" : [
+      "/stats/npc_primary.lua"
+    ],
+    "primaryScriptDelta" : 5,
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 40.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 40.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 0.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      },
+      "energyRegen" : {
+        "baseValue" : 100.0
+      },
+      "shieldSuppressed" : {
+        "baseValue" : 0.0
+      },
+      "invulnerable" : {
+        "baseValue" : 0.0
+      }
+    },
+
+    "resources" : {
+      "health" : {
+        "maxStat" : "maxHealth",
+        "deltaStat" : "healthRegen",
+        "defaultPercentage" : 100
+      },
+      "energy" : {
+        "maxStat" : "maxEnergy",
+        "deltaStat" : "energyRegen",
+        "defaultPercentage" : 100
+      }
+    }
+  }
+}

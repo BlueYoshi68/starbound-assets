@@ -1,0 +1,145 @@
+{
+  "type" : "hellprisoner",
+  "baseType" : "guard",
+
+  "disableWornArmor" : true,
+  "innateStatusEffects" : [
+    {
+      "kind" : "Protection",
+      "amount" : 1.0
+    }
+  ],
+
+  "damageTeam" : 2,
+
+  "levelVariance" : [0, 0.5],
+
+  "scripts" : [
+    "/npcs/main.lua",
+    "/npcs/timers.lua",
+    "/scripts/sensors.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua",
+
+    "/npcs/meleeAttackState.lua",
+    "/npcs/rangedAttackState.lua",
+
+    "/npcs/guard/guardState.lua"
+  ],
+
+  "scriptConfig" : {
+    "attackerLimit" : 8,
+    "attackerLimitCooldown" : 3,
+    "noticePlayersRadius" : 30,
+
+    "guard" : {
+      "patrolDistance" : 4,
+      "noticeDistance" : 30,
+      "hailDistance" : -1,
+      "stopDistance" : -1,
+      "attackDistance" : 30,
+      "changeDirectionTimeRange" : [5, 10],
+
+      "attackSayingPercent" : 25,
+
+      "dialog" : {
+        "attack" : {
+          "default" : [ "Intruder!"
+          ],
+          "floran" : {
+            "default" : [
+              "Floran issss hungry!",
+              "Floran wantsssss!",
+              "Fleshhhhh!"
+            ]
+          }
+        }
+      }
+    },
+
+    "meleeAttack" : {
+      "swingDistance" : 3,
+      "runThreshold" : 0
+    }
+  },
+
+  "items" : {
+    "floran" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "floranleafchest", "parameters" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "floranleaflegs", "parameters" : { "colorIndex" : 11 } } ],
+            "sheathedprimary" : [
+              { "name" : "generatedsword", "parameters" : { "definition" : "shiv" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "movementControllerSettings" : {
+    "runSpeed" : 15
+  },
+
+  "dropPools" : [ "prisonberserkertreasure" ],
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "targetMaterialKind" : "organic"
+    },
+
+    "persistentEffectCategories" : [
+      "innate",
+      "armor",
+      "tools",
+      "lounging"
+    ],
+
+    "primaryScriptSources" : [
+      "/stats/npc_primary.lua"
+    ],
+    "primaryScriptDelta" : 5,
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 40.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 40.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 0.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      },
+      "energyRegen" : {
+        "baseValue" : 10.0
+      },
+      "shieldSuppressed" : {
+        "baseValue" : 0.0
+      },
+      "invulnerable" : {
+        "baseValue" : 0.0
+      }
+    },
+
+    "resources" : {
+      "health" : {
+        "maxStat" : "maxHealth",
+        "deltaStat" : "healthRegen",
+        "defaultPercentage" : 100
+      },
+      "energy" : {
+        "maxStat" : "maxEnergy",
+        "deltaStat" : "energyRegen",
+        "defaultPercentage" : 100
+      }
+    }
+  }
+}
+

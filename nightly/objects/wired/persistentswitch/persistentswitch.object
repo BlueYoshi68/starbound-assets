@@ -1,0 +1,38 @@
+{
+  "objectName" : "persistentswitch",
+  "rarity" : "Common",
+  "description" : "Switches and stays switched.",
+  "shortdescription" : "Persistent Switch",
+  "race" : "generic",
+
+  "category" : "wire",
+  "price" : 300,
+
+  "inventoryIcon" : "persistentswitchicon.png",
+  "orientations" : [
+    {
+      "image" : "persistentswitch.png:<color>.off",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/persistentswitch.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+
+  "animationParts" : {
+    "switch" : "persistentswitch.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "interactive" : false,
+  
+  "inboundNodes" : [ [-1, 0], [-1, -1] ],
+  "outboundNodes" : [ [0, -1] ],
+  
+  "interval" : 15
+}

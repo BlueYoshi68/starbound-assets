@@ -1,0 +1,11 @@
+{
+  "itemName" : "boneboomarrow",
+  "rarity" : "Common",
+  "inventoryIcon" : "boneboomarrow.png",
+  "description" : "The creamy, spongey innards of the boneboo fruit.",
+  "shortdescription" : "Boneboo Marrow",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

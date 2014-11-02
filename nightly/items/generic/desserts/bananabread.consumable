@@ -1,0 +1,10 @@
+{
+  "itemName" : "bananabread",
+  "rarity" : "Common",
+  "inventoryIcon" : "bananabread.png",
+  "description" : "Moist, delicious banana bread.",
+  "shortdescription" : "Banana Bread",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

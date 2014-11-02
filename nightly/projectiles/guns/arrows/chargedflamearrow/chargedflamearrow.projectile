@@ -1,0 +1,23 @@
+{
+  "projectileName" : "chargedflamearrow",
+  "physics" : "arrow",
+  "frames" : "chargedflamearrow.png",
+  "animationCycle" : 0.25,
+  "pointLight" : true,
+  "lightColor" : [191, 103, 2],
+  "frameNumber" : 3,
+  "emitters" : [ "flamesfast" ],
+  "damageKindImage" : "/interface/statuses/fire.png",
+  "damageKind" : "bow",
+  "power" : 20,
+  "timeToLive" : 30,
+  "statusEffects" : [
+    "burning"
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "objectName" : "reeddesk",
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 1000,
+  "description" : "A desk made of wood and reed.",
+  "shortdescription" : "Reed Desk",
+  "race" : "none",
+
+  "apexDescription" : "A desk made of wood and reed.",
+  "avianDescription" : "A desk made of wood and reed.",
+  "floranDescription" : "A desk made of wood and reed.",
+  "glitchDescription" : "A desk made of wood and reed.",
+  "humanDescription" : "A desk made of wood and reed.",
+  "hylotlDescription" : "A desk made of wood and reed.",
+
+  "inventoryIcon" : "reeddeskicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "reeddeskleft.png:<color>",
+      "rightImage" : "reeddeskright.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

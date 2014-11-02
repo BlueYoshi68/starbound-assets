@@ -1,0 +1,10 @@
+{
+  "itemName" : "cannedfood",
+  "rarity" : "Common",
+  "inventoryIcon" : "cannedfood.png",
+  "description" : "Canned food. Not the best, but it'll do in a pinch.",
+  "shortdescription" : "Canned Food",
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

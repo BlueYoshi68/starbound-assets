@@ -1,0 +1,20 @@
+{
+  "projectileName" : "bone",
+  "physics" : "grenadenobounce",
+  "bounces" : 0,
+  "timeToLive" : 8,
+  "speed" : 30,
+  "frames" : "bone.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damagePoly" : [ [-6, 6],[6, 6], [6, -6], [-6, -6] ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/poisonsmoke/poisonsmoke.config"
+    }
+  ],
+  "power" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

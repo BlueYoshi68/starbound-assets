@@ -1,0 +1,21 @@
+{
+  "itemName" : "snowflakeshuriken",
+  "rarity" : "Common",
+  "inventoryIcon" : "snowflakeshurikenicon.png",
+  "image" : "snowflakeshuriken.png",
+  "shortdescription" : "Snowflake Shuriken",
+  "description" : "A shuriken fashioned out of snowflakes. Neat.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "snowflakeshuriken",
+  "projectileConfig" : {
+    "speed" : 60,
+    "power" : 45
+  }
+}
+

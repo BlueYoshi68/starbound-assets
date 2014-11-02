@@ -1,0 +1,44 @@
+{
+  "objectName" : "reedseed5",
+  "rarity" : "Common",
+
+  "description" : "Just reeds",
+  "shortdescription" : "Reed seed",
+  "race" : "avian",
+  "category" : "pot",
+  "price" : 600,
+
+  "apexDescription" : "Just reeds.",
+  "avianDescription" : "Just reeds.",
+  "floranDescription" : "Just reedssss.",
+  "glitchDescription" : "Just reeds.",
+  "humanDescription" : "Just reeds.",
+  "hylotlDescription" : "Just reeds.",
+
+  "inventoryIcon" : "reedseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "reedseed5.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "smashSounds" : [ "/sfx/objects/bed_leave.wav" ],
+  "smashDropOptions" : [
+    [ ["reed", 2, { } ] ],
+    [ ["reed", 3, { } ] ],
+    [ ["reed", 4, { } ] ]
+  ],
+  "breakDropOptions" : [
+    [ ["reed", 2, { } ] ],
+    [ ["reed", 3, { } ] ],
+    [ ["reed", 4, { } ] ]
+  ]
+}

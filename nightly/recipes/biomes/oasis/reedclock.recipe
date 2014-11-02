@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "reed", "count" : 10 }
+  ],
+  "output" : { "item" : "reedclock", "count" : 1 },
+  "groups" : [ "craftingtable", "furniture", "all" ]
+}

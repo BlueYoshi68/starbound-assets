@@ -1,0 +1,11 @@
+{
+  "itemName" : "fruitsalad",
+  "rarity" : "Common",
+  "inventoryIcon" : "fruitsalad.png",
+  "description" : "Various fruits all conveniently mixed together.",
+  "shortdescription" : "Fruit Salad",
+  "handPosition" : [0, 4],
+  "effects" : [ [
+    "wellfed"
+  ] ]
+}

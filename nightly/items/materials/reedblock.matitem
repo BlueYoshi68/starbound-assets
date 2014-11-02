@@ -1,0 +1,12 @@
+{
+  "itemName" : "reedblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "reedblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Reeds block",
+  "shortdescription" : "Reeds block.",
+  "glitchdescription" : "Reeds block.",
+  "florandescription" : "reedssss.",
+
+  "materialId" : 114
+}
