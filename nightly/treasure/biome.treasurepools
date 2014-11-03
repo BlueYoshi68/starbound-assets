@@ -353,6 +353,22 @@
     }]
   ],
 
+  "miniVillageTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "item" : ["money", 1]},
+        {"weight" : 0.6, "item" : ["money", 2]},
+        {"weight" : 0.2, "item" : ["money", 3]},
+        {"weight" : 0.15, "item" : ["throwinggnome", 3]},
+        {"weight" : 0.005, "item" : "gnomegun"},
+        {"weight" : 0.005, "item" : "gnomecaphead"},
+        {"weight" : 0.005, "item" : "gnomehead"},
+        {"weight" : 0.005, "item" : "househathead"},
+        {"weight" : 0.005, "item" : "buildinghathead"}
+      ]
+    }]
+  ],
+
   // v v v v needs configuration v v v v
 
   "eyeTreasure" : [

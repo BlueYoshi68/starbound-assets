@@ -29,10 +29,6 @@
     }
   ],
   "smashSounds" : [ "/sfx/objects/capsule_break1.wav", "/sfx/objects/capsule_break2.wav", "/sfx/objects/capsule_break3.wav" ],
-  "smashDropOptions" : [
-    [ [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ] ]
-  ],
-  "breakDropOptions" : [
-    [ [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ] ]
-  ]
+  "smashDropPool" : "miniVillageTreasure",
+  "breakDropPool" : "miniVillageTreasure"
 }

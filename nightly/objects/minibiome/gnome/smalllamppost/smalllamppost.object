@@ -47,9 +47,9 @@
   
   "smashSounds" : [ "/sfx/objects/smalllamppost_break1.wav", "/sfx/objects/smalllamppost_break2.wav", "/sfx/objects/smalllamppost_break3.wav" ],
   "smashDropOptions" : [
-    [ [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ] ]
+    [ [ "money", 1, {} ] ]
   ],
   "breakDropOptions" : [
-    [ [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ], [ "goldcoin", 1, { } ] ]
+    [ [ "money", 1, {} ] ]
   ]
 }
