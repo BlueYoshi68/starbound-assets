@@ -46,7 +46,7 @@
       "source" : {
         "type" : "flatSurface",
 
-        "adjustment" : 100
+        "adjustment" : 0
       }
     }
   }

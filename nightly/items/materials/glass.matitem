@@ -11,6 +11,7 @@
   "materialId" : 10,
 
   "learnBlueprintsOnPickup" : [
-    "bottle"
+    "bottle",
+    "syringe"
   ]
 }

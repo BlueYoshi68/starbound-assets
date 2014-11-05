@@ -1,0 +1,14 @@
+{
+  "modId" : 213,
+  "modName" : "roots",
+  "Description" : "-todo-",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "roots.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

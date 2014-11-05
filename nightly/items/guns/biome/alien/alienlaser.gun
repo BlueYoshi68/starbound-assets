@@ -1,0 +1,29 @@
+{
+  "itemName" : "alienlaser",
+  "inventoryIcon" : "alienlaser.png",
+  "dropCollision" : [-8.0, -3.0, 8.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "-todo-",
+  "shortdescription" : "Alien laser gun",
+  "image" : "alienlaser.png",
+  "handPosition" : [-6, -3],
+  "firePosition" : [25, 1.5],
+  "recoilTime" : 0.1,
+  "level" : 6,
+  "tooltipKind" : "gun",
+  "fireTime" : 2.0,
+  "twoHanded" : false,
+  "walkWhileFiring" : false,
+
+  "projectileType" : "electro",
+  "projectile" : {
+    "speed" : 75,
+    "life" : 3,
+    "power" : 12
+  },
+  "muzzleEffect" : {
+    "fireSound" : [ { "file" : "/sfx/gun/plasma_sniper2.wav" } ],
+    "animation" : "/animations/muzzleflash/plasmamuzzle3blue/plasmamuzzle3blue.animation"
+  }
+}

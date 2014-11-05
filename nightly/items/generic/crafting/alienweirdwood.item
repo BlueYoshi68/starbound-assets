@@ -1,0 +1,10 @@
+{
+  "itemName" : "alienweirdwood",
+  "rarity" : "Common",
+  "inventoryIcon" : "alienweirdwood.png",
+  "description" : "Alien Weird Wood.",
+  "shortdescription" : "Alien Weird Wood",
+  "learnBlueprintsOnPickup" : [
+  
+  ]
+}

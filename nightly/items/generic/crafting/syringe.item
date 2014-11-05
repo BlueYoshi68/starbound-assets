@@ -1,0 +1,7 @@
+{
+  "itemName" : "syringe",
+  "rarity" : "Common",
+  "inventoryIcon" : "syringe.png",
+  "description" : "This could useful for making stimpacks.",
+  "shortdescription" : "Medical Syringe"
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 144,
+  "materialName" : "alienstripedblock",
+  "particleColor" : [102, 73, 41, 255],
+  "itemDrop" : "alienstripedblock",
+  "description" : "A strange alien color, with striped.",
+  "shortdescription" : "Alien striped Wood",
+  "glitchDescription" : "Statement. Striped wood.",
+  "floranDescription" : "Ssssstriped purple wood.",
+  "footstepSound" : "/sfx/blocks/footstep_wood.wav",
+  "health" : 2,
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "alienstripedblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "modId" : 214,
+  "modName" : "undergrowth",
+  "Description" : "-todo-",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "undergrowth.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

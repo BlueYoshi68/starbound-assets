@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "refinedaegisalt", "count" : 2 },
-    { "item" : "coalore", "count" : 1 }
+    { "item" : "goldbar", "count" : 2 }
   ],
   "output" : {
     "item" : "feroziumcompound",

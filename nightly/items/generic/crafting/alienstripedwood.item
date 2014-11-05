@@ -1,0 +1,10 @@
+{
+  "itemName" : "alienstripedwood",
+  "rarity" : "Common",
+  "inventoryIcon" : "alienstripedwood.png",
+  "description" : "Alien Striped Wood.",
+  "shortdescription" : "Alien Striped Wood",
+  "learnBlueprintsOnPickup" : [
+  
+  ]
+}

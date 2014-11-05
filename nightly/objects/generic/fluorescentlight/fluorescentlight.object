@@ -70,7 +70,7 @@
         "light" : "fluorescentlightright.png"
       },
       "animationPosition" : [-4, -8],
-      "direction" : "left",
+      "direction" : "right",
       
       "spaceScan" : 0.1,
       "anchors" : [ "left" ]
@@ -84,7 +84,7 @@
         "light" : "fluorescentlightleft.png"
       },
       "animationPosition" : [0, -8],
-      "direction" : "left",
+      "direction" : "right",
 
       "spaceScan" : 0.1,
       "anchors" : [ "right" ]
